@@ -9,4 +9,4 @@
 | 15 | CLS | AI & Data Science | Microsoft Data Engineer | ONL5_AIS5_S3 | 21160724 | بسنت عارف محمد صلاح الدين خربوش |
 
 ### 📌 Project
-**E-Commerce Data Integration & Analytics Pipeline**
+**PharmaFlow — Pharmacy Data Engineering & Analytics Platform**
