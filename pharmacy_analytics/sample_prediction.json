@@ -1,0 +1,11 @@
+{
+  "Quantity": 2,
+  "Unit_Price_LKR": 1500,
+  "Discount_Rate": 0.05,
+  "Customer_Age": 35,
+  "Customer_Gender": "Female",
+  "Medicine_Category": "Antibiotic",
+  "Dosage_Form": "Capsule",
+  "Branch_Name": "Pharmacy - Kandy City",
+  "Month": 4
+}
