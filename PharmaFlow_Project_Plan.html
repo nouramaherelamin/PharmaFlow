@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PharmaFlow | Project Implementation Plan</title>
+<style>
+  :root {
+    --navy: #17324d;
+    --teal: #168c8c;
+    --ink: #263238;
+    --muted: #5c6770;
+    --line: #dbe4e8;
+    --pale: #eef5f7;
+    --white: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: #f3f6f8;
+    color: var(--ink);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+  .page { max-width: 1000px; margin: 36px auto; padding: 0 22px 48px; }
+  .hero {
+    background: var(--white);
+    border-top: 6px solid var(--teal);
+    border-radius: 14px;
+    padding: 48px 44px;
+    box-shadow: 0 8px 28px rgba(23, 50, 77, .08);
+    margin-bottom: 24px;
+  }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    font-size: .78rem;
+    font-weight: 700;
+    color: var(--teal);
+  }
+  h1 { margin: 8px 0 4px; color: var(--navy); font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.15; }
+  .subtitle { color: var(--muted); font-size: 1.12rem; margin: 8px 0 26px; }
+  .meta {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 26px;
+  }
+  .meta div { background: var(--pale); padding: 12px 15px; border-radius: 8px; }
+  .meta strong { display: block; color: var(--navy); font-size: .82rem; margin-bottom: 2px; }
+  .flow { color: var(--navy); font-weight: 700; margin-top: 26px; overflow-wrap: anywhere; }
+  .card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin: 18px 0;
+    box-shadow: 0 3px 14px rgba(23, 50, 77, .035);
+    break-inside: avoid;
+  }
+  h2 { color: var(--navy); font-size: 1.55rem; line-height: 1.3; margin: 0 0 18px; }
+  h3 { color: var(--teal); font-size: 1.05rem; margin: 19px 0 7px; }
+  p { margin: 7px 0 12px; }
+  ul { margin: 6px 0 12px; padding-left: 23px; }
+  li { margin: 4px 0; }
+  code {
+    font-family: Consolas, "Courier New", monospace;
+    background: #f0f4f6;
+    color: #17324d;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: .92em;
+    overflow-wrap: anywhere;
+  }
+  .status {
+    display: inline-block;
+    background: #fff4df;
+    color: #79520a;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: .82rem;
+    font-weight: 700;
+    margin-top: 8px;
+  }
+  .note { background: var(--pale); border-left: 4px solid var(--teal); padding: 14px 16px; border-radius: 6px; }
+  .steps { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .step { border: 1px solid var(--line); border-radius: 8px; padding: 14px; background: #fbfcfd; }
+  .step strong { display: block; color: var(--navy); }
+  footer { text-align: center; color: var(--muted); font-size: .86rem; padding: 28px 0 4px; }
+  @media (max-width: 650px) {
+    .page { margin: 14px auto; padding: 0 12px 28px; }
+    .hero, .card { padding: 24px 20px; }
+    .meta, .steps { grid-template-columns: 1fr; }
+  }
+  @media print {
+    body { background: white; font-size: 11pt; }
+    .page { max-width: none; margin: 0; padding: 0; }
+    .hero, .card { box-shadow: none; margin: 0 0 14px; border: 1px solid #ddd; }
+    .hero { border-top: 4px solid var(--teal); }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+  <header class="hero">
+    <div class="eyebrow">Project Implementation Plan</div>
+    <h1>PharmaFlow</h1>
+    <div class="subtitle">Pharmacy Data Engineering Project</div>
+    <div class="meta">
+      <div><strong>Architecture</strong>ELT Pipeline</div>
+      <div><strong>Database</strong>Microsoft SQL Server</div>
+      <div><strong>Orchestration</strong>Apache Airflow + Docker</div>
+      <div><strong>Analytics Interface</strong>Python + Streamlit + Plotly</div>
+      <div><strong>Source Dataset</strong><code>Pharmacy_OLTP_SLStyle_18Months.csv</code></div>
+      <div><strong>Expected Source Size</strong>50,000 records · 27 columns</div>
+    </div>
+    <p class="flow">CSV Source → Airflow → SQL Server Staging → SQL Transformations → Data Warehouse → SQL Analytics → Streamlit Dashboard</p>
+  </header>
+
+  <section class="card">
+    <h2>Project Overview</h2>
+    <h3>Project Goal</h3>
+    <p>Build an ELT-based pharmacy data engineering solution that loads raw pharmacy transactions into SQL Server, transforms and organizes the data inside the database, and presents business insights through an interactive Python and Streamlit dashboard.</p>
+    <h3>Core Architecture</h3>
+    <p>The pipeline follows Extract, Load, Transform (ELT). Raw records are loaded into SQL Server staging first; cleaning and business transformations then run inside SQL Server. Apache Airflow orchestrates the workflow, while Streamlit provides the analytics interface.</p>
+    <h3>Project Scope</h3>
+    <ul>
+      <li>Ingest and stage raw pharmacy transaction data.</li>
+      <li>Profile data quality, clean values, derive business metrics, and validate results.</li>
+      <li>Model a pharmacy Data Warehouse using a Star Schema.</li>
+      <li>Orchestrate ELT tasks with Airflow and Docker.</li>
+      <li>Prepare SQL analytics and business KPIs.</li>
+      <li>Develop an interactive Streamlit dashboard using Python, Pandas, and Plotly.</li>
+      <li>Test, document, and prepare the project for presentation or deployment.</li>
+    </ul>
+    <h3>Out of Scope</h3>
+    <p>The project focuses on analytics and data engineering, not on operating a live pharmacy point-of-sale system, prescribing medicine, or replacing professional inventory and clinical systems.</p>
+  </section>
+
+  <section class="card">
+    <h2>Phase 1: Data Ingestion &amp; Staging Layer</h2>
+    <h3>Objective</h3>
+    <p>Extract raw pharmacy transactions from a CSV file and load them into SQL Server while preserving the original data and preventing unintended duplicate loads.</p>
+    <h3>Tools &amp; Technologies</h3>
+    <ul>
+      <li>Apache Airflow (<code>PythonOperator</code> and <code>XCom</code>)</li>
+      <li>Docker and Astronomer Astro CLI</li>
+      <li>Python: <code>csv</code>, <code>pathlib</code>, and <code>logging</code></li>
+      <li>Database drivers: <code>pymssql</code> and <code>pyodbc</code></li>
+      <li>Microsoft SQL Server and environment variables stored in a <code>.env</code> file</li>
+    </ul>
+    <h3>Implementation Activities</h3>
+    <ul>
+      <li>Configure the Airflow environment using Docker and Astro CLI.</li>
+      <li>Create <code>dags/pharmacy.py</code> with three sequential tasks: <code>extract_csv</code>, <code>connect_to_sql_server</code>, and <code>load_data_to_sql_server</code>.</li>
+      <li>Validate the CSV structure and establish a connection to SQL Server.</li>
+      <li>Load the raw records into the staging table.</li>
+      <li>Implement duplicate-load protection and execution logging.</li>
+    </ul>
+    <p><strong>Input:</strong> <code>Pharmacy_OLTP_SLStyle_18Months.csv</code> containing 50,000 records and 27 columns.</p>
+    <p><strong>Expected Output:</strong> <code>stg.pharmacy_raw_staging</code> containing the ingested raw transactions.</p>
+  </section>
+
+  <section class="card">
+    <h2>Phase 2: Data Profiling, Cleaning, Transformation &amp; Validation</h2>
+    <h3>Objective</h3>
+    <p>Assess data quality, standardize the dataset, perform business transformations inside SQL Server, and validate the results.</p>
+    <h3>Tools &amp; Technologies</h3>
+    <ul><li>Microsoft SQL Server and SQL Server Management Studio (SSMS)</li><li>SQL queries, views, and validation scripts</li></ul>
+    <h3>1. Data Profiling</h3>
+    <ul>
+      <li>Verify record counts, transaction uniqueness, missing values, numeric ranges, and date consistency.</li>
+      <li>Identify 31,236 records with missing <code>Strength_mg</code> values.</li>
+      <li>No duplicate transaction IDs or expired-at-sale records were detected in the tested dataset.</li>
+    </ul>
+    <h3>2. Data Cleaning</h3>
+    <ul>
+      <li>Create <code>clean.vw_pharmacy_sales</code>.</li>
+      <li>Convert numeric and date fields to appropriate data types.</li>
+      <li>Apply <code>TRIM</code> and <code>NULLIF</code> to standardize text values.</li>
+      <li>Preserve missing values as <code>NULL</code> and validate the cleaned view's record count.</li>
+    </ul>
+    <h3>3. Business Transformation</h3>
+    <ul>
+      <li>Create <code>clean.vw_pharmacy_sales_enriched</code>.</li>
+      <li>Calculate gross sales, discount amounts, net sales, and days until expiry.</li>
+      <li>Preserve original sales amounts for reconciliation.</li>
+    </ul>
+    <h3>4. Validation &amp; Testing</h3>
+    <ul>
+      <li>Compare record counts across data layers.</li>
+      <li>Validate financial calculations and expiry indicators.</li>
+      <li>Check transaction uniqueness and data completeness.</li>
+    </ul>
+    <h3>Expected Outputs</h3>
+    <ul><li><code>clean.vw_pharmacy_sales</code></li><li><code>clean.vw_pharmacy_sales_enriched</code></li><li>Data quality and validation reports</li></ul>
+    <div class="status">Status: Profiling and initial cleaning completed; transformation and final validation pending.</div>
+  </section>
+
+  <section class="card">
+    <h2>Phase 3: Data Warehouse &amp; Dimensional Modeling</h2>
+    <h3>Objective</h3>
+    <p>Design a dimensional data model that organizes pharmacy transactions for efficient analytical queries.</p>
+    <h3>Tools &amp; Technologies</h3>
+    <ul><li>Microsoft SQL Server and SSMS</li><li>SQL DDL and DML</li></ul>
+    <h3>Implementation Activities</h3>
+    <ul>
+      <li>Design a Star Schema.</li>
+      <li>Create and configure <code>FactSales</code>.</li>
+      <li>Create <code>DimDate</code>, <code>DimBranch</code>, <code>DimMedicine</code>, and <code>DimSupplier</code>.</li>
+      <li>Define primary keys, foreign keys, and relationships.</li>
+      <li>Validate referential integrity and the completeness of fact and dimension records.</li>
+    </ul>
+    <h3>Expected Outputs</h3>
+    <ul><li>Pharmacy Data Warehouse</li><li><code>FactSales</code> and dimension tables</li><li>Validated Star Schema ready for analytical queries</li></ul>
+  </section>
+
+  <section class="card">
+    <h2>Phase 4: ELT Pipeline &amp; Orchestration</h2>
+    <h3>Objective</h3>
+    <p>Automate the extraction and loading of raw data, then orchestrate in-database transformations inside SQL Server.</p>
+    <h3>Tools &amp; Technologies</h3>
+    <ul><li>Python and Pandas</li><li>Apache Airflow</li><li>Microsoft SQL Server and <code>pyodbc</code></li><li>Docker and Astronomer Astro CLI</li></ul>
+    <h3>Implementation Activities</h3>
+    <ul>
+      <li>Extract data from the CSV source and load raw data into SQL Server staging.</li>
+      <li>Execute cleaning, transformation, and loading operations inside SQL Server.</li>
+      <li>Configure Airflow task dependencies, schedules, retries, and logging.</li>
+      <li>Implement duplicate-load protection and monitor pipeline execution.</li>
+      <li>Validate record counts and loading results.</li>
+    </ul>
+    <h3>Expected Outputs</h3>
+    <ul><li>Automated ELT pipeline</li><li>Airflow DAGs for ingestion and transformation orchestration</li><li>Execution logs and pipeline validation results</li></ul>
+  </section>
+
+  <section class="card">
+    <h2>Phase 5: SQL Analytics &amp; Business Metrics</h2>
+    <h3>Objective</h3>
+    <p>Analyze the pharmacy Data Warehouse and prepare business metrics for the Streamlit dashboard.</p>
+    <h3>Tools &amp; Technologies</h3>
+    <ul><li>Microsoft SQL Server</li><li>SQL queries, views, aggregations, and analytical functions</li></ul>
+    <h3>Implementation Activities</h3>
+    <ul>
+      <li>Analyze sales trends over time.</li>
+      <li>Compare performance across branches.</li>
+      <li>Evaluate medicine sales and product performance.</li>
+      <li>Analyze payment methods and transaction patterns.</li>
+      <li>Calculate business KPIs and create analytical SQL views.</li>
+      <li>Validate analytical results against the Data Warehouse.</li>
+    </ul>
+    <h3>Expected Outputs</h3>
+    <ul><li>Analytical SQL queries and views</li><li>Business KPIs and summarized datasets</li><li>Dashboard-ready data sources</li></ul>
+  </section>
+
+  <section class="card">
+    <h2>Phase 6: Interactive Dashboard Development</h2>
+    <h3>Objective</h3>
+    <p>Build an interactive pharmacy analytics dashboard using Python and Streamlit to visualize sales performance and business insights.</p>
+    <h3>Tools &amp; Technologies</h3>
+    <ul><li>Python and Streamlit</li><li>Pandas and Plotly</li><li>SQL Server and <code>pyodbc</code></li></ul>
+    <h3>Implementation Activities</h3>
+    <ul>
+      <li>Connect Streamlit to the SQL Server Data Warehouse.</li>
+      <li>Retrieve data using optimized SQL queries.</li>
+      <li>Display KPIs such as total sales, transaction count, and discount amounts.</li>
+      <li>Build sales trend visualizations and branch performance comparisons.</li>
+      <li>Analyze medicine performance and expiry indicators.</li>
+      <li>Add interactive filters for dates, branches, medicines, and payment methods.</li>
+      <li>Validate dashboard figures against SQL query results.</li>
+    </ul>
+    <h3>Expected Outputs</h3>
+    <ul><li>Interactive Streamlit dashboard</li><li>Sales, branch, and medicine analytics pages</li><li>Interactive charts, filters, and KPI cards</li></ul>
+  </section>
+
+  <section class="card">
+    <h2>Phase 7: Testing, Deployment &amp; Documentation</h2>
+    <h3>Objective</h3>
+    <p>Test the complete ELT workflow, prepare the application for deployment, and document the project.</p>
+    <h3>Tools &amp; Technologies</h3>
+    <ul><li>Python and SQL testing scripts</li><li>Apache Airflow and Docker</li><li>Streamlit</li><li>Git and GitHub</li></ul>
+    <h3>Implementation Activities</h3>
+    <ul>
+      <li>Test ingestion, loading, transformation, and orchestration.</li>
+      <li>Validate data integrity, record counts, and financial calculations.</li>
+      <li>Test retries, failure handling, and duplicate-load protection.</li>
+      <li>Reconcile Streamlit metrics with SQL results.</li>
+      <li>Prepare environment configuration and deployment instructions.</li>
+      <li>Document the architecture, database schema, and data flow.</li>
+      <li>Organize the GitHub repository and prepare <code>README.md</code>.</li>
+    </ul>
+    <h3>Expected Outputs</h3>
+    <ul><li>Tested ELT pipeline</li><li>Functional Streamlit dashboard</li><li>Deployment instructions and project documentation</li><li>GitHub repository ready for presentation</li></ul>
+  </section>
+
+  <section class="card">
+    <h2>End-to-End Project Workflow</h2>
+    <div class="steps">
+      <div class="step"><strong>1. CSV Source</strong>Raw pharmacy transactions</div>
+      <div class="step"><strong>2. Airflow Ingestion</strong>Extract and load into SQL Server staging</div>
+      <div class="step"><strong>3. SQL Transformations</strong>Profile, clean, enrich, and validate data</div>
+      <div class="step"><strong>4. Data Warehouse</strong>Star Schema: FactSales and dimensions</div>
+      <div class="step"><strong>5. SQL Analytics</strong>Business metrics and analytical views</div>
+      <div class="step"><strong>6. Python + Streamlit</strong>Interactive dashboard and visualizations</div>
+      <div class="step"><strong>7. Testing &amp; Deployment</strong>Validation, documentation, and GitHub delivery</div>
+    </div>
+    <h3>Final Outcome</h3>
+    <p>A complete ELT-based pharmacy data engineering solution that loads raw pharmacy data into SQL Server, transforms and organizes it inside the database, and presents business insights through an interactive Python and Streamlit dashboard.</p>
+    <div class="note"><strong>Implementation Note:</strong> This document describes the target implementation plan. Update phase statuses as the team verifies the current project state. Reuse completed database objects and loaded records rather than recreating them unnecessarily.</div>
+  </section>
+  <footer>PharmaFlow · Pharmacy Data Engineering Project · Project Implementation Plan</footer>
+</main>
+</body>
+</html>
