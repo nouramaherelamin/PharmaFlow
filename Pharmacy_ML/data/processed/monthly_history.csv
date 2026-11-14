@@ -1,0 +1,1891 @@
+Branch_Name,Medicine_Category,Period_str,Revenue,Units,Txns
+Pharmacy - Colombo Fort,Allergy,2022-01,103018.19,64.0,21.0
+Pharmacy - Colombo Fort,Allergy,2022-02,84088.04,57.0,18.0
+Pharmacy - Colombo Fort,Allergy,2022-03,61823.229999999996,53.0,19.0
+Pharmacy - Colombo Fort,Allergy,2022-04,47657.29,35.0,12.0
+Pharmacy - Colombo Fort,Allergy,2022-05,47229.92,48.0,17.0
+Pharmacy - Colombo Fort,Allergy,2022-06,67808.04,53.0,15.0
+Pharmacy - Colombo Fort,Allergy,2022-07,71765.62,58.0,20.0
+Pharmacy - Colombo Fort,Allergy,2022-08,97074.9,66.0,21.0
+Pharmacy - Colombo Fort,Allergy,2022-09,40074.72,43.0,16.0
+Pharmacy - Colombo Fort,Allergy,2022-10,55570.47,35.0,13.0
+Pharmacy - Colombo Fort,Allergy,2022-11,96053.34,54.0,18.0
+Pharmacy - Colombo Fort,Allergy,2022-12,51176.62,38.0,13.0
+Pharmacy - Colombo Fort,Allergy,2023-01,72260.51000000001,60.0,20.0
+Pharmacy - Colombo Fort,Allergy,2023-02,48153.94,37.0,13.0
+Pharmacy - Colombo Fort,Allergy,2023-03,45544.95,35.0,13.0
+Pharmacy - Colombo Fort,Allergy,2023-04,51745.1,28.0,9.0
+Pharmacy - Colombo Fort,Allergy,2023-05,75497.53,48.0,16.0
+Pharmacy - Colombo Fort,Allergy,2023-06,44515.99,32.0,9.0
+Pharmacy - Colombo Fort,Antibiotic,2022-01,186031.17,143.0,50.0
+Pharmacy - Colombo Fort,Antibiotic,2022-02,307330.88,211.0,68.0
+Pharmacy - Colombo Fort,Antibiotic,2022-03,189761.04,160.0,52.0
+Pharmacy - Colombo Fort,Antibiotic,2022-04,197641.0,146.0,52.0
+Pharmacy - Colombo Fort,Antibiotic,2022-05,242274.49,156.0,51.0
+Pharmacy - Colombo Fort,Antibiotic,2022-06,287030.95,212.0,69.0
+Pharmacy - Colombo Fort,Antibiotic,2022-07,348961.45,224.0,69.0
+Pharmacy - Colombo Fort,Antibiotic,2022-08,270327.44,191.0,64.0
+Pharmacy - Colombo Fort,Antibiotic,2022-09,228727.41,171.0,62.0
+Pharmacy - Colombo Fort,Antibiotic,2022-10,272218.86,181.0,61.0
+Pharmacy - Colombo Fort,Antibiotic,2022-11,250995.11,188.0,69.0
+Pharmacy - Colombo Fort,Antibiotic,2022-12,226339.92,172.0,68.0
+Pharmacy - Colombo Fort,Antibiotic,2023-01,227259.63,161.0,58.0
+Pharmacy - Colombo Fort,Antibiotic,2023-02,229883.25,149.0,53.0
+Pharmacy - Colombo Fort,Antibiotic,2023-03,279501.62,163.0,50.0
+Pharmacy - Colombo Fort,Antibiotic,2023-04,350902.86,195.0,62.0
+Pharmacy - Colombo Fort,Antibiotic,2023-05,361607.52,204.0,69.0
+Pharmacy - Colombo Fort,Antibiotic,2023-06,375687.63,232.0,75.0
+Pharmacy - Colombo Fort,Antifungal,2022-01,54494.99,27.0,10.0
+Pharmacy - Colombo Fort,Antifungal,2022-02,67247.89,31.0,14.0
+Pharmacy - Colombo Fort,Antifungal,2022-03,39090.5,23.0,10.0
+Pharmacy - Colombo Fort,Antifungal,2022-04,37168.85,16.0,4.0
+Pharmacy - Colombo Fort,Antifungal,2022-05,50730.509999999995,26.0,9.0
+Pharmacy - Colombo Fort,Antifungal,2022-06,65577.72,36.0,10.0
+Pharmacy - Colombo Fort,Antifungal,2022-07,52619.11,27.0,8.0
+Pharmacy - Colombo Fort,Antifungal,2022-08,61577.71,31.0,9.0
+Pharmacy - Colombo Fort,Antifungal,2022-09,30034.33,16.0,5.0
+Pharmacy - Colombo Fort,Antifungal,2022-10,53610.619999999995,34.0,11.0
+Pharmacy - Colombo Fort,Antifungal,2022-11,56891.89,27.0,10.0
+Pharmacy - Colombo Fort,Antifungal,2022-12,91796.38,41.0,12.0
+Pharmacy - Colombo Fort,Antifungal,2023-01,83819.5,41.0,10.0
+Pharmacy - Colombo Fort,Antifungal,2023-02,47279.81,22.0,7.0
+Pharmacy - Colombo Fort,Antifungal,2023-03,59803.270000000004,32.0,10.0
+Pharmacy - Colombo Fort,Antifungal,2023-04,4216.4,3.0,1.0
+Pharmacy - Colombo Fort,Antifungal,2023-05,92822.83,38.0,10.0
+Pharmacy - Colombo Fort,Antifungal,2023-06,77751.47,40.0,13.0
+Pharmacy - Colombo Fort,Antiviral,2022-01,45448.02,23.0,10.0
+Pharmacy - Colombo Fort,Antiviral,2022-02,102963.73999999999,54.0,14.0
+Pharmacy - Colombo Fort,Antiviral,2022-03,115692.91,52.0,16.0
+Pharmacy - Colombo Fort,Antiviral,2022-04,112686.18,59.0,19.0
+Pharmacy - Colombo Fort,Antiviral,2022-05,148833.01,60.0,19.0
+Pharmacy - Colombo Fort,Antiviral,2022-06,92404.31,39.0,15.0
+Pharmacy - Colombo Fort,Antiviral,2022-07,98116.09,42.0,16.0
+Pharmacy - Colombo Fort,Antiviral,2022-08,70958.76,32.0,10.0
+Pharmacy - Colombo Fort,Antiviral,2022-09,53662.72,33.0,10.0
+Pharmacy - Colombo Fort,Antiviral,2022-10,123183.76,58.0,19.0
+Pharmacy - Colombo Fort,Antiviral,2022-11,90661.01000000001,36.0,12.0
+Pharmacy - Colombo Fort,Antiviral,2022-12,61423.74,32.0,11.0
+Pharmacy - Colombo Fort,Antiviral,2023-01,108433.1,52.0,18.0
+Pharmacy - Colombo Fort,Antiviral,2023-02,96472.79,42.0,15.0
+Pharmacy - Colombo Fort,Antiviral,2023-03,65548.27,27.0,12.0
+Pharmacy - Colombo Fort,Antiviral,2023-04,49927.63,28.0,9.0
+Pharmacy - Colombo Fort,Antiviral,2023-05,121802.11,51.0,18.0
+Pharmacy - Colombo Fort,Antiviral,2023-06,87458.66,35.0,16.0
+Pharmacy - Colombo Fort,Cardiac,2022-01,315275.98,158.0,56.0
+Pharmacy - Colombo Fort,Cardiac,2022-02,242643.59,109.0,38.0
+Pharmacy - Colombo Fort,Cardiac,2022-03,263613.92,153.0,52.0
+Pharmacy - Colombo Fort,Cardiac,2022-04,289688.88,159.0,57.0
+Pharmacy - Colombo Fort,Cardiac,2022-05,377726.34,183.0,64.0
+Pharmacy - Colombo Fort,Cardiac,2022-06,234986.6,141.0,46.0
+Pharmacy - Colombo Fort,Cardiac,2022-07,241511.16,131.0,42.0
+Pharmacy - Colombo Fort,Cardiac,2022-08,265087.0,156.0,50.0
+Pharmacy - Colombo Fort,Cardiac,2022-09,316654.89,186.0,61.0
+Pharmacy - Colombo Fort,Cardiac,2022-10,310089.72000000003,168.0,56.0
+Pharmacy - Colombo Fort,Cardiac,2022-11,217487.12,116.0,45.0
+Pharmacy - Colombo Fort,Cardiac,2022-12,255278.9,154.0,56.0
+Pharmacy - Colombo Fort,Cardiac,2023-01,334361.54,174.0,59.0
+Pharmacy - Colombo Fort,Cardiac,2023-02,246519.41,116.0,36.0
+Pharmacy - Colombo Fort,Cardiac,2023-03,291876.08,161.0,58.0
+Pharmacy - Colombo Fort,Cardiac,2023-04,320883.0,146.0,48.0
+Pharmacy - Colombo Fort,Cardiac,2023-05,288175.38,137.0,43.0
+Pharmacy - Colombo Fort,Cardiac,2023-06,261550.28,142.0,45.0
+Pharmacy - Colombo Fort,Cough & Cold,2022-01,97457.19,56.0,21.0
+Pharmacy - Colombo Fort,Cough & Cold,2022-02,151350.71,80.0,26.0
+Pharmacy - Colombo Fort,Cough & Cold,2022-03,195019.03,87.0,28.0
+Pharmacy - Colombo Fort,Cough & Cold,2022-04,151487.33000000002,89.0,29.0
+Pharmacy - Colombo Fort,Cough & Cold,2022-05,189379.86,109.0,32.0
+Pharmacy - Colombo Fort,Cough & Cold,2022-06,157823.33,84.0,32.0
+Pharmacy - Colombo Fort,Cough & Cold,2022-07,166815.5,114.0,31.0
+Pharmacy - Colombo Fort,Cough & Cold,2022-08,209520.65,124.0,40.0
+Pharmacy - Colombo Fort,Cough & Cold,2022-09,159816.46,89.0,28.0
+Pharmacy - Colombo Fort,Cough & Cold,2022-10,166474.64,91.0,33.0
+Pharmacy - Colombo Fort,Cough & Cold,2022-11,229850.85,111.0,35.0
+Pharmacy - Colombo Fort,Cough & Cold,2022-12,208682.29,104.0,35.0
+Pharmacy - Colombo Fort,Cough & Cold,2023-01,249346.33,115.0,44.0
+Pharmacy - Colombo Fort,Cough & Cold,2023-02,174997.3,94.0,28.0
+Pharmacy - Colombo Fort,Cough & Cold,2023-03,221505.7,123.0,38.0
+Pharmacy - Colombo Fort,Cough & Cold,2023-04,183252.31,92.0,30.0
+Pharmacy - Colombo Fort,Cough & Cold,2023-05,229063.03,101.0,34.0
+Pharmacy - Colombo Fort,Cough & Cold,2023-06,186443.0,92.0,32.0
+Pharmacy - Colombo Fort,Dermatology,2022-01,137334.42,71.0,25.0
+Pharmacy - Colombo Fort,Dermatology,2022-02,186753.3,93.0,27.0
+Pharmacy - Colombo Fort,Dermatology,2022-03,180555.45,98.0,35.0
+Pharmacy - Colombo Fort,Dermatology,2022-04,168513.37,105.0,35.0
+Pharmacy - Colombo Fort,Dermatology,2022-05,200826.27,92.0,29.0
+Pharmacy - Colombo Fort,Dermatology,2022-06,165566.03,85.0,26.0
+Pharmacy - Colombo Fort,Dermatology,2022-07,231097.34,115.0,38.0
+Pharmacy - Colombo Fort,Dermatology,2022-08,155731.54,65.0,23.0
+Pharmacy - Colombo Fort,Dermatology,2022-09,160816.15,72.0,25.0
+Pharmacy - Colombo Fort,Dermatology,2022-10,202597.81,102.0,35.0
+Pharmacy - Colombo Fort,Dermatology,2022-11,175347.82,97.0,31.0
+Pharmacy - Colombo Fort,Dermatology,2022-12,237220.18,112.0,33.0
+Pharmacy - Colombo Fort,Dermatology,2023-01,191065.1,86.0,31.0
+Pharmacy - Colombo Fort,Dermatology,2023-02,215265.38,95.0,28.0
+Pharmacy - Colombo Fort,Dermatology,2023-03,220262.42,96.0,30.0
+Pharmacy - Colombo Fort,Dermatology,2023-04,162262.97999999998,83.0,31.0
+Pharmacy - Colombo Fort,Dermatology,2023-05,150156.5,65.0,21.0
+Pharmacy - Colombo Fort,Dermatology,2023-06,167322.8,83.0,28.0
+Pharmacy - Colombo Fort,Diabetes,2022-01,135283.95,86.0,28.0
+Pharmacy - Colombo Fort,Diabetes,2022-02,103927.15,71.0,23.0
+Pharmacy - Colombo Fort,Diabetes,2022-03,93686.98,84.0,29.0
+Pharmacy - Colombo Fort,Diabetes,2022-04,71231.57,51.0,20.0
+Pharmacy - Colombo Fort,Diabetes,2022-05,130693.82,97.0,29.0
+Pharmacy - Colombo Fort,Diabetes,2022-06,145252.07,84.0,25.0
+Pharmacy - Colombo Fort,Diabetes,2022-07,162770.83000000002,109.0,37.0
+Pharmacy - Colombo Fort,Diabetes,2022-08,147956.48,87.0,29.0
+Pharmacy - Colombo Fort,Diabetes,2022-09,78641.05,60.0,21.0
+Pharmacy - Colombo Fort,Diabetes,2022-10,104715.45,60.0,22.0
+Pharmacy - Colombo Fort,Diabetes,2022-11,108350.89,77.0,24.0
+Pharmacy - Colombo Fort,Diabetes,2022-12,205892.26,115.0,38.0
+Pharmacy - Colombo Fort,Diabetes,2023-01,121375.26,82.0,25.0
+Pharmacy - Colombo Fort,Diabetes,2023-02,150170.95,100.0,31.0
+Pharmacy - Colombo Fort,Diabetes,2023-03,160749.17,114.0,35.0
+Pharmacy - Colombo Fort,Diabetes,2023-04,108662.16,57.0,20.0
+Pharmacy - Colombo Fort,Diabetes,2023-05,179962.25,127.0,40.0
+Pharmacy - Colombo Fort,Diabetes,2023-06,75026.49,37.0,15.0
+Pharmacy - Colombo Fort,First Aid,2022-01,142057.27,74.0,25.0
+Pharmacy - Colombo Fort,First Aid,2022-02,120787.66,57.0,20.0
+Pharmacy - Colombo Fort,First Aid,2022-03,122942.91,63.0,21.0
+Pharmacy - Colombo Fort,First Aid,2022-04,119123.42,70.0,27.0
+Pharmacy - Colombo Fort,First Aid,2022-05,150492.47,82.0,24.0
+Pharmacy - Colombo Fort,First Aid,2022-06,194917.09,95.0,26.0
+Pharmacy - Colombo Fort,First Aid,2022-07,188681.69,83.0,25.0
+Pharmacy - Colombo Fort,First Aid,2022-08,108907.16,49.0,16.0
+Pharmacy - Colombo Fort,First Aid,2022-09,164135.12,73.0,23.0
+Pharmacy - Colombo Fort,First Aid,2022-10,125890.09,64.0,21.0
+Pharmacy - Colombo Fort,First Aid,2022-11,114470.52,52.0,19.0
+Pharmacy - Colombo Fort,First Aid,2022-12,105593.38,54.0,19.0
+Pharmacy - Colombo Fort,First Aid,2023-01,198267.22,92.0,29.0
+Pharmacy - Colombo Fort,First Aid,2023-02,163784.15,65.0,24.0
+Pharmacy - Colombo Fort,First Aid,2023-03,103723.01999999999,44.0,15.0
+Pharmacy - Colombo Fort,First Aid,2023-04,167488.69,88.0,26.0
+Pharmacy - Colombo Fort,First Aid,2023-05,116036.32,51.0,22.0
+Pharmacy - Colombo Fort,First Aid,2023-06,116187.44,46.0,11.0
+Pharmacy - Colombo Fort,Gastro,2022-01,129103.34,88.0,30.0
+Pharmacy - Colombo Fort,Gastro,2022-02,98233.81999999999,64.0,22.0
+Pharmacy - Colombo Fort,Gastro,2022-03,121239.25,84.0,33.0
+Pharmacy - Colombo Fort,Gastro,2022-04,45854.21,57.0,16.0
+Pharmacy - Colombo Fort,Gastro,2022-05,112092.63,71.0,28.0
+Pharmacy - Colombo Fort,Gastro,2022-06,103368.24,65.0,23.0
+Pharmacy - Colombo Fort,Gastro,2022-07,116694.18,81.0,31.0
+Pharmacy - Colombo Fort,Gastro,2022-08,114330.6,82.0,31.0
+Pharmacy - Colombo Fort,Gastro,2022-09,74884.5,79.0,28.0
+Pharmacy - Colombo Fort,Gastro,2022-10,166596.2,104.0,30.0
+Pharmacy - Colombo Fort,Gastro,2022-11,135846.72,108.0,31.0
+Pharmacy - Colombo Fort,Gastro,2022-12,134188.33000000002,82.0,25.0
+Pharmacy - Colombo Fort,Gastro,2023-01,146811.83000000002,88.0,31.0
+Pharmacy - Colombo Fort,Gastro,2023-02,124455.11,82.0,28.0
+Pharmacy - Colombo Fort,Gastro,2023-03,80344.04000000001,68.0,23.0
+Pharmacy - Colombo Fort,Gastro,2023-04,172120.71,109.0,36.0
+Pharmacy - Colombo Fort,Gastro,2023-05,104612.44,66.0,24.0
+Pharmacy - Colombo Fort,Gastro,2023-06,197857.66,115.0,39.0
+Pharmacy - Colombo Fort,Hormonal,2022-01,85677.81,49.0,20.0
+Pharmacy - Colombo Fort,Hormonal,2022-02,66270.71,47.0,15.0
+Pharmacy - Colombo Fort,Hormonal,2022-03,96753.26,75.0,24.0
+Pharmacy - Colombo Fort,Hormonal,2022-04,77336.54,52.0,16.0
+Pharmacy - Colombo Fort,Hormonal,2022-05,105001.36,71.0,21.0
+Pharmacy - Colombo Fort,Hormonal,2022-06,128578.46,71.0,21.0
+Pharmacy - Colombo Fort,Hormonal,2022-07,89539.23999999999,58.0,19.0
+Pharmacy - Colombo Fort,Hormonal,2022-08,53486.46,32.0,13.0
+Pharmacy - Colombo Fort,Hormonal,2022-09,114684.7,70.0,22.0
+Pharmacy - Colombo Fort,Hormonal,2022-10,134642.53,78.0,25.0
+Pharmacy - Colombo Fort,Hormonal,2022-11,93858.46,64.0,22.0
+Pharmacy - Colombo Fort,Hormonal,2022-12,147698.13,80.0,22.0
+Pharmacy - Colombo Fort,Hormonal,2023-01,118264.40000000001,80.0,24.0
+Pharmacy - Colombo Fort,Hormonal,2023-02,40153.58,33.0,11.0
+Pharmacy - Colombo Fort,Hormonal,2023-03,111843.54,74.0,24.0
+Pharmacy - Colombo Fort,Hormonal,2023-04,81925.5,48.0,18.0
+Pharmacy - Colombo Fort,Hormonal,2023-05,113867.77,67.0,21.0
+Pharmacy - Colombo Fort,Hormonal,2023-06,46564.0,35.0,14.0
+Pharmacy - Colombo Fort,Painkiller,2022-01,242189.93,143.0,45.0
+Pharmacy - Colombo Fort,Painkiller,2022-02,138815.31,91.0,31.0
+Pharmacy - Colombo Fort,Painkiller,2022-03,120848.16,104.0,36.0
+Pharmacy - Colombo Fort,Painkiller,2022-04,268667.74,159.0,49.0
+Pharmacy - Colombo Fort,Painkiller,2022-05,166125.69,107.0,37.0
+Pharmacy - Colombo Fort,Painkiller,2022-06,197370.32,141.0,49.0
+Pharmacy - Colombo Fort,Painkiller,2022-07,194120.36,140.0,42.0
+Pharmacy - Colombo Fort,Painkiller,2022-08,209268.31,111.0,41.0
+Pharmacy - Colombo Fort,Painkiller,2022-09,116692.07,91.0,31.0
+Pharmacy - Colombo Fort,Painkiller,2022-10,196248.06,122.0,37.0
+Pharmacy - Colombo Fort,Painkiller,2022-11,216107.08,134.0,41.0
+Pharmacy - Colombo Fort,Painkiller,2022-12,256397.21,155.0,53.0
+Pharmacy - Colombo Fort,Painkiller,2023-01,160097.72,114.0,38.0
+Pharmacy - Colombo Fort,Painkiller,2023-02,114833.04000000001,79.0,24.0
+Pharmacy - Colombo Fort,Painkiller,2023-03,171876.16,91.0,35.0
+Pharmacy - Colombo Fort,Painkiller,2023-04,186054.27,96.0,33.0
+Pharmacy - Colombo Fort,Painkiller,2023-05,165382.71,110.0,36.0
+Pharmacy - Colombo Fort,Painkiller,2023-06,239167.80000000002,144.0,46.0
+Pharmacy - Colombo Fort,Respiratory,2022-01,30701.11,24.0,9.0
+Pharmacy - Colombo Fort,Respiratory,2022-02,32474.25,21.0,8.0
+Pharmacy - Colombo Fort,Respiratory,2022-03,47881.73,28.0,8.0
+Pharmacy - Colombo Fort,Respiratory,2022-04,106277.05,51.0,16.0
+Pharmacy - Colombo Fort,Respiratory,2022-05,59200.41,32.0,10.0
+Pharmacy - Colombo Fort,Respiratory,2022-06,68612.02,38.0,14.0
+Pharmacy - Colombo Fort,Respiratory,2022-07,90302.39,36.0,12.0
+Pharmacy - Colombo Fort,Respiratory,2022-08,42199.86,19.0,10.0
+Pharmacy - Colombo Fort,Respiratory,2022-09,46003.65,33.0,12.0
+Pharmacy - Colombo Fort,Respiratory,2022-10,66582.74,39.0,12.0
+Pharmacy - Colombo Fort,Respiratory,2022-11,46166.11,29.0,11.0
+Pharmacy - Colombo Fort,Respiratory,2022-12,118724.39,60.0,18.0
+Pharmacy - Colombo Fort,Respiratory,2023-01,113565.24,56.0,17.0
+Pharmacy - Colombo Fort,Respiratory,2023-02,48852.29,25.0,9.0
+Pharmacy - Colombo Fort,Respiratory,2023-03,52593.58,28.0,10.0
+Pharmacy - Colombo Fort,Respiratory,2023-04,44191.34,23.0,10.0
+Pharmacy - Colombo Fort,Respiratory,2023-05,55984.44,32.0,12.0
+Pharmacy - Colombo Fort,Respiratory,2023-06,69048.22,35.0,13.0
+Pharmacy - Colombo Fort,Vitamin,2022-01,197461.39,93.0,29.0
+Pharmacy - Colombo Fort,Vitamin,2022-02,274248.18,139.0,38.0
+Pharmacy - Colombo Fort,Vitamin,2022-03,239318.12,125.0,41.0
+Pharmacy - Colombo Fort,Vitamin,2022-04,190132.26,105.0,36.0
+Pharmacy - Colombo Fort,Vitamin,2022-05,228478.68,116.0,37.0
+Pharmacy - Colombo Fort,Vitamin,2022-06,164545.46,79.0,28.0
+Pharmacy - Colombo Fort,Vitamin,2022-07,271036.41,136.0,44.0
+Pharmacy - Colombo Fort,Vitamin,2022-08,182644.61,98.0,34.0
+Pharmacy - Colombo Fort,Vitamin,2022-09,294740.43,135.0,44.0
+Pharmacy - Colombo Fort,Vitamin,2022-10,233901.75,106.0,40.0
+Pharmacy - Colombo Fort,Vitamin,2022-11,314958.18,140.0,47.0
+Pharmacy - Colombo Fort,Vitamin,2022-12,213535.25999999998,104.0,34.0
+Pharmacy - Colombo Fort,Vitamin,2023-01,259666.9,124.0,43.0
+Pharmacy - Colombo Fort,Vitamin,2023-02,193537.41999999998,86.0,33.0
+Pharmacy - Colombo Fort,Vitamin,2023-03,230721.33000000002,116.0,35.0
+Pharmacy - Colombo Fort,Vitamin,2023-04,246515.42,132.0,40.0
+Pharmacy - Colombo Fort,Vitamin,2023-05,323614.39,140.0,43.0
+Pharmacy - Colombo Fort,Vitamin,2023-06,213323.97,98.0,37.0
+Pharmacy - Colombo Fort,Wellness,2022-01,10767.04,12.0,3.0
+Pharmacy - Colombo Fort,Wellness,2022-02,6958.12,17.0,6.0
+Pharmacy - Colombo Fort,Wellness,2022-03,7826.240000000001,12.0,4.0
+Pharmacy - Colombo Fort,Wellness,2022-04,7085.3099999999995,7.0,2.0
+Pharmacy - Colombo Fort,Wellness,2022-05,8834.93,9.0,3.0
+Pharmacy - Colombo Fort,Wellness,2022-06,3351.99,8.0,2.0
+Pharmacy - Colombo Fort,Wellness,2022-07,18289.24,17.0,6.0
+Pharmacy - Colombo Fort,Wellness,2022-08,18270.14,26.0,6.0
+Pharmacy - Colombo Fort,Wellness,2022-09,26301.67,21.0,6.0
+Pharmacy - Colombo Fort,Wellness,2022-10,9300.779999999999,10.0,4.0
+Pharmacy - Colombo Fort,Wellness,2022-11,6990.99,11.0,4.0
+Pharmacy - Colombo Fort,Wellness,2022-12,10897.05,9.0,4.0
+Pharmacy - Colombo Fort,Wellness,2023-01,10482.63,13.0,5.0
+Pharmacy - Colombo Fort,Wellness,2023-02,17095.61,18.0,7.0
+Pharmacy - Colombo Fort,Wellness,2023-03,7929.219999999999,10.0,4.0
+Pharmacy - Colombo Fort,Wellness,2023-04,11233.3,15.0,4.0
+Pharmacy - Colombo Fort,Wellness,2023-05,8015.24,10.0,5.0
+Pharmacy - Colombo Fort,Wellness,2023-06,11595.64,10.0,3.0
+Pharmacy - Galle,Allergy,2022-01,76541.89,65.0,20.0
+Pharmacy - Galle,Allergy,2022-02,86325.35,65.0,21.0
+Pharmacy - Galle,Allergy,2022-03,58677.58,39.0,13.0
+Pharmacy - Galle,Allergy,2022-04,26367.5,23.0,11.0
+Pharmacy - Galle,Allergy,2022-05,43571.13,33.0,13.0
+Pharmacy - Galle,Allergy,2022-06,74721.59,49.0,16.0
+Pharmacy - Galle,Allergy,2022-07,55129.53,34.0,9.0
+Pharmacy - Galle,Allergy,2022-08,93760.6,64.0,21.0
+Pharmacy - Galle,Allergy,2022-09,50772.61,39.0,14.0
+Pharmacy - Galle,Allergy,2022-10,66156.8,40.0,16.0
+Pharmacy - Galle,Allergy,2022-11,71197.67,46.0,14.0
+Pharmacy - Galle,Allergy,2022-12,49912.41,42.0,14.0
+Pharmacy - Galle,Allergy,2023-01,89606.66,57.0,17.0
+Pharmacy - Galle,Allergy,2023-02,78576.34,49.0,17.0
+Pharmacy - Galle,Allergy,2023-03,43957.99,40.0,13.0
+Pharmacy - Galle,Allergy,2023-04,85003.04000000001,49.0,18.0
+Pharmacy - Galle,Allergy,2023-05,101899.35,56.0,16.0
+Pharmacy - Galle,Allergy,2023-06,113514.16,68.0,20.0
+Pharmacy - Galle,Antibiotic,2022-01,210368.62,158.0,52.0
+Pharmacy - Galle,Antibiotic,2022-02,213078.62,162.0,51.0
+Pharmacy - Galle,Antibiotic,2022-03,229576.77,156.0,52.0
+Pharmacy - Galle,Antibiotic,2022-04,244897.09,164.0,52.0
+Pharmacy - Galle,Antibiotic,2022-05,261363.45,182.0,62.0
+Pharmacy - Galle,Antibiotic,2022-06,319817.2,193.0,71.0
+Pharmacy - Galle,Antibiotic,2022-07,283297.05,199.0,61.0
+Pharmacy - Galle,Antibiotic,2022-08,308220.5,226.0,72.0
+Pharmacy - Galle,Antibiotic,2022-09,212316.49,170.0,56.0
+Pharmacy - Galle,Antibiotic,2022-10,217909.92,187.0,57.0
+Pharmacy - Galle,Antibiotic,2022-11,246669.49,208.0,66.0
+Pharmacy - Galle,Antibiotic,2022-12,273353.74,180.0,60.0
+Pharmacy - Galle,Antibiotic,2023-01,288890.13,189.0,62.0
+Pharmacy - Galle,Antibiotic,2023-02,215229.88,165.0,52.0
+Pharmacy - Galle,Antibiotic,2023-03,223207.42,158.0,58.0
+Pharmacy - Galle,Antibiotic,2023-04,320485.6,190.0,62.0
+Pharmacy - Galle,Antibiotic,2023-05,256899.31,182.0,62.0
+Pharmacy - Galle,Antibiotic,2023-06,263654.27,137.0,51.0
+Pharmacy - Galle,Antifungal,2022-01,59785.909999999996,31.0,9.0
+Pharmacy - Galle,Antifungal,2022-02,47944.76,27.0,8.0
+Pharmacy - Galle,Antifungal,2022-03,58412.03,25.0,11.0
+Pharmacy - Galle,Antifungal,2022-04,37479.02,25.0,10.0
+Pharmacy - Galle,Antifungal,2022-05,30130.149999999998,23.0,7.0
+Pharmacy - Galle,Antifungal,2022-06,51955.01,25.0,8.0
+Pharmacy - Galle,Antifungal,2022-07,40428.49,20.0,6.0
+Pharmacy - Galle,Antifungal,2022-08,61402.16,28.0,9.0
+Pharmacy - Galle,Antifungal,2022-09,47648.34,22.0,11.0
+Pharmacy - Galle,Antifungal,2022-10,40140.09,20.0,7.0
+Pharmacy - Galle,Antifungal,2022-11,95490.31,44.0,15.0
+Pharmacy - Galle,Antifungal,2022-12,57078.2,28.0,10.0
+Pharmacy - Galle,Antifungal,2023-01,8322.18,5.0,3.0
+Pharmacy - Galle,Antifungal,2023-02,44818.54,23.0,7.0
+Pharmacy - Galle,Antifungal,2023-03,82364.22,39.0,11.0
+Pharmacy - Galle,Antifungal,2023-04,67348.97,30.0,9.0
+Pharmacy - Galle,Antifungal,2023-05,65707.6,31.0,11.0
+Pharmacy - Galle,Antifungal,2023-06,61288.04,30.0,7.0
+Pharmacy - Galle,Antiviral,2022-01,76376.97,40.0,14.0
+Pharmacy - Galle,Antiviral,2022-02,73540.62,32.0,10.0
+Pharmacy - Galle,Antiviral,2022-03,63415.64,30.0,10.0
+Pharmacy - Galle,Antiviral,2022-04,100335.43,44.0,13.0
+Pharmacy - Galle,Antiviral,2022-05,71916.48999999999,28.0,11.0
+Pharmacy - Galle,Antiviral,2022-06,104469.03,52.0,16.0
+Pharmacy - Galle,Antiviral,2022-07,37409.24,23.0,9.0
+Pharmacy - Galle,Antiviral,2022-08,46421.380000000005,19.0,6.0
+Pharmacy - Galle,Antiviral,2022-09,74213.42,35.0,14.0
+Pharmacy - Galle,Antiviral,2022-10,78286.93,44.0,14.0
+Pharmacy - Galle,Antiviral,2022-11,97043.27,40.0,15.0
+Pharmacy - Galle,Antiviral,2022-12,72749.95999999999,30.0,12.0
+Pharmacy - Galle,Antiviral,2023-01,96423.25,52.0,17.0
+Pharmacy - Galle,Antiviral,2023-02,119641.52,54.0,16.0
+Pharmacy - Galle,Antiviral,2023-03,90721.75,36.0,12.0
+Pharmacy - Galle,Antiviral,2023-04,56025.479999999996,25.0,8.0
+Pharmacy - Galle,Antiviral,2023-05,82479.85,32.0,10.0
+Pharmacy - Galle,Antiviral,2023-06,28280.28,20.0,8.0
+Pharmacy - Galle,Cardiac,2022-01,278245.52,147.0,54.0
+Pharmacy - Galle,Cardiac,2022-02,314115.37,146.0,48.0
+Pharmacy - Galle,Cardiac,2022-03,246611.08000000002,151.0,51.0
+Pharmacy - Galle,Cardiac,2022-04,338860.9,159.0,53.0
+Pharmacy - Galle,Cardiac,2022-05,276304.09,138.0,49.0
+Pharmacy - Galle,Cardiac,2022-06,274620.07,118.0,41.0
+Pharmacy - Galle,Cardiac,2022-07,256352.96,147.0,51.0
+Pharmacy - Galle,Cardiac,2022-08,386333.85,211.0,62.0
+Pharmacy - Galle,Cardiac,2022-09,215814.44,109.0,37.0
+Pharmacy - Galle,Cardiac,2022-10,372516.96,190.0,61.0
+Pharmacy - Galle,Cardiac,2022-11,204811.26,108.0,33.0
+Pharmacy - Galle,Cardiac,2022-12,307096.01,182.0,60.0
+Pharmacy - Galle,Cardiac,2023-01,338235.09,172.0,51.0
+Pharmacy - Galle,Cardiac,2023-02,348619.99,159.0,61.0
+Pharmacy - Galle,Cardiac,2023-03,348771.27,175.0,57.0
+Pharmacy - Galle,Cardiac,2023-04,372888.21,202.0,64.0
+Pharmacy - Galle,Cardiac,2023-05,332225.46,179.0,58.0
+Pharmacy - Galle,Cardiac,2023-06,380788.36,193.0,61.0
+Pharmacy - Galle,Cough & Cold,2022-01,63674.57,42.0,21.0
+Pharmacy - Galle,Cough & Cold,2022-02,164758.06,79.0,26.0
+Pharmacy - Galle,Cough & Cold,2022-03,207791.55,92.0,32.0
+Pharmacy - Galle,Cough & Cold,2022-04,189853.19,93.0,33.0
+Pharmacy - Galle,Cough & Cold,2022-05,275793.8,129.0,41.0
+Pharmacy - Galle,Cough & Cold,2022-06,201955.0,103.0,37.0
+Pharmacy - Galle,Cough & Cold,2022-07,214174.4,97.0,32.0
+Pharmacy - Galle,Cough & Cold,2022-08,242617.96,126.0,36.0
+Pharmacy - Galle,Cough & Cold,2022-09,151055.55,93.0,33.0
+Pharmacy - Galle,Cough & Cold,2022-10,162601.04,79.0,25.0
+Pharmacy - Galle,Cough & Cold,2022-11,133809.47,76.0,28.0
+Pharmacy - Galle,Cough & Cold,2022-12,207679.83,84.0,25.0
+Pharmacy - Galle,Cough & Cold,2023-01,203078.36,100.0,37.0
+Pharmacy - Galle,Cough & Cold,2023-02,239243.78,108.0,37.0
+Pharmacy - Galle,Cough & Cold,2023-03,219316.99,93.0,33.0
+Pharmacy - Galle,Cough & Cold,2023-04,213197.96,109.0,32.0
+Pharmacy - Galle,Cough & Cold,2023-05,215481.52,107.0,35.0
+Pharmacy - Galle,Cough & Cold,2023-06,138262.37,73.0,26.0
+Pharmacy - Galle,Dermatology,2022-01,165026.75,87.0,30.0
+Pharmacy - Galle,Dermatology,2022-02,159761.94,75.0,25.0
+Pharmacy - Galle,Dermatology,2022-03,155439.68,81.0,28.0
+Pharmacy - Galle,Dermatology,2022-04,62029.39,50.0,17.0
+Pharmacy - Galle,Dermatology,2022-05,173697.32,77.0,28.0
+Pharmacy - Galle,Dermatology,2022-06,232516.95,109.0,36.0
+Pharmacy - Galle,Dermatology,2022-07,114487.02,63.0,24.0
+Pharmacy - Galle,Dermatology,2022-08,149249.26,74.0,28.0
+Pharmacy - Galle,Dermatology,2022-09,96838.1,56.0,18.0
+Pharmacy - Galle,Dermatology,2022-10,143352.65,82.0,23.0
+Pharmacy - Galle,Dermatology,2022-11,235939.81,102.0,30.0
+Pharmacy - Galle,Dermatology,2022-12,65108.73,35.0,12.0
+Pharmacy - Galle,Dermatology,2023-01,259506.94,120.0,41.0
+Pharmacy - Galle,Dermatology,2023-02,205116.43,92.0,32.0
+Pharmacy - Galle,Dermatology,2023-03,188595.56,92.0,29.0
+Pharmacy - Galle,Dermatology,2023-04,185589.75,93.0,29.0
+Pharmacy - Galle,Dermatology,2023-05,105464.65,47.0,16.0
+Pharmacy - Galle,Dermatology,2023-06,95005.29,57.0,23.0
+Pharmacy - Galle,Diabetes,2022-01,128819.59,84.0,28.0
+Pharmacy - Galle,Diabetes,2022-02,85990.02,63.0,22.0
+Pharmacy - Galle,Diabetes,2022-03,100106.26,68.0,23.0
+Pharmacy - Galle,Diabetes,2022-04,96800.12,82.0,27.0
+Pharmacy - Galle,Diabetes,2022-05,115530.58,75.0,27.0
+Pharmacy - Galle,Diabetes,2022-06,102490.5,73.0,24.0
+Pharmacy - Galle,Diabetes,2022-07,147962.2,117.0,36.0
+Pharmacy - Galle,Diabetes,2022-08,167668.66999999998,109.0,31.0
+Pharmacy - Galle,Diabetes,2022-09,111147.77,80.0,26.0
+Pharmacy - Galle,Diabetes,2022-10,192191.02000000002,120.0,35.0
+Pharmacy - Galle,Diabetes,2022-11,171729.32,111.0,31.0
+Pharmacy - Galle,Diabetes,2022-12,114193.41,69.0,22.0
+Pharmacy - Galle,Diabetes,2023-01,160451.96,90.0,28.0
+Pharmacy - Galle,Diabetes,2023-02,123524.57,86.0,29.0
+Pharmacy - Galle,Diabetes,2023-03,114679.14,81.0,28.0
+Pharmacy - Galle,Diabetes,2023-04,152148.95,109.0,33.0
+Pharmacy - Galle,Diabetes,2023-05,111600.46,66.0,24.0
+Pharmacy - Galle,Diabetes,2023-06,136961.96,78.0,25.0
+Pharmacy - Galle,First Aid,2022-01,90729.6,53.0,19.0
+Pharmacy - Galle,First Aid,2022-02,122075.23,65.0,21.0
+Pharmacy - Galle,First Aid,2022-03,52345.35,27.0,12.0
+Pharmacy - Galle,First Aid,2022-04,75712.89,41.0,19.0
+Pharmacy - Galle,First Aid,2022-05,119724.97,65.0,22.0
+Pharmacy - Galle,First Aid,2022-06,125588.55,63.0,24.0
+Pharmacy - Galle,First Aid,2022-07,89574.33,42.0,15.0
+Pharmacy - Galle,First Aid,2022-08,122419.2,61.0,23.0
+Pharmacy - Galle,First Aid,2022-09,120430.71,56.0,20.0
+Pharmacy - Galle,First Aid,2022-10,109731.65,58.0,20.0
+Pharmacy - Galle,First Aid,2022-11,200906.47,95.0,32.0
+Pharmacy - Galle,First Aid,2022-12,121470.58,65.0,23.0
+Pharmacy - Galle,First Aid,2023-01,111353.16,55.0,19.0
+Pharmacy - Galle,First Aid,2023-02,144123.87,64.0,19.0
+Pharmacy - Galle,First Aid,2023-03,198419.02,96.0,28.0
+Pharmacy - Galle,First Aid,2023-04,125249.33,52.0,20.0
+Pharmacy - Galle,First Aid,2023-05,125549.15,64.0,19.0
+Pharmacy - Galle,First Aid,2023-06,150708.05,77.0,26.0
+Pharmacy - Galle,Gastro,2022-01,75712.28,63.0,18.0
+Pharmacy - Galle,Gastro,2022-02,142798.84,99.0,39.0
+Pharmacy - Galle,Gastro,2022-03,141991.47,101.0,34.0
+Pharmacy - Galle,Gastro,2022-04,156521.92,117.0,42.0
+Pharmacy - Galle,Gastro,2022-05,154066.11,90.0,29.0
+Pharmacy - Galle,Gastro,2022-06,86476.47,59.0,18.0
+Pharmacy - Galle,Gastro,2022-07,93264.56,74.0,29.0
+Pharmacy - Galle,Gastro,2022-08,122842.9,93.0,35.0
+Pharmacy - Galle,Gastro,2022-09,119138.2,87.0,32.0
+Pharmacy - Galle,Gastro,2022-10,121529.34,70.0,23.0
+Pharmacy - Galle,Gastro,2022-11,90796.76,64.0,22.0
+Pharmacy - Galle,Gastro,2022-12,72688.01,72.0,23.0
+Pharmacy - Galle,Gastro,2023-01,119480.29000000001,78.0,25.0
+Pharmacy - Galle,Gastro,2023-02,70104.82,55.0,20.0
+Pharmacy - Galle,Gastro,2023-03,133979.67,97.0,29.0
+Pharmacy - Galle,Gastro,2023-04,87525.45,66.0,24.0
+Pharmacy - Galle,Gastro,2023-05,173630.79,111.0,34.0
+Pharmacy - Galle,Gastro,2023-06,84867.12,59.0,19.0
+Pharmacy - Galle,Hormonal,2022-01,130548.45999999999,103.0,35.0
+Pharmacy - Galle,Hormonal,2022-02,88815.16,57.0,16.0
+Pharmacy - Galle,Hormonal,2022-03,46364.7,45.0,16.0
+Pharmacy - Galle,Hormonal,2022-04,58529.17,55.0,20.0
+Pharmacy - Galle,Hormonal,2022-05,67173.95,52.0,17.0
+Pharmacy - Galle,Hormonal,2022-06,55685.520000000004,38.0,17.0
+Pharmacy - Galle,Hormonal,2022-07,62164.93,65.0,20.0
+Pharmacy - Galle,Hormonal,2022-08,88065.62,58.0,18.0
+Pharmacy - Galle,Hormonal,2022-09,135094.94,67.0,20.0
+Pharmacy - Galle,Hormonal,2022-10,50249.21,43.0,14.0
+Pharmacy - Galle,Hormonal,2022-11,135477.41,66.0,26.0
+Pharmacy - Galle,Hormonal,2022-12,132669.64,77.0,24.0
+Pharmacy - Galle,Hormonal,2023-01,74993.81,57.0,21.0
+Pharmacy - Galle,Hormonal,2023-02,88815.47,57.0,19.0
+Pharmacy - Galle,Hormonal,2023-03,115230.86,76.0,21.0
+Pharmacy - Galle,Hormonal,2023-04,35914.619999999995,23.0,11.0
+Pharmacy - Galle,Hormonal,2023-05,86948.26,65.0,22.0
+Pharmacy - Galle,Hormonal,2023-06,140570.47,68.0,20.0
+Pharmacy - Galle,Painkiller,2022-01,142300.01,80.0,27.0
+Pharmacy - Galle,Painkiller,2022-02,216274.91,125.0,40.0
+Pharmacy - Galle,Painkiller,2022-03,214684.24,139.0,46.0
+Pharmacy - Galle,Painkiller,2022-04,192759.01,117.0,38.0
+Pharmacy - Galle,Painkiller,2022-05,202163.37,109.0,35.0
+Pharmacy - Galle,Painkiller,2022-06,214583.91,159.0,51.0
+Pharmacy - Galle,Painkiller,2022-07,139860.37,104.0,38.0
+Pharmacy - Galle,Painkiller,2022-08,166237.9,112.0,39.0
+Pharmacy - Galle,Painkiller,2022-09,133084.5,95.0,35.0
+Pharmacy - Galle,Painkiller,2022-10,164782.92,107.0,35.0
+Pharmacy - Galle,Painkiller,2022-11,144036.61,104.0,31.0
+Pharmacy - Galle,Painkiller,2022-12,171559.46,116.0,39.0
+Pharmacy - Galle,Painkiller,2023-01,230029.46,137.0,43.0
+Pharmacy - Galle,Painkiller,2023-02,132144.38,100.0,35.0
+Pharmacy - Galle,Painkiller,2023-03,231725.71,125.0,42.0
+Pharmacy - Galle,Painkiller,2023-04,131542.9,90.0,32.0
+Pharmacy - Galle,Painkiller,2023-05,153114.57,95.0,40.0
+Pharmacy - Galle,Painkiller,2023-06,214238.79,122.0,40.0
+Pharmacy - Galle,Respiratory,2022-01,46189.88,26.0,11.0
+Pharmacy - Galle,Respiratory,2022-02,62978.69,35.0,11.0
+Pharmacy - Galle,Respiratory,2022-03,79935.64,44.0,16.0
+Pharmacy - Galle,Respiratory,2022-04,65834.13,36.0,13.0
+Pharmacy - Galle,Respiratory,2022-05,28020.27,18.0,9.0
+Pharmacy - Galle,Respiratory,2022-06,69405.34,33.0,10.0
+Pharmacy - Galle,Respiratory,2022-07,50168.090000000004,22.0,8.0
+Pharmacy - Galle,Respiratory,2022-08,49465.77,20.0,6.0
+Pharmacy - Galle,Respiratory,2022-09,98350.0,51.0,12.0
+Pharmacy - Galle,Respiratory,2022-10,80661.95,37.0,13.0
+Pharmacy - Galle,Respiratory,2022-11,73004.19,34.0,9.0
+Pharmacy - Galle,Respiratory,2022-12,54552.05,34.0,11.0
+Pharmacy - Galle,Respiratory,2023-01,70136.1,37.0,13.0
+Pharmacy - Galle,Respiratory,2023-02,57191.82,37.0,14.0
+Pharmacy - Galle,Respiratory,2023-03,74833.49,34.0,10.0
+Pharmacy - Galle,Respiratory,2023-04,31662.64,10.0,4.0
+Pharmacy - Galle,Respiratory,2023-05,64247.87,37.0,14.0
+Pharmacy - Galle,Respiratory,2023-06,65988.6,34.0,11.0
+Pharmacy - Galle,Vitamin,2022-01,256991.33,124.0,46.0
+Pharmacy - Galle,Vitamin,2022-02,248661.3,120.0,36.0
+Pharmacy - Galle,Vitamin,2022-03,240624.15,118.0,37.0
+Pharmacy - Galle,Vitamin,2022-04,214485.58,121.0,43.0
+Pharmacy - Galle,Vitamin,2022-05,203168.65,104.0,35.0
+Pharmacy - Galle,Vitamin,2022-06,259952.66,112.0,39.0
+Pharmacy - Galle,Vitamin,2022-07,304292.94,138.0,45.0
+Pharmacy - Galle,Vitamin,2022-08,303458.46,132.0,50.0
+Pharmacy - Galle,Vitamin,2022-09,247533.33000000002,116.0,38.0
+Pharmacy - Galle,Vitamin,2022-10,229563.66,121.0,35.0
+Pharmacy - Galle,Vitamin,2022-11,223739.93,117.0,38.0
+Pharmacy - Galle,Vitamin,2022-12,278141.62,134.0,42.0
+Pharmacy - Galle,Vitamin,2023-01,243998.74,116.0,34.0
+Pharmacy - Galle,Vitamin,2023-02,221451.08000000002,106.0,31.0
+Pharmacy - Galle,Vitamin,2023-03,199786.52,103.0,36.0
+Pharmacy - Galle,Vitamin,2023-04,246038.82,129.0,40.0
+Pharmacy - Galle,Vitamin,2023-05,200422.84,98.0,36.0
+Pharmacy - Galle,Vitamin,2023-06,208031.78,89.0,33.0
+Pharmacy - Galle,Wellness,2022-01,15898.66,20.0,7.0
+Pharmacy - Galle,Wellness,2022-02,5982.639999999999,8.0,2.0
+Pharmacy - Galle,Wellness,2022-03,7674.849999999999,11.0,3.0
+Pharmacy - Galle,Wellness,2022-04,27067.72,32.0,8.0
+Pharmacy - Galle,Wellness,2022-05,11045.71,11.0,4.0
+Pharmacy - Galle,Wellness,2022-06,16014.2,19.0,7.0
+Pharmacy - Galle,Wellness,2022-07,8811.24,9.0,5.0
+Pharmacy - Galle,Wellness,2022-08,29818.03,26.0,8.0
+Pharmacy - Galle,Wellness,2022-09,11678.43,19.0,4.0
+Pharmacy - Galle,Wellness,2022-10,11999.85,12.0,8.0
+Pharmacy - Galle,Wellness,2022-11,18711.15,15.0,4.0
+Pharmacy - Galle,Wellness,2022-12,3398.27,9.0,3.0
+Pharmacy - Galle,Wellness,2023-01,8604.31,16.0,6.0
+Pharmacy - Galle,Wellness,2023-02,21141.48,24.0,8.0
+Pharmacy - Galle,Wellness,2023-03,16645.51,21.0,7.0
+Pharmacy - Galle,Wellness,2023-04,8830.23,12.0,3.0
+Pharmacy - Galle,Wellness,2023-05,8297.25,6.0,2.0
+Pharmacy - Galle,Wellness,2023-06,2047.3200000000002,3.0,2.0
+Pharmacy - Jaffna,Allergy,2022-01,108631.15,78.0,26.0
+Pharmacy - Jaffna,Allergy,2022-02,50543.33,34.0,13.0
+Pharmacy - Jaffna,Allergy,2022-03,43197.86,32.0,11.0
+Pharmacy - Jaffna,Allergy,2022-04,25534.72,30.0,11.0
+Pharmacy - Jaffna,Allergy,2022-05,94983.65,65.0,21.0
+Pharmacy - Jaffna,Allergy,2022-06,67653.07,56.0,18.0
+Pharmacy - Jaffna,Allergy,2022-07,57873.89,58.0,18.0
+Pharmacy - Jaffna,Allergy,2022-08,98524.67,59.0,20.0
+Pharmacy - Jaffna,Allergy,2022-09,60883.91,49.0,19.0
+Pharmacy - Jaffna,Allergy,2022-10,126531.16,80.0,23.0
+Pharmacy - Jaffna,Allergy,2022-11,80532.34,55.0,18.0
+Pharmacy - Jaffna,Allergy,2022-12,70444.59,45.0,13.0
+Pharmacy - Jaffna,Allergy,2023-01,48872.02,33.0,13.0
+Pharmacy - Jaffna,Allergy,2023-02,67060.18,38.0,17.0
+Pharmacy - Jaffna,Allergy,2023-03,80132.41,63.0,17.0
+Pharmacy - Jaffna,Allergy,2023-04,73934.51,48.0,21.0
+Pharmacy - Jaffna,Allergy,2023-05,65391.99,49.0,16.0
+Pharmacy - Jaffna,Allergy,2023-06,80251.15,45.0,14.0
+Pharmacy - Jaffna,Antibiotic,2022-01,368564.16,212.0,68.0
+Pharmacy - Jaffna,Antibiotic,2022-02,312123.73,229.0,69.0
+Pharmacy - Jaffna,Antibiotic,2022-03,380769.81,261.0,76.0
+Pharmacy - Jaffna,Antibiotic,2022-04,222231.04,151.0,50.0
+Pharmacy - Jaffna,Antibiotic,2022-05,293160.02,226.0,78.0
+Pharmacy - Jaffna,Antibiotic,2022-06,264540.26,172.0,59.0
+Pharmacy - Jaffna,Antibiotic,2022-07,270363.81,170.0,55.0
+Pharmacy - Jaffna,Antibiotic,2022-08,308218.84,193.0,69.0
+Pharmacy - Jaffna,Antibiotic,2022-09,221183.38,158.0,52.0
+Pharmacy - Jaffna,Antibiotic,2022-10,247862.14,183.0,68.0
+Pharmacy - Jaffna,Antibiotic,2022-11,267568.52,199.0,64.0
+Pharmacy - Jaffna,Antibiotic,2022-12,240003.46,189.0,61.0
+Pharmacy - Jaffna,Antibiotic,2023-01,264599.17,182.0,63.0
+Pharmacy - Jaffna,Antibiotic,2023-02,159922.5,134.0,47.0
+Pharmacy - Jaffna,Antibiotic,2023-03,367317.06,212.0,70.0
+Pharmacy - Jaffna,Antibiotic,2023-04,251013.08,165.0,55.0
+Pharmacy - Jaffna,Antibiotic,2023-05,281026.94,162.0,50.0
+Pharmacy - Jaffna,Antibiotic,2023-06,327194.23,187.0,62.0
+Pharmacy - Jaffna,Antifungal,2022-01,15967.720000000001,10.0,3.0
+Pharmacy - Jaffna,Antifungal,2022-02,28419.22,17.0,6.0
+Pharmacy - Jaffna,Antifungal,2022-03,38041.87,22.0,7.0
+Pharmacy - Jaffna,Antifungal,2022-04,11293.81,7.0,4.0
+Pharmacy - Jaffna,Antifungal,2022-05,46032.14,21.0,6.0
+Pharmacy - Jaffna,Antifungal,2022-06,17079.22,9.0,3.0
+Pharmacy - Jaffna,Antifungal,2022-07,46859.81,23.0,7.0
+Pharmacy - Jaffna,Antifungal,2022-08,55200.92,32.0,8.0
+Pharmacy - Jaffna,Antifungal,2022-09,18036.68,15.0,6.0
+Pharmacy - Jaffna,Antifungal,2022-10,38083.53,17.0,8.0
+Pharmacy - Jaffna,Antifungal,2022-11,52568.04,29.0,10.0
+Pharmacy - Jaffna,Antifungal,2022-12,16638.02,9.0,3.0
+Pharmacy - Jaffna,Antifungal,2023-01,44210.26,24.0,9.0
+Pharmacy - Jaffna,Antifungal,2023-02,50429.71,23.0,9.0
+Pharmacy - Jaffna,Antifungal,2023-03,31648.84,18.0,6.0
+Pharmacy - Jaffna,Antifungal,2023-04,73338.08,40.0,12.0
+Pharmacy - Jaffna,Antifungal,2023-05,37051.27,18.0,7.0
+Pharmacy - Jaffna,Antifungal,2023-06,78289.18,40.0,13.0
+Pharmacy - Jaffna,Antiviral,2022-01,77618.84,36.0,12.0
+Pharmacy - Jaffna,Antiviral,2022-02,64427.82,31.0,13.0
+Pharmacy - Jaffna,Antiviral,2022-03,61788.7,29.0,12.0
+Pharmacy - Jaffna,Antiviral,2022-04,54765.81,22.0,7.0
+Pharmacy - Jaffna,Antiviral,2022-05,74346.92,34.0,11.0
+Pharmacy - Jaffna,Antiviral,2022-06,65111.47,36.0,13.0
+Pharmacy - Jaffna,Antiviral,2022-07,75557.26,38.0,14.0
+Pharmacy - Jaffna,Antiviral,2022-08,117893.18,46.0,16.0
+Pharmacy - Jaffna,Antiviral,2022-09,93784.8,51.0,16.0
+Pharmacy - Jaffna,Antiviral,2022-10,61353.28,32.0,12.0
+Pharmacy - Jaffna,Antiviral,2022-11,57933.12,26.0,9.0
+Pharmacy - Jaffna,Antiviral,2022-12,69815.13,35.0,11.0
+Pharmacy - Jaffna,Antiviral,2023-01,90647.34,43.0,13.0
+Pharmacy - Jaffna,Antiviral,2023-02,74128.71,41.0,15.0
+Pharmacy - Jaffna,Antiviral,2023-03,76272.53,33.0,14.0
+Pharmacy - Jaffna,Antiviral,2023-04,52400.41,21.0,8.0
+Pharmacy - Jaffna,Antiviral,2023-05,64980.45,30.0,11.0
+Pharmacy - Jaffna,Antiviral,2023-06,83330.03,36.0,14.0
+Pharmacy - Jaffna,Cardiac,2022-01,241628.61,143.0,47.0
+Pharmacy - Jaffna,Cardiac,2022-02,265215.43,127.0,42.0
+Pharmacy - Jaffna,Cardiac,2022-03,262653.5,154.0,53.0
+Pharmacy - Jaffna,Cardiac,2022-04,289423.5,163.0,56.0
+Pharmacy - Jaffna,Cardiac,2022-05,265066.85,135.0,44.0
+Pharmacy - Jaffna,Cardiac,2022-06,228596.36,134.0,49.0
+Pharmacy - Jaffna,Cardiac,2022-07,248844.02,166.0,54.0
+Pharmacy - Jaffna,Cardiac,2022-08,220851.1,129.0,47.0
+Pharmacy - Jaffna,Cardiac,2022-09,276402.83,153.0,47.0
+Pharmacy - Jaffna,Cardiac,2022-10,327205.85,174.0,59.0
+Pharmacy - Jaffna,Cardiac,2022-11,181283.62,123.0,44.0
+Pharmacy - Jaffna,Cardiac,2022-12,265822.7,142.0,46.0
+Pharmacy - Jaffna,Cardiac,2023-01,346018.75,164.0,47.0
+Pharmacy - Jaffna,Cardiac,2023-02,267131.12,133.0,42.0
+Pharmacy - Jaffna,Cardiac,2023-03,312057.79,172.0,57.0
+Pharmacy - Jaffna,Cardiac,2023-04,221575.33,110.0,39.0
+Pharmacy - Jaffna,Cardiac,2023-05,408935.58999999997,198.0,59.0
+Pharmacy - Jaffna,Cardiac,2023-06,304769.92,150.0,55.0
+Pharmacy - Jaffna,Cough & Cold,2022-01,189645.13,96.0,31.0
+Pharmacy - Jaffna,Cough & Cold,2022-02,144311.69,70.0,22.0
+Pharmacy - Jaffna,Cough & Cold,2022-03,222674.75,116.0,45.0
+Pharmacy - Jaffna,Cough & Cold,2022-04,199819.1,119.0,39.0
+Pharmacy - Jaffna,Cough & Cold,2022-05,181204.37,106.0,35.0
+Pharmacy - Jaffna,Cough & Cold,2022-06,197535.84,94.0,36.0
+Pharmacy - Jaffna,Cough & Cold,2022-07,192155.68,96.0,34.0
+Pharmacy - Jaffna,Cough & Cold,2022-08,174008.6,96.0,32.0
+Pharmacy - Jaffna,Cough & Cold,2022-09,209849.96,111.0,33.0
+Pharmacy - Jaffna,Cough & Cold,2022-10,164760.66,88.0,30.0
+Pharmacy - Jaffna,Cough & Cold,2022-11,185396.32,109.0,36.0
+Pharmacy - Jaffna,Cough & Cold,2022-12,206411.59,96.0,31.0
+Pharmacy - Jaffna,Cough & Cold,2023-01,234302.86,122.0,42.0
+Pharmacy - Jaffna,Cough & Cold,2023-02,184364.09,96.0,32.0
+Pharmacy - Jaffna,Cough & Cold,2023-03,179871.57,91.0,36.0
+Pharmacy - Jaffna,Cough & Cold,2023-04,205843.13999999998,105.0,35.0
+Pharmacy - Jaffna,Cough & Cold,2023-05,278289.61,125.0,40.0
+Pharmacy - Jaffna,Cough & Cold,2023-06,149898.83,90.0,33.0
+Pharmacy - Jaffna,Dermatology,2022-01,153860.75,70.0,25.0
+Pharmacy - Jaffna,Dermatology,2022-02,163594.9,79.0,29.0
+Pharmacy - Jaffna,Dermatology,2022-03,148351.97,71.0,29.0
+Pharmacy - Jaffna,Dermatology,2022-04,135436.41,76.0,28.0
+Pharmacy - Jaffna,Dermatology,2022-05,197032.99,117.0,40.0
+Pharmacy - Jaffna,Dermatology,2022-06,150920.39,76.0,23.0
+Pharmacy - Jaffna,Dermatology,2022-07,156700.56,77.0,24.0
+Pharmacy - Jaffna,Dermatology,2022-08,138280.1,77.0,24.0
+Pharmacy - Jaffna,Dermatology,2022-09,148787.41999999998,80.0,26.0
+Pharmacy - Jaffna,Dermatology,2022-10,122473.73999999999,70.0,25.0
+Pharmacy - Jaffna,Dermatology,2022-11,144400.05,79.0,26.0
+Pharmacy - Jaffna,Dermatology,2022-12,130381.93000000001,51.0,14.0
+Pharmacy - Jaffna,Dermatology,2023-01,178607.85,83.0,25.0
+Pharmacy - Jaffna,Dermatology,2023-02,106427.85,58.0,23.0
+Pharmacy - Jaffna,Dermatology,2023-03,203856.78,93.0,27.0
+Pharmacy - Jaffna,Dermatology,2023-04,197923.89,93.0,30.0
+Pharmacy - Jaffna,Dermatology,2023-05,227608.72,106.0,35.0
+Pharmacy - Jaffna,Dermatology,2023-06,88185.72,45.0,16.0
+Pharmacy - Jaffna,Diabetes,2022-01,161877.94,105.0,39.0
+Pharmacy - Jaffna,Diabetes,2022-02,88021.96,49.0,16.0
+Pharmacy - Jaffna,Diabetes,2022-03,126843.86,85.0,30.0
+Pharmacy - Jaffna,Diabetes,2022-04,164838.43,97.0,28.0
+Pharmacy - Jaffna,Diabetes,2022-05,141007.48,93.0,30.0
+Pharmacy - Jaffna,Diabetes,2022-06,83595.48,75.0,26.0
+Pharmacy - Jaffna,Diabetes,2022-07,83156.05,54.0,20.0
+Pharmacy - Jaffna,Diabetes,2022-08,107104.82,82.0,28.0
+Pharmacy - Jaffna,Diabetes,2022-09,120237.01,70.0,23.0
+Pharmacy - Jaffna,Diabetes,2022-10,139715.58,96.0,28.0
+Pharmacy - Jaffna,Diabetes,2022-11,184917.45,102.0,32.0
+Pharmacy - Jaffna,Diabetes,2022-12,99244.82,62.0,25.0
+Pharmacy - Jaffna,Diabetes,2023-01,137442.98,90.0,31.0
+Pharmacy - Jaffna,Diabetes,2023-02,179153.38,104.0,34.0
+Pharmacy - Jaffna,Diabetes,2023-03,154360.23,87.0,30.0
+Pharmacy - Jaffna,Diabetes,2023-04,103525.06,66.0,27.0
+Pharmacy - Jaffna,Diabetes,2023-05,150848.65,85.0,29.0
+Pharmacy - Jaffna,Diabetes,2023-06,133930.84,88.0,33.0
+Pharmacy - Jaffna,First Aid,2022-01,103853.3,52.0,19.0
+Pharmacy - Jaffna,First Aid,2022-02,154576.44,79.0,24.0
+Pharmacy - Jaffna,First Aid,2022-03,112299.66,59.0,20.0
+Pharmacy - Jaffna,First Aid,2022-04,146101.47,75.0,24.0
+Pharmacy - Jaffna,First Aid,2022-05,84325.57,37.0,15.0
+Pharmacy - Jaffna,First Aid,2022-06,113525.49,52.0,17.0
+Pharmacy - Jaffna,First Aid,2022-07,129302.78,66.0,24.0
+Pharmacy - Jaffna,First Aid,2022-08,98269.85,53.0,21.0
+Pharmacy - Jaffna,First Aid,2022-09,128975.57,64.0,23.0
+Pharmacy - Jaffna,First Aid,2022-10,166684.38,75.0,25.0
+Pharmacy - Jaffna,First Aid,2022-11,147054.73,70.0,22.0
+Pharmacy - Jaffna,First Aid,2022-12,100358.93,48.0,22.0
+Pharmacy - Jaffna,First Aid,2023-01,147369.05,63.0,20.0
+Pharmacy - Jaffna,First Aid,2023-02,155509.25,74.0,26.0
+Pharmacy - Jaffna,First Aid,2023-03,108355.59,56.0,20.0
+Pharmacy - Jaffna,First Aid,2023-04,113599.9,56.0,20.0
+Pharmacy - Jaffna,First Aid,2023-05,131003.94,57.0,20.0
+Pharmacy - Jaffna,First Aid,2023-06,135944.17,63.0,22.0
+Pharmacy - Jaffna,Gastro,2022-01,107786.06,74.0,28.0
+Pharmacy - Jaffna,Gastro,2022-02,102286.53,76.0,24.0
+Pharmacy - Jaffna,Gastro,2022-03,129720.76,95.0,28.0
+Pharmacy - Jaffna,Gastro,2022-04,105328.77,99.0,29.0
+Pharmacy - Jaffna,Gastro,2022-05,115612.23,89.0,29.0
+Pharmacy - Jaffna,Gastro,2022-06,74564.02,64.0,26.0
+Pharmacy - Jaffna,Gastro,2022-07,175062.9,125.0,35.0
+Pharmacy - Jaffna,Gastro,2022-08,102255.06999999999,87.0,29.0
+Pharmacy - Jaffna,Gastro,2022-09,96818.17,78.0,24.0
+Pharmacy - Jaffna,Gastro,2022-10,97783.56,71.0,23.0
+Pharmacy - Jaffna,Gastro,2022-11,105690.26,80.0,27.0
+Pharmacy - Jaffna,Gastro,2022-12,132411.86,98.0,35.0
+Pharmacy - Jaffna,Gastro,2023-01,153292.72,94.0,33.0
+Pharmacy - Jaffna,Gastro,2023-02,90759.55,48.0,19.0
+Pharmacy - Jaffna,Gastro,2023-03,107917.59999999999,80.0,27.0
+Pharmacy - Jaffna,Gastro,2023-04,91103.98,71.0,25.0
+Pharmacy - Jaffna,Gastro,2023-05,122626.7,109.0,35.0
+Pharmacy - Jaffna,Gastro,2023-06,144470.98,75.0,24.0
+Pharmacy - Jaffna,Hormonal,2022-01,50068.600000000006,41.0,17.0
+Pharmacy - Jaffna,Hormonal,2022-02,90649.21,55.0,16.0
+Pharmacy - Jaffna,Hormonal,2022-03,82236.59,59.0,17.0
+Pharmacy - Jaffna,Hormonal,2022-04,63545.96,39.0,14.0
+Pharmacy - Jaffna,Hormonal,2022-05,105328.95,70.0,25.0
+Pharmacy - Jaffna,Hormonal,2022-06,69210.26,53.0,16.0
+Pharmacy - Jaffna,Hormonal,2022-07,73496.5,65.0,19.0
+Pharmacy - Jaffna,Hormonal,2022-08,82357.16,61.0,20.0
+Pharmacy - Jaffna,Hormonal,2022-09,81653.71,58.0,17.0
+Pharmacy - Jaffna,Hormonal,2022-10,109445.89,77.0,25.0
+Pharmacy - Jaffna,Hormonal,2022-11,46564.34,39.0,15.0
+Pharmacy - Jaffna,Hormonal,2022-12,95334.75,75.0,25.0
+Pharmacy - Jaffna,Hormonal,2023-01,72365.0,57.0,18.0
+Pharmacy - Jaffna,Hormonal,2023-02,123253.86,83.0,25.0
+Pharmacy - Jaffna,Hormonal,2023-03,60982.130000000005,41.0,14.0
+Pharmacy - Jaffna,Hormonal,2023-04,124354.7,76.0,26.0
+Pharmacy - Jaffna,Hormonal,2023-05,57105.13,49.0,16.0
+Pharmacy - Jaffna,Hormonal,2023-06,62003.49,38.0,14.0
+Pharmacy - Jaffna,Painkiller,2022-01,183218.33,122.0,41.0
+Pharmacy - Jaffna,Painkiller,2022-02,152271.49,105.0,34.0
+Pharmacy - Jaffna,Painkiller,2022-03,212751.28,123.0,42.0
+Pharmacy - Jaffna,Painkiller,2022-04,166993.66,129.0,45.0
+Pharmacy - Jaffna,Painkiller,2022-05,175673.96,106.0,35.0
+Pharmacy - Jaffna,Painkiller,2022-06,170723.16,125.0,41.0
+Pharmacy - Jaffna,Painkiller,2022-07,192397.58,113.0,38.0
+Pharmacy - Jaffna,Painkiller,2022-08,207607.27,127.0,41.0
+Pharmacy - Jaffna,Painkiller,2022-09,139904.72,105.0,37.0
+Pharmacy - Jaffna,Painkiller,2022-10,213543.43,123.0,40.0
+Pharmacy - Jaffna,Painkiller,2022-11,191572.84,128.0,38.0
+Pharmacy - Jaffna,Painkiller,2022-12,272245.13,169.0,52.0
+Pharmacy - Jaffna,Painkiller,2023-01,176826.19,113.0,37.0
+Pharmacy - Jaffna,Painkiller,2023-02,177978.15,93.0,34.0
+Pharmacy - Jaffna,Painkiller,2023-03,119908.82,75.0,25.0
+Pharmacy - Jaffna,Painkiller,2023-04,162063.2,99.0,36.0
+Pharmacy - Jaffna,Painkiller,2023-05,285512.4,151.0,58.0
+Pharmacy - Jaffna,Painkiller,2023-06,207943.45,133.0,44.0
+Pharmacy - Jaffna,Respiratory,2022-01,61213.78,37.0,13.0
+Pharmacy - Jaffna,Respiratory,2022-02,33902.21,23.0,7.0
+Pharmacy - Jaffna,Respiratory,2022-03,84831.64,33.0,11.0
+Pharmacy - Jaffna,Respiratory,2022-04,40925.93,17.0,5.0
+Pharmacy - Jaffna,Respiratory,2022-05,47206.18,33.0,11.0
+Pharmacy - Jaffna,Respiratory,2022-06,44795.909999999996,26.0,11.0
+Pharmacy - Jaffna,Respiratory,2022-07,38103.53,22.0,6.0
+Pharmacy - Jaffna,Respiratory,2022-08,74177.27,42.0,16.0
+Pharmacy - Jaffna,Respiratory,2022-09,76263.1,37.0,12.0
+Pharmacy - Jaffna,Respiratory,2022-10,93314.75,42.0,15.0
+Pharmacy - Jaffna,Respiratory,2022-11,68838.55,34.0,9.0
+Pharmacy - Jaffna,Respiratory,2022-12,75613.93,38.0,13.0
+Pharmacy - Jaffna,Respiratory,2023-01,42409.58,23.0,9.0
+Pharmacy - Jaffna,Respiratory,2023-02,52225.22,20.0,6.0
+Pharmacy - Jaffna,Respiratory,2023-03,37545.09,23.0,7.0
+Pharmacy - Jaffna,Respiratory,2023-04,27389.0,21.0,7.0
+Pharmacy - Jaffna,Respiratory,2023-05,53191.69,24.0,6.0
+Pharmacy - Jaffna,Respiratory,2023-06,51796.630000000005,28.0,9.0
+Pharmacy - Jaffna,Vitamin,2022-01,288669.98,141.0,45.0
+Pharmacy - Jaffna,Vitamin,2022-02,170620.81,82.0,25.0
+Pharmacy - Jaffna,Vitamin,2022-03,176338.15,102.0,34.0
+Pharmacy - Jaffna,Vitamin,2022-04,208424.92,92.0,37.0
+Pharmacy - Jaffna,Vitamin,2022-05,227836.06,108.0,35.0
+Pharmacy - Jaffna,Vitamin,2022-06,288856.53,151.0,45.0
+Pharmacy - Jaffna,Vitamin,2022-07,272884.12,135.0,39.0
+Pharmacy - Jaffna,Vitamin,2022-08,240775.66,122.0,36.0
+Pharmacy - Jaffna,Vitamin,2022-09,214724.34,123.0,43.0
+Pharmacy - Jaffna,Vitamin,2022-10,246341.46,116.0,38.0
+Pharmacy - Jaffna,Vitamin,2022-11,238364.74,120.0,41.0
+Pharmacy - Jaffna,Vitamin,2022-12,196250.07,93.0,28.0
+Pharmacy - Jaffna,Vitamin,2023-01,212942.07,101.0,32.0
+Pharmacy - Jaffna,Vitamin,2023-02,224015.69,111.0,36.0
+Pharmacy - Jaffna,Vitamin,2023-03,238629.27,122.0,40.0
+Pharmacy - Jaffna,Vitamin,2023-04,273379.22000000003,137.0,42.0
+Pharmacy - Jaffna,Vitamin,2023-05,276492.26,130.0,42.0
+Pharmacy - Jaffna,Vitamin,2023-06,309759.96,161.0,49.0
+Pharmacy - Jaffna,Wellness,2022-01,0.0,0.0,0.0
+Pharmacy - Jaffna,Wellness,2022-02,1935.71,5.0,2.0
+Pharmacy - Jaffna,Wellness,2022-03,17156.55,23.0,10.0
+Pharmacy - Jaffna,Wellness,2022-04,4925.09,4.0,2.0
+Pharmacy - Jaffna,Wellness,2022-05,19239.2,33.0,11.0
+Pharmacy - Jaffna,Wellness,2022-06,12412.48,19.0,8.0
+Pharmacy - Jaffna,Wellness,2022-07,14358.55,19.0,6.0
+Pharmacy - Jaffna,Wellness,2022-08,7762.7,13.0,5.0
+Pharmacy - Jaffna,Wellness,2022-09,18930.41,24.0,9.0
+Pharmacy - Jaffna,Wellness,2022-10,13947.490000000002,16.0,5.0
+Pharmacy - Jaffna,Wellness,2022-11,11410.74,12.0,5.0
+Pharmacy - Jaffna,Wellness,2022-12,22038.739999999998,24.0,7.0
+Pharmacy - Jaffna,Wellness,2023-01,6779.9,9.0,3.0
+Pharmacy - Jaffna,Wellness,2023-02,28991.739999999998,29.0,7.0
+Pharmacy - Jaffna,Wellness,2023-03,5654.61,10.0,4.0
+Pharmacy - Jaffna,Wellness,2023-04,13728.83,18.0,7.0
+Pharmacy - Jaffna,Wellness,2023-05,11746.75,10.0,4.0
+Pharmacy - Jaffna,Wellness,2023-06,10351.75,13.0,4.0
+Pharmacy - Kandy City,Allergy,2022-01,79377.91,59.0,20.0
+Pharmacy - Kandy City,Allergy,2022-02,75364.27,63.0,19.0
+Pharmacy - Kandy City,Allergy,2022-03,74462.45,52.0,20.0
+Pharmacy - Kandy City,Allergy,2022-04,38201.17,42.0,16.0
+Pharmacy - Kandy City,Allergy,2022-05,27202.36,16.0,7.0
+Pharmacy - Kandy City,Allergy,2022-06,46436.51,32.0,13.0
+Pharmacy - Kandy City,Allergy,2022-07,68255.96,68.0,21.0
+Pharmacy - Kandy City,Allergy,2022-08,45881.72,41.0,16.0
+Pharmacy - Kandy City,Allergy,2022-09,80033.18,53.0,17.0
+Pharmacy - Kandy City,Allergy,2022-10,61995.0,41.0,14.0
+Pharmacy - Kandy City,Allergy,2022-11,76525.19,64.0,21.0
+Pharmacy - Kandy City,Allergy,2022-12,60417.76,42.0,12.0
+Pharmacy - Kandy City,Allergy,2023-01,77420.55,56.0,16.0
+Pharmacy - Kandy City,Allergy,2023-02,59510.34,39.0,14.0
+Pharmacy - Kandy City,Allergy,2023-03,68108.26,56.0,22.0
+Pharmacy - Kandy City,Allergy,2023-04,120595.13,70.0,18.0
+Pharmacy - Kandy City,Allergy,2023-05,107942.31,71.0,19.0
+Pharmacy - Kandy City,Allergy,2023-06,81174.3,49.0,15.0
+Pharmacy - Kandy City,Antibiotic,2022-01,338125.95,226.0,72.0
+Pharmacy - Kandy City,Antibiotic,2022-02,212101.35,155.0,52.0
+Pharmacy - Kandy City,Antibiotic,2022-03,219560.8,145.0,49.0
+Pharmacy - Kandy City,Antibiotic,2022-04,283828.62,199.0,65.0
+Pharmacy - Kandy City,Antibiotic,2022-05,312657.69,235.0,75.0
+Pharmacy - Kandy City,Antibiotic,2022-06,299985.38,192.0,60.0
+Pharmacy - Kandy City,Antibiotic,2022-07,303634.57,167.0,57.0
+Pharmacy - Kandy City,Antibiotic,2022-08,199244.09,124.0,43.0
+Pharmacy - Kandy City,Antibiotic,2022-09,323839.36,210.0,69.0
+Pharmacy - Kandy City,Antibiotic,2022-10,267008.97,152.0,48.0
+Pharmacy - Kandy City,Antibiotic,2022-11,235185.51,167.0,53.0
+Pharmacy - Kandy City,Antibiotic,2022-12,279237.92,219.0,73.0
+Pharmacy - Kandy City,Antibiotic,2023-01,281953.98,186.0,58.0
+Pharmacy - Kandy City,Antibiotic,2023-02,263888.45,183.0,64.0
+Pharmacy - Kandy City,Antibiotic,2023-03,279108.05,183.0,61.0
+Pharmacy - Kandy City,Antibiotic,2023-04,285553.32,187.0,61.0
+Pharmacy - Kandy City,Antibiotic,2023-05,328752.86,188.0,68.0
+Pharmacy - Kandy City,Antibiotic,2023-06,328834.27,194.0,57.0
+Pharmacy - Kandy City,Antifungal,2022-01,37217.68,16.0,7.0
+Pharmacy - Kandy City,Antifungal,2022-02,12612.61,8.0,4.0
+Pharmacy - Kandy City,Antifungal,2022-03,33498.59,19.0,8.0
+Pharmacy - Kandy City,Antifungal,2022-04,26037.46,12.0,5.0
+Pharmacy - Kandy City,Antifungal,2022-05,50952.21,25.0,8.0
+Pharmacy - Kandy City,Antifungal,2022-06,49880.37,27.0,7.0
+Pharmacy - Kandy City,Antifungal,2022-07,43899.97,20.0,9.0
+Pharmacy - Kandy City,Antifungal,2022-08,37030.96,18.0,6.0
+Pharmacy - Kandy City,Antifungal,2022-09,46354.090000000004,21.0,9.0
+Pharmacy - Kandy City,Antifungal,2022-10,62336.27,33.0,9.0
+Pharmacy - Kandy City,Antifungal,2022-11,137455.18,60.0,19.0
+Pharmacy - Kandy City,Antifungal,2022-12,40107.119999999995,27.0,8.0
+Pharmacy - Kandy City,Antifungal,2023-01,55800.8,29.0,11.0
+Pharmacy - Kandy City,Antifungal,2023-02,49075.81,21.0,9.0
+Pharmacy - Kandy City,Antifungal,2023-03,41314.52,18.0,7.0
+Pharmacy - Kandy City,Antifungal,2023-04,41692.13,20.0,7.0
+Pharmacy - Kandy City,Antifungal,2023-05,59708.590000000004,29.0,10.0
+Pharmacy - Kandy City,Antifungal,2023-06,82197.53,39.0,13.0
+Pharmacy - Kandy City,Antiviral,2022-01,128917.19,56.0,20.0
+Pharmacy - Kandy City,Antiviral,2022-02,85812.84,42.0,17.0
+Pharmacy - Kandy City,Antiviral,2022-03,73325.13,36.0,11.0
+Pharmacy - Kandy City,Antiviral,2022-04,50171.58,25.0,9.0
+Pharmacy - Kandy City,Antiviral,2022-05,59870.08,31.0,10.0
+Pharmacy - Kandy City,Antiviral,2022-06,48374.83,26.0,10.0
+Pharmacy - Kandy City,Antiviral,2022-07,88541.54,40.0,13.0
+Pharmacy - Kandy City,Antiviral,2022-08,78552.22,40.0,13.0
+Pharmacy - Kandy City,Antiviral,2022-09,83365.58,39.0,12.0
+Pharmacy - Kandy City,Antiviral,2022-10,73726.68000000001,31.0,10.0
+Pharmacy - Kandy City,Antiviral,2022-11,57173.64,36.0,11.0
+Pharmacy - Kandy City,Antiviral,2022-12,41615.92,23.0,9.0
+Pharmacy - Kandy City,Antiviral,2023-01,87152.98,38.0,13.0
+Pharmacy - Kandy City,Antiviral,2023-02,75704.01,39.0,16.0
+Pharmacy - Kandy City,Antiviral,2023-03,83110.65,39.0,12.0
+Pharmacy - Kandy City,Antiviral,2023-04,99983.4,44.0,12.0
+Pharmacy - Kandy City,Antiviral,2023-05,49767.53,23.0,9.0
+Pharmacy - Kandy City,Antiviral,2023-06,67151.66,35.0,12.0
+Pharmacy - Kandy City,Cardiac,2022-01,268149.88,142.0,46.0
+Pharmacy - Kandy City,Cardiac,2022-02,219192.16,112.0,39.0
+Pharmacy - Kandy City,Cardiac,2022-03,343215.32,187.0,57.0
+Pharmacy - Kandy City,Cardiac,2022-04,278307.96,166.0,53.0
+Pharmacy - Kandy City,Cardiac,2022-05,254876.06,158.0,56.0
+Pharmacy - Kandy City,Cardiac,2022-06,220203.8,114.0,46.0
+Pharmacy - Kandy City,Cardiac,2022-07,237236.77,135.0,51.0
+Pharmacy - Kandy City,Cardiac,2022-08,241163.01,135.0,46.0
+Pharmacy - Kandy City,Cardiac,2022-09,223150.29,117.0,45.0
+Pharmacy - Kandy City,Cardiac,2022-10,268119.24,144.0,48.0
+Pharmacy - Kandy City,Cardiac,2022-11,338255.06,177.0,57.0
+Pharmacy - Kandy City,Cardiac,2022-12,215512.26,126.0,45.0
+Pharmacy - Kandy City,Cardiac,2023-01,354878.51,191.0,57.0
+Pharmacy - Kandy City,Cardiac,2023-02,299410.6,162.0,51.0
+Pharmacy - Kandy City,Cardiac,2023-03,304868.68,154.0,53.0
+Pharmacy - Kandy City,Cardiac,2023-04,235856.03,111.0,38.0
+Pharmacy - Kandy City,Cardiac,2023-05,328164.69,164.0,60.0
+Pharmacy - Kandy City,Cardiac,2023-06,341971.10000000003,185.0,59.0
+Pharmacy - Kandy City,Cough & Cold,2022-01,260345.8,118.0,41.0
+Pharmacy - Kandy City,Cough & Cold,2022-02,216765.71,97.0,33.0
+Pharmacy - Kandy City,Cough & Cold,2022-03,202549.57,102.0,36.0
+Pharmacy - Kandy City,Cough & Cold,2022-04,217277.09,111.0,36.0
+Pharmacy - Kandy City,Cough & Cold,2022-05,179612.39,87.0,24.0
+Pharmacy - Kandy City,Cough & Cold,2022-06,274834.53,128.0,37.0
+Pharmacy - Kandy City,Cough & Cold,2022-07,244479.15,101.0,34.0
+Pharmacy - Kandy City,Cough & Cold,2022-08,203380.76,93.0,30.0
+Pharmacy - Kandy City,Cough & Cold,2022-09,121338.01,77.0,29.0
+Pharmacy - Kandy City,Cough & Cold,2022-10,173588.85,98.0,31.0
+Pharmacy - Kandy City,Cough & Cold,2022-11,87740.86,56.0,22.0
+Pharmacy - Kandy City,Cough & Cold,2022-12,135436.6,58.0,25.0
+Pharmacy - Kandy City,Cough & Cold,2023-01,183221.61,103.0,37.0
+Pharmacy - Kandy City,Cough & Cold,2023-02,231291.97,100.0,35.0
+Pharmacy - Kandy City,Cough & Cold,2023-03,226306.1,126.0,42.0
+Pharmacy - Kandy City,Cough & Cold,2023-04,212758.96,116.0,33.0
+Pharmacy - Kandy City,Cough & Cold,2023-05,201459.1,81.0,27.0
+Pharmacy - Kandy City,Cough & Cold,2023-06,196595.8,93.0,32.0
+Pharmacy - Kandy City,Dermatology,2022-01,143145.33,63.0,22.0
+Pharmacy - Kandy City,Dermatology,2022-02,111815.0,62.0,19.0
+Pharmacy - Kandy City,Dermatology,2022-03,124119.94,52.0,17.0
+Pharmacy - Kandy City,Dermatology,2022-04,164300.01,70.0,25.0
+Pharmacy - Kandy City,Dermatology,2022-05,216335.89,107.0,34.0
+Pharmacy - Kandy City,Dermatology,2022-06,219004.57,95.0,32.0
+Pharmacy - Kandy City,Dermatology,2022-07,102723.43,53.0,17.0
+Pharmacy - Kandy City,Dermatology,2022-08,173669.77,84.0,28.0
+Pharmacy - Kandy City,Dermatology,2022-09,132488.76,67.0,22.0
+Pharmacy - Kandy City,Dermatology,2022-10,136024.27,70.0,27.0
+Pharmacy - Kandy City,Dermatology,2022-11,138359.59,69.0,29.0
+Pharmacy - Kandy City,Dermatology,2022-12,151327.02,71.0,25.0
+Pharmacy - Kandy City,Dermatology,2023-01,156459.52,79.0,27.0
+Pharmacy - Kandy City,Dermatology,2023-02,208710.75,89.0,34.0
+Pharmacy - Kandy City,Dermatology,2023-03,154845.31,74.0,24.0
+Pharmacy - Kandy City,Dermatology,2023-04,128029.58,57.0,20.0
+Pharmacy - Kandy City,Dermatology,2023-05,98386.92,63.0,26.0
+Pharmacy - Kandy City,Dermatology,2023-06,140879.64,72.0,24.0
+Pharmacy - Kandy City,Diabetes,2022-01,107970.75,77.0,26.0
+Pharmacy - Kandy City,Diabetes,2022-02,102563.3,72.0,25.0
+Pharmacy - Kandy City,Diabetes,2022-03,125543.64,89.0,29.0
+Pharmacy - Kandy City,Diabetes,2022-04,87045.72,56.0,23.0
+Pharmacy - Kandy City,Diabetes,2022-05,106077.65,75.0,27.0
+Pharmacy - Kandy City,Diabetes,2022-06,203702.26,118.0,36.0
+Pharmacy - Kandy City,Diabetes,2022-07,106911.23,69.0,24.0
+Pharmacy - Kandy City,Diabetes,2022-08,120426.76,76.0,23.0
+Pharmacy - Kandy City,Diabetes,2022-09,106635.18,74.0,23.0
+Pharmacy - Kandy City,Diabetes,2022-10,110516.83,85.0,27.0
+Pharmacy - Kandy City,Diabetes,2022-11,124289.21,81.0,27.0
+Pharmacy - Kandy City,Diabetes,2022-12,108427.97,83.0,31.0
+Pharmacy - Kandy City,Diabetes,2023-01,181456.79,104.0,33.0
+Pharmacy - Kandy City,Diabetes,2023-02,146757.15,85.0,25.0
+Pharmacy - Kandy City,Diabetes,2023-03,100449.48,64.0,23.0
+Pharmacy - Kandy City,Diabetes,2023-04,91061.7,48.0,19.0
+Pharmacy - Kandy City,Diabetes,2023-05,119263.34,83.0,30.0
+Pharmacy - Kandy City,Diabetes,2023-06,115903.56999999999,82.0,28.0
+Pharmacy - Kandy City,First Aid,2022-01,101020.42,51.0,20.0
+Pharmacy - Kandy City,First Aid,2022-02,116974.7,56.0,18.0
+Pharmacy - Kandy City,First Aid,2022-03,120771.39,68.0,19.0
+Pharmacy - Kandy City,First Aid,2022-04,100673.15,48.0,17.0
+Pharmacy - Kandy City,First Aid,2022-05,175453.38999999998,88.0,30.0
+Pharmacy - Kandy City,First Aid,2022-06,132692.89,70.0,26.0
+Pharmacy - Kandy City,First Aid,2022-07,136935.18,54.0,19.0
+Pharmacy - Kandy City,First Aid,2022-08,104421.57,57.0,17.0
+Pharmacy - Kandy City,First Aid,2022-09,104291.77,48.0,19.0
+Pharmacy - Kandy City,First Aid,2022-10,169441.99,83.0,26.0
+Pharmacy - Kandy City,First Aid,2022-11,111596.44,59.0,19.0
+Pharmacy - Kandy City,First Aid,2022-12,139177.83,69.0,23.0
+Pharmacy - Kandy City,First Aid,2023-01,124931.41,64.0,21.0
+Pharmacy - Kandy City,First Aid,2023-02,54090.3,32.0,13.0
+Pharmacy - Kandy City,First Aid,2023-03,96590.41,44.0,15.0
+Pharmacy - Kandy City,First Aid,2023-04,144333.64,67.0,19.0
+Pharmacy - Kandy City,First Aid,2023-05,98100.04,45.0,19.0
+Pharmacy - Kandy City,First Aid,2023-06,143222.37,65.0,21.0
+Pharmacy - Kandy City,Gastro,2022-01,126547.32,99.0,33.0
+Pharmacy - Kandy City,Gastro,2022-02,80361.47,82.0,28.0
+Pharmacy - Kandy City,Gastro,2022-03,78717.94,54.0,21.0
+Pharmacy - Kandy City,Gastro,2022-04,172176.17,102.0,28.0
+Pharmacy - Kandy City,Gastro,2022-05,140897.4,88.0,25.0
+Pharmacy - Kandy City,Gastro,2022-06,110189.37,90.0,32.0
+Pharmacy - Kandy City,Gastro,2022-07,119406.95,99.0,31.0
+Pharmacy - Kandy City,Gastro,2022-08,122240.76,84.0,28.0
+Pharmacy - Kandy City,Gastro,2022-09,116915.47,75.0,23.0
+Pharmacy - Kandy City,Gastro,2022-10,45890.39,51.0,18.0
+Pharmacy - Kandy City,Gastro,2022-11,106407.4,70.0,22.0
+Pharmacy - Kandy City,Gastro,2022-12,96334.88,67.0,21.0
+Pharmacy - Kandy City,Gastro,2023-01,122624.54000000001,79.0,27.0
+Pharmacy - Kandy City,Gastro,2023-02,88440.84000000001,75.0,21.0
+Pharmacy - Kandy City,Gastro,2023-03,100949.06,67.0,27.0
+Pharmacy - Kandy City,Gastro,2023-04,118907.83,60.0,20.0
+Pharmacy - Kandy City,Gastro,2023-05,100789.17,79.0,27.0
+Pharmacy - Kandy City,Gastro,2023-06,114569.70999999999,80.0,27.0
+Pharmacy - Kandy City,Hormonal,2022-01,87772.9,64.0,19.0
+Pharmacy - Kandy City,Hormonal,2022-02,97779.4,66.0,21.0
+Pharmacy - Kandy City,Hormonal,2022-03,44865.61,38.0,12.0
+Pharmacy - Kandy City,Hormonal,2022-04,49243.310000000005,41.0,18.0
+Pharmacy - Kandy City,Hormonal,2022-05,78552.6,57.0,23.0
+Pharmacy - Kandy City,Hormonal,2022-06,79940.72,84.0,27.0
+Pharmacy - Kandy City,Hormonal,2022-07,44196.75,47.0,17.0
+Pharmacy - Kandy City,Hormonal,2022-08,104924.11,71.0,24.0
+Pharmacy - Kandy City,Hormonal,2022-09,91408.68,53.0,15.0
+Pharmacy - Kandy City,Hormonal,2022-10,43976.12,37.0,15.0
+Pharmacy - Kandy City,Hormonal,2022-11,78838.19,54.0,23.0
+Pharmacy - Kandy City,Hormonal,2022-12,45646.33,42.0,13.0
+Pharmacy - Kandy City,Hormonal,2023-01,109788.73,61.0,21.0
+Pharmacy - Kandy City,Hormonal,2023-02,123997.36,93.0,29.0
+Pharmacy - Kandy City,Hormonal,2023-03,105344.81,68.0,24.0
+Pharmacy - Kandy City,Hormonal,2023-04,86344.45,50.0,15.0
+Pharmacy - Kandy City,Hormonal,2023-05,96719.9,55.0,18.0
+Pharmacy - Kandy City,Hormonal,2023-06,51136.74,35.0,11.0
+Pharmacy - Kandy City,Painkiller,2022-01,235418.30000000002,138.0,41.0
+Pharmacy - Kandy City,Painkiller,2022-02,149623.71,108.0,36.0
+Pharmacy - Kandy City,Painkiller,2022-03,214640.34,124.0,42.0
+Pharmacy - Kandy City,Painkiller,2022-04,155848.31,102.0,36.0
+Pharmacy - Kandy City,Painkiller,2022-05,215819.64,139.0,49.0
+Pharmacy - Kandy City,Painkiller,2022-06,156938.52,99.0,33.0
+Pharmacy - Kandy City,Painkiller,2022-07,164006.73,106.0,37.0
+Pharmacy - Kandy City,Painkiller,2022-08,222116.59,138.0,48.0
+Pharmacy - Kandy City,Painkiller,2022-09,201467.46,147.0,49.0
+Pharmacy - Kandy City,Painkiller,2022-10,171122.52,100.0,34.0
+Pharmacy - Kandy City,Painkiller,2022-11,197571.94,123.0,40.0
+Pharmacy - Kandy City,Painkiller,2022-12,204040.91,134.0,45.0
+Pharmacy - Kandy City,Painkiller,2023-01,173502.09,105.0,35.0
+Pharmacy - Kandy City,Painkiller,2023-02,130646.35,78.0,32.0
+Pharmacy - Kandy City,Painkiller,2023-03,210506.75,136.0,41.0
+Pharmacy - Kandy City,Painkiller,2023-04,187229.54,97.0,31.0
+Pharmacy - Kandy City,Painkiller,2023-05,189567.71,131.0,48.0
+Pharmacy - Kandy City,Painkiller,2023-06,180882.59,106.0,37.0
+Pharmacy - Kandy City,Respiratory,2022-01,42543.44,23.0,8.0
+Pharmacy - Kandy City,Respiratory,2022-02,42892.56,19.0,8.0
+Pharmacy - Kandy City,Respiratory,2022-03,97376.0,41.0,11.0
+Pharmacy - Kandy City,Respiratory,2022-04,31992.12,28.0,11.0
+Pharmacy - Kandy City,Respiratory,2022-05,19240.2,14.0,5.0
+Pharmacy - Kandy City,Respiratory,2022-06,20010.52,9.0,4.0
+Pharmacy - Kandy City,Respiratory,2022-07,48392.21000000001,30.0,7.0
+Pharmacy - Kandy City,Respiratory,2022-08,31058.16,21.0,9.0
+Pharmacy - Kandy City,Respiratory,2022-09,74215.82,30.0,10.0
+Pharmacy - Kandy City,Respiratory,2022-10,47918.61,32.0,12.0
+Pharmacy - Kandy City,Respiratory,2022-11,70337.7,30.0,11.0
+Pharmacy - Kandy City,Respiratory,2022-12,33234.76,19.0,8.0
+Pharmacy - Kandy City,Respiratory,2023-01,85195.87,37.0,11.0
+Pharmacy - Kandy City,Respiratory,2023-02,39278.4,16.0,5.0
+Pharmacy - Kandy City,Respiratory,2023-03,62483.68,36.0,13.0
+Pharmacy - Kandy City,Respiratory,2023-04,48093.95,21.0,8.0
+Pharmacy - Kandy City,Respiratory,2023-05,39414.64,32.0,11.0
+Pharmacy - Kandy City,Respiratory,2023-06,20993.440000000002,9.0,3.0
+Pharmacy - Kandy City,Vitamin,2022-01,223552.57,113.0,37.0
+Pharmacy - Kandy City,Vitamin,2022-02,208696.45,113.0,37.0
+Pharmacy - Kandy City,Vitamin,2022-03,175491.8,107.0,37.0
+Pharmacy - Kandy City,Vitamin,2022-04,173475.72,92.0,33.0
+Pharmacy - Kandy City,Vitamin,2022-05,225704.84,114.0,43.0
+Pharmacy - Kandy City,Vitamin,2022-06,260086.33,136.0,43.0
+Pharmacy - Kandy City,Vitamin,2022-07,223467.37,102.0,30.0
+Pharmacy - Kandy City,Vitamin,2022-08,235837.44,114.0,36.0
+Pharmacy - Kandy City,Vitamin,2022-09,224362.68,101.0,36.0
+Pharmacy - Kandy City,Vitamin,2022-10,194591.13,102.0,36.0
+Pharmacy - Kandy City,Vitamin,2022-11,207425.49,100.0,40.0
+Pharmacy - Kandy City,Vitamin,2022-12,315069.44,135.0,44.0
+Pharmacy - Kandy City,Vitamin,2023-01,308836.64999999997,160.0,51.0
+Pharmacy - Kandy City,Vitamin,2023-02,172662.24,97.0,34.0
+Pharmacy - Kandy City,Vitamin,2023-03,276608.71,128.0,44.0
+Pharmacy - Kandy City,Vitamin,2023-04,232508.55,113.0,40.0
+Pharmacy - Kandy City,Vitamin,2023-05,184092.7,98.0,37.0
+Pharmacy - Kandy City,Vitamin,2023-06,226458.58,118.0,38.0
+Pharmacy - Kandy City,Wellness,2022-01,23917.5,32.0,10.0
+Pharmacy - Kandy City,Wellness,2022-02,5232.19,9.0,3.0
+Pharmacy - Kandy City,Wellness,2022-03,12205.37,24.0,9.0
+Pharmacy - Kandy City,Wellness,2022-04,6148.3,10.0,5.0
+Pharmacy - Kandy City,Wellness,2022-05,12975.789999999999,15.0,3.0
+Pharmacy - Kandy City,Wellness,2022-06,9554.02,7.0,2.0
+Pharmacy - Kandy City,Wellness,2022-07,15218.91,30.0,9.0
+Pharmacy - Kandy City,Wellness,2022-08,15146.55,15.0,4.0
+Pharmacy - Kandy City,Wellness,2022-09,12607.130000000001,13.0,4.0
+Pharmacy - Kandy City,Wellness,2022-10,13734.82,18.0,8.0
+Pharmacy - Kandy City,Wellness,2022-11,11943.94,14.0,5.0
+Pharmacy - Kandy City,Wellness,2022-12,22264.98,22.0,7.0
+Pharmacy - Kandy City,Wellness,2023-01,6189.12,10.0,3.0
+Pharmacy - Kandy City,Wellness,2023-02,6097.99,7.0,2.0
+Pharmacy - Kandy City,Wellness,2023-03,23411.629999999997,23.0,7.0
+Pharmacy - Kandy City,Wellness,2023-04,9385.11,17.0,5.0
+Pharmacy - Kandy City,Wellness,2023-05,9448.46,12.0,4.0
+Pharmacy - Kandy City,Wellness,2023-06,31119.02,25.0,9.0
+Pharmacy - Kurunegala,Allergy,2022-01,41964.89,38.0,12.0
+Pharmacy - Kurunegala,Allergy,2022-02,55739.59,34.0,11.0
+Pharmacy - Kurunegala,Allergy,2022-03,48543.07,37.0,13.0
+Pharmacy - Kurunegala,Allergy,2022-04,18424.46,21.0,8.0
+Pharmacy - Kurunegala,Allergy,2022-05,46309.82,38.0,14.0
+Pharmacy - Kurunegala,Allergy,2022-06,63983.05,46.0,13.0
+Pharmacy - Kurunegala,Allergy,2022-07,62051.53,41.0,13.0
+Pharmacy - Kurunegala,Allergy,2022-08,98698.44,67.0,20.0
+Pharmacy - Kurunegala,Allergy,2022-09,68326.26,49.0,15.0
+Pharmacy - Kurunegala,Allergy,2022-10,40563.61,32.0,10.0
+Pharmacy - Kurunegala,Allergy,2022-11,64297.02,46.0,16.0
+Pharmacy - Kurunegala,Allergy,2022-12,80526.72,52.0,17.0
+Pharmacy - Kurunegala,Allergy,2023-01,77858.15,48.0,15.0
+Pharmacy - Kurunegala,Allergy,2023-02,68295.12,35.0,15.0
+Pharmacy - Kurunegala,Allergy,2023-03,89674.75,61.0,20.0
+Pharmacy - Kurunegala,Allergy,2023-04,95667.53,58.0,19.0
+Pharmacy - Kurunegala,Allergy,2023-05,104462.25,53.0,15.0
+Pharmacy - Kurunegala,Allergy,2023-06,82179.8,48.0,18.0
+Pharmacy - Kurunegala,Antibiotic,2022-01,267859.37,187.0,70.0
+Pharmacy - Kurunegala,Antibiotic,2022-02,253649.12,181.0,57.0
+Pharmacy - Kurunegala,Antibiotic,2022-03,276436.56,207.0,70.0
+Pharmacy - Kurunegala,Antibiotic,2022-04,216983.05,177.0,63.0
+Pharmacy - Kurunegala,Antibiotic,2022-05,291100.92,217.0,66.0
+Pharmacy - Kurunegala,Antibiotic,2022-06,230211.83000000002,173.0,56.0
+Pharmacy - Kurunegala,Antibiotic,2022-07,226466.35,183.0,59.0
+Pharmacy - Kurunegala,Antibiotic,2022-08,249335.36,172.0,61.0
+Pharmacy - Kurunegala,Antibiotic,2022-09,299910.87,184.0,66.0
+Pharmacy - Kurunegala,Antibiotic,2022-10,228788.51,169.0,57.0
+Pharmacy - Kurunegala,Antibiotic,2022-11,319505.42,212.0,75.0
+Pharmacy - Kurunegala,Antibiotic,2022-12,244433.96,178.0,61.0
+Pharmacy - Kurunegala,Antibiotic,2023-01,336879.51,213.0,66.0
+Pharmacy - Kurunegala,Antibiotic,2023-02,232528.45,159.0,51.0
+Pharmacy - Kurunegala,Antibiotic,2023-03,307240.14,210.0,64.0
+Pharmacy - Kurunegala,Antibiotic,2023-04,270864.09,162.0,55.0
+Pharmacy - Kurunegala,Antibiotic,2023-05,304537.21,213.0,65.0
+Pharmacy - Kurunegala,Antibiotic,2023-06,215996.99,173.0,59.0
+Pharmacy - Kurunegala,Antifungal,2022-01,25768.8,18.0,7.0
+Pharmacy - Kurunegala,Antifungal,2022-02,46716.07,21.0,7.0
+Pharmacy - Kurunegala,Antifungal,2022-03,20332.55,12.0,3.0
+Pharmacy - Kurunegala,Antifungal,2022-04,35950.56,20.0,6.0
+Pharmacy - Kurunegala,Antifungal,2022-05,42506.45,22.0,8.0
+Pharmacy - Kurunegala,Antifungal,2022-06,48365.04,20.0,9.0
+Pharmacy - Kurunegala,Antifungal,2022-07,45091.92,24.0,7.0
+Pharmacy - Kurunegala,Antifungal,2022-08,23508.61,14.0,6.0
+Pharmacy - Kurunegala,Antifungal,2022-09,65931.89,34.0,11.0
+Pharmacy - Kurunegala,Antifungal,2022-10,53205.23,24.0,9.0
+Pharmacy - Kurunegala,Antifungal,2022-11,32130.41,18.0,6.0
+Pharmacy - Kurunegala,Antifungal,2022-12,38544.28,25.0,9.0
+Pharmacy - Kurunegala,Antifungal,2023-01,35322.13,25.0,8.0
+Pharmacy - Kurunegala,Antifungal,2023-02,73939.65,32.0,10.0
+Pharmacy - Kurunegala,Antifungal,2023-03,56984.18,27.0,7.0
+Pharmacy - Kurunegala,Antifungal,2023-04,27141.920000000002,11.0,5.0
+Pharmacy - Kurunegala,Antifungal,2023-05,80331.71,31.0,11.0
+Pharmacy - Kurunegala,Antifungal,2023-06,46190.03,21.0,7.0
+Pharmacy - Kurunegala,Antiviral,2022-01,67410.6,41.0,11.0
+Pharmacy - Kurunegala,Antiviral,2022-02,33191.94,22.0,8.0
+Pharmacy - Kurunegala,Antiviral,2022-03,116227.95,51.0,17.0
+Pharmacy - Kurunegala,Antiviral,2022-04,37913.35,22.0,10.0
+Pharmacy - Kurunegala,Antiviral,2022-05,109207.55,66.0,19.0
+Pharmacy - Kurunegala,Antiviral,2022-06,96852.21,53.0,14.0
+Pharmacy - Kurunegala,Antiviral,2022-07,93289.5,41.0,14.0
+Pharmacy - Kurunegala,Antiviral,2022-08,89768.91,48.0,17.0
+Pharmacy - Kurunegala,Antiviral,2022-09,87221.72,42.0,12.0
+Pharmacy - Kurunegala,Antiviral,2022-10,109591.89,53.0,17.0
+Pharmacy - Kurunegala,Antiviral,2022-11,96715.56,50.0,19.0
+Pharmacy - Kurunegala,Antiviral,2022-12,52678.81,22.0,10.0
+Pharmacy - Kurunegala,Antiviral,2023-01,46763.5,25.0,9.0
+Pharmacy - Kurunegala,Antiviral,2023-02,76480.64,33.0,12.0
+Pharmacy - Kurunegala,Antiviral,2023-03,115492.04,52.0,16.0
+Pharmacy - Kurunegala,Antiviral,2023-04,127893.19,49.0,15.0
+Pharmacy - Kurunegala,Antiviral,2023-05,145597.68,58.0,18.0
+Pharmacy - Kurunegala,Antiviral,2023-06,93748.69,42.0,13.0
+Pharmacy - Kurunegala,Cardiac,2022-01,331192.63,173.0,59.0
+Pharmacy - Kurunegala,Cardiac,2022-02,334605.21,151.0,44.0
+Pharmacy - Kurunegala,Cardiac,2022-03,304936.94,159.0,49.0
+Pharmacy - Kurunegala,Cardiac,2022-04,331832.0,178.0,59.0
+Pharmacy - Kurunegala,Cardiac,2022-05,288772.52,163.0,50.0
+Pharmacy - Kurunegala,Cardiac,2022-06,311992.72000000003,171.0,60.0
+Pharmacy - Kurunegala,Cardiac,2022-07,328691.77,181.0,57.0
+Pharmacy - Kurunegala,Cardiac,2022-08,331989.69,158.0,55.0
+Pharmacy - Kurunegala,Cardiac,2022-09,362854.82,167.0,55.0
+Pharmacy - Kurunegala,Cardiac,2022-10,334673.36,178.0,58.0
+Pharmacy - Kurunegala,Cardiac,2022-11,292660.66,154.0,53.0
+Pharmacy - Kurunegala,Cardiac,2022-12,287986.52999999997,155.0,49.0
+Pharmacy - Kurunegala,Cardiac,2023-01,290314.16,175.0,50.0
+Pharmacy - Kurunegala,Cardiac,2023-02,221096.66,101.0,41.0
+Pharmacy - Kurunegala,Cardiac,2023-03,311738.15,155.0,51.0
+Pharmacy - Kurunegala,Cardiac,2023-04,311007.54,156.0,52.0
+Pharmacy - Kurunegala,Cardiac,2023-05,317672.1,147.0,48.0
+Pharmacy - Kurunegala,Cardiac,2023-06,311140.87,150.0,56.0
+Pharmacy - Kurunegala,Cough & Cold,2022-01,153810.97,84.0,29.0
+Pharmacy - Kurunegala,Cough & Cold,2022-02,191141.27,101.0,29.0
+Pharmacy - Kurunegala,Cough & Cold,2022-03,215674.15,119.0,35.0
+Pharmacy - Kurunegala,Cough & Cold,2022-04,178073.25,95.0,34.0
+Pharmacy - Kurunegala,Cough & Cold,2022-05,210417.37,118.0,37.0
+Pharmacy - Kurunegala,Cough & Cold,2022-06,162696.09,81.0,34.0
+Pharmacy - Kurunegala,Cough & Cold,2022-07,226813.79,110.0,41.0
+Pharmacy - Kurunegala,Cough & Cold,2022-08,198301.88999999998,115.0,37.0
+Pharmacy - Kurunegala,Cough & Cold,2022-09,160523.29,84.0,32.0
+Pharmacy - Kurunegala,Cough & Cold,2022-10,192325.31,99.0,34.0
+Pharmacy - Kurunegala,Cough & Cold,2022-11,187009.6,82.0,29.0
+Pharmacy - Kurunegala,Cough & Cold,2022-12,192241.59,105.0,31.0
+Pharmacy - Kurunegala,Cough & Cold,2023-01,241196.77,116.0,37.0
+Pharmacy - Kurunegala,Cough & Cold,2023-02,216426.46,107.0,38.0
+Pharmacy - Kurunegala,Cough & Cold,2023-03,211344.95,110.0,35.0
+Pharmacy - Kurunegala,Cough & Cold,2023-04,191693.01,101.0,32.0
+Pharmacy - Kurunegala,Cough & Cold,2023-05,189055.01,94.0,33.0
+Pharmacy - Kurunegala,Cough & Cold,2023-06,171459.91,97.0,30.0
+Pharmacy - Kurunegala,Dermatology,2022-01,194612.28,103.0,33.0
+Pharmacy - Kurunegala,Dermatology,2022-02,116294.67,62.0,19.0
+Pharmacy - Kurunegala,Dermatology,2022-03,179883.09,88.0,28.0
+Pharmacy - Kurunegala,Dermatology,2022-04,115362.27,63.0,24.0
+Pharmacy - Kurunegala,Dermatology,2022-05,190817.5,95.0,29.0
+Pharmacy - Kurunegala,Dermatology,2022-06,249194.93,118.0,36.0
+Pharmacy - Kurunegala,Dermatology,2022-07,131350.91999999998,65.0,22.0
+Pharmacy - Kurunegala,Dermatology,2022-08,203936.61000000002,106.0,38.0
+Pharmacy - Kurunegala,Dermatology,2022-09,134742.21,63.0,23.0
+Pharmacy - Kurunegala,Dermatology,2022-10,201646.13,104.0,33.0
+Pharmacy - Kurunegala,Dermatology,2022-11,193929.3,93.0,27.0
+Pharmacy - Kurunegala,Dermatology,2022-12,213487.39,88.0,29.0
+Pharmacy - Kurunegala,Dermatology,2023-01,175425.34,86.0,33.0
+Pharmacy - Kurunegala,Dermatology,2023-02,147062.49,76.0,25.0
+Pharmacy - Kurunegala,Dermatology,2023-03,188350.46,85.0,32.0
+Pharmacy - Kurunegala,Dermatology,2023-04,148612.73,64.0,21.0
+Pharmacy - Kurunegala,Dermatology,2023-05,172093.68,73.0,24.0
+Pharmacy - Kurunegala,Dermatology,2023-06,242804.56,106.0,32.0
+Pharmacy - Kurunegala,Diabetes,2022-01,77863.26,54.0,15.0
+Pharmacy - Kurunegala,Diabetes,2022-02,104007.26,66.0,21.0
+Pharmacy - Kurunegala,Diabetes,2022-03,120981.9,83.0,28.0
+Pharmacy - Kurunegala,Diabetes,2022-04,98514.41,75.0,24.0
+Pharmacy - Kurunegala,Diabetes,2022-05,131013.09,81.0,25.0
+Pharmacy - Kurunegala,Diabetes,2022-06,117680.54000000001,70.0,20.0
+Pharmacy - Kurunegala,Diabetes,2022-07,200589.16,135.0,43.0
+Pharmacy - Kurunegala,Diabetes,2022-08,95143.37,61.0,20.0
+Pharmacy - Kurunegala,Diabetes,2022-09,146912.49,110.0,36.0
+Pharmacy - Kurunegala,Diabetes,2022-10,107308.68,84.0,31.0
+Pharmacy - Kurunegala,Diabetes,2022-11,96147.42,66.0,22.0
+Pharmacy - Kurunegala,Diabetes,2022-12,119671.94,77.0,26.0
+Pharmacy - Kurunegala,Diabetes,2023-01,118256.57,77.0,27.0
+Pharmacy - Kurunegala,Diabetes,2023-02,84566.62,55.0,21.0
+Pharmacy - Kurunegala,Diabetes,2023-03,104343.48,72.0,23.0
+Pharmacy - Kurunegala,Diabetes,2023-04,144140.06,87.0,29.0
+Pharmacy - Kurunegala,Diabetes,2023-05,145228.7,83.0,27.0
+Pharmacy - Kurunegala,Diabetes,2023-06,109143.01,76.0,27.0
+Pharmacy - Kurunegala,First Aid,2022-01,170574.84,96.0,26.0
+Pharmacy - Kurunegala,First Aid,2022-02,121148.94,66.0,18.0
+Pharmacy - Kurunegala,First Aid,2022-03,150503.14,71.0,20.0
+Pharmacy - Kurunegala,First Aid,2022-04,126984.43000000001,67.0,21.0
+Pharmacy - Kurunegala,First Aid,2022-05,166225.33,77.0,26.0
+Pharmacy - Kurunegala,First Aid,2022-06,120389.31,61.0,21.0
+Pharmacy - Kurunegala,First Aid,2022-07,177498.49,92.0,28.0
+Pharmacy - Kurunegala,First Aid,2022-08,134175.9,71.0,25.0
+Pharmacy - Kurunegala,First Aid,2022-09,119527.4,57.0,16.0
+Pharmacy - Kurunegala,First Aid,2022-10,150370.41,83.0,31.0
+Pharmacy - Kurunegala,First Aid,2022-11,127944.8,69.0,23.0
+Pharmacy - Kurunegala,First Aid,2022-12,144037.53,67.0,19.0
+Pharmacy - Kurunegala,First Aid,2023-01,135159.89,68.0,27.0
+Pharmacy - Kurunegala,First Aid,2023-02,173762.11,80.0,24.0
+Pharmacy - Kurunegala,First Aid,2023-03,99701.97,47.0,17.0
+Pharmacy - Kurunegala,First Aid,2023-04,125611.04000000001,58.0,20.0
+Pharmacy - Kurunegala,First Aid,2023-05,142975.56,62.0,18.0
+Pharmacy - Kurunegala,First Aid,2023-06,138182.37,64.0,19.0
+Pharmacy - Kurunegala,Gastro,2022-01,121413.7,79.0,26.0
+Pharmacy - Kurunegala,Gastro,2022-02,85010.75,60.0,22.0
+Pharmacy - Kurunegala,Gastro,2022-03,137917.49,98.0,33.0
+Pharmacy - Kurunegala,Gastro,2022-04,160874.17,90.0,28.0
+Pharmacy - Kurunegala,Gastro,2022-05,118580.28,84.0,31.0
+Pharmacy - Kurunegala,Gastro,2022-06,151330.5,96.0,29.0
+Pharmacy - Kurunegala,Gastro,2022-07,119428.95999999999,87.0,29.0
+Pharmacy - Kurunegala,Gastro,2022-08,98498.93,87.0,33.0
+Pharmacy - Kurunegala,Gastro,2022-09,113911.27,76.0,27.0
+Pharmacy - Kurunegala,Gastro,2022-10,116889.75,87.0,33.0
+Pharmacy - Kurunegala,Gastro,2022-11,87353.27,73.0,23.0
+Pharmacy - Kurunegala,Gastro,2022-12,117755.41,75.0,28.0
+Pharmacy - Kurunegala,Gastro,2023-01,193315.87,105.0,31.0
+Pharmacy - Kurunegala,Gastro,2023-02,115779.6,90.0,31.0
+Pharmacy - Kurunegala,Gastro,2023-03,91447.27,65.0,23.0
+Pharmacy - Kurunegala,Gastro,2023-04,129500.25,83.0,30.0
+Pharmacy - Kurunegala,Gastro,2023-05,164793.74,106.0,33.0
+Pharmacy - Kurunegala,Gastro,2023-06,89681.36,63.0,24.0
+Pharmacy - Kurunegala,Hormonal,2022-01,115216.26,97.0,32.0
+Pharmacy - Kurunegala,Hormonal,2022-02,61703.47,45.0,15.0
+Pharmacy - Kurunegala,Hormonal,2022-03,99357.03,65.0,22.0
+Pharmacy - Kurunegala,Hormonal,2022-04,53147.33,46.0,16.0
+Pharmacy - Kurunegala,Hormonal,2022-05,47747.02,39.0,13.0
+Pharmacy - Kurunegala,Hormonal,2022-06,66778.12,43.0,16.0
+Pharmacy - Kurunegala,Hormonal,2022-07,72932.77,54.0,17.0
+Pharmacy - Kurunegala,Hormonal,2022-08,58843.32,50.0,15.0
+Pharmacy - Kurunegala,Hormonal,2022-09,78478.2,58.0,21.0
+Pharmacy - Kurunegala,Hormonal,2022-10,165130.5,101.0,35.0
+Pharmacy - Kurunegala,Hormonal,2022-11,86852.81,48.0,14.0
+Pharmacy - Kurunegala,Hormonal,2022-12,46606.01,43.0,15.0
+Pharmacy - Kurunegala,Hormonal,2023-01,60308.58,60.0,24.0
+Pharmacy - Kurunegala,Hormonal,2023-02,52714.840000000004,35.0,11.0
+Pharmacy - Kurunegala,Hormonal,2023-03,77522.42,47.0,19.0
+Pharmacy - Kurunegala,Hormonal,2023-04,73428.62,44.0,19.0
+Pharmacy - Kurunegala,Hormonal,2023-05,85552.97,52.0,16.0
+Pharmacy - Kurunegala,Hormonal,2023-06,43922.13,36.0,14.0
+Pharmacy - Kurunegala,Painkiller,2022-01,166014.51,132.0,45.0
+Pharmacy - Kurunegala,Painkiller,2022-02,184915.53,135.0,44.0
+Pharmacy - Kurunegala,Painkiller,2022-03,179778.03,120.0,43.0
+Pharmacy - Kurunegala,Painkiller,2022-04,157839.63,89.0,28.0
+Pharmacy - Kurunegala,Painkiller,2022-05,191606.66,113.0,35.0
+Pharmacy - Kurunegala,Painkiller,2022-06,189389.76,120.0,36.0
+Pharmacy - Kurunegala,Painkiller,2022-07,125914.70999999999,88.0,33.0
+Pharmacy - Kurunegala,Painkiller,2022-08,192062.19,98.0,37.0
+Pharmacy - Kurunegala,Painkiller,2022-09,173825.36,114.0,39.0
+Pharmacy - Kurunegala,Painkiller,2022-10,225683.29,147.0,44.0
+Pharmacy - Kurunegala,Painkiller,2022-11,241885.38,150.0,47.0
+Pharmacy - Kurunegala,Painkiller,2022-12,191231.41,113.0,40.0
+Pharmacy - Kurunegala,Painkiller,2023-01,211159.1,132.0,41.0
+Pharmacy - Kurunegala,Painkiller,2023-02,171982.89,109.0,32.0
+Pharmacy - Kurunegala,Painkiller,2023-03,194231.23,114.0,38.0
+Pharmacy - Kurunegala,Painkiller,2023-04,190306.06,115.0,41.0
+Pharmacy - Kurunegala,Painkiller,2023-05,254766.04,157.0,49.0
+Pharmacy - Kurunegala,Painkiller,2023-06,240764.62,128.0,43.0
+Pharmacy - Kurunegala,Respiratory,2022-01,89907.93,47.0,14.0
+Pharmacy - Kurunegala,Respiratory,2022-02,57783.71,33.0,11.0
+Pharmacy - Kurunegala,Respiratory,2022-03,45561.51,28.0,10.0
+Pharmacy - Kurunegala,Respiratory,2022-04,38975.21,21.0,7.0
+Pharmacy - Kurunegala,Respiratory,2022-05,21030.850000000002,18.0,7.0
+Pharmacy - Kurunegala,Respiratory,2022-06,64645.17,38.0,13.0
+Pharmacy - Kurunegala,Respiratory,2022-07,35666.07,17.0,6.0
+Pharmacy - Kurunegala,Respiratory,2022-08,28983.29,18.0,7.0
+Pharmacy - Kurunegala,Respiratory,2022-09,25792.83,15.0,8.0
+Pharmacy - Kurunegala,Respiratory,2022-10,52621.89,23.0,8.0
+Pharmacy - Kurunegala,Respiratory,2022-11,68881.39,40.0,11.0
+Pharmacy - Kurunegala,Respiratory,2022-12,82134.41,37.0,14.0
+Pharmacy - Kurunegala,Respiratory,2023-01,103372.74,49.0,15.0
+Pharmacy - Kurunegala,Respiratory,2023-02,61415.94,30.0,10.0
+Pharmacy - Kurunegala,Respiratory,2023-03,47143.520000000004,29.0,10.0
+Pharmacy - Kurunegala,Respiratory,2023-04,24393.58,12.0,5.0
+Pharmacy - Kurunegala,Respiratory,2023-05,62265.729999999996,24.0,8.0
+Pharmacy - Kurunegala,Respiratory,2023-06,46609.1,37.0,12.0
+Pharmacy - Kurunegala,Vitamin,2022-01,204894.11000000002,119.0,45.0
+Pharmacy - Kurunegala,Vitamin,2022-02,219576.38,118.0,36.0
+Pharmacy - Kurunegala,Vitamin,2022-03,211064.23,116.0,35.0
+Pharmacy - Kurunegala,Vitamin,2022-04,147025.63,88.0,30.0
+Pharmacy - Kurunegala,Vitamin,2022-05,264638.32,137.0,44.0
+Pharmacy - Kurunegala,Vitamin,2022-06,266059.83,130.0,43.0
+Pharmacy - Kurunegala,Vitamin,2022-07,274164.35,124.0,46.0
+Pharmacy - Kurunegala,Vitamin,2022-08,161086.29,87.0,31.0
+Pharmacy - Kurunegala,Vitamin,2022-09,263332.75,133.0,43.0
+Pharmacy - Kurunegala,Vitamin,2022-10,359419.16,187.0,58.0
+Pharmacy - Kurunegala,Vitamin,2022-11,212929.91,100.0,38.0
+Pharmacy - Kurunegala,Vitamin,2022-12,248164.78,131.0,46.0
+Pharmacy - Kurunegala,Vitamin,2023-01,162241.39,82.0,28.0
+Pharmacy - Kurunegala,Vitamin,2023-02,144609.58,74.0,27.0
+Pharmacy - Kurunegala,Vitamin,2023-03,258562.04,128.0,43.0
+Pharmacy - Kurunegala,Vitamin,2023-04,145926.24,66.0,25.0
+Pharmacy - Kurunegala,Vitamin,2023-05,239917.12,114.0,39.0
+Pharmacy - Kurunegala,Vitamin,2023-06,250943.29,136.0,46.0
+Pharmacy - Kurunegala,Wellness,2022-01,9099.58,13.0,5.0
+Pharmacy - Kurunegala,Wellness,2022-02,321.16,1.0,1.0
+Pharmacy - Kurunegala,Wellness,2022-03,18735.34,21.0,6.0
+Pharmacy - Kurunegala,Wellness,2022-04,21383.77,22.0,6.0
+Pharmacy - Kurunegala,Wellness,2022-05,14130.11,18.0,6.0
+Pharmacy - Kurunegala,Wellness,2022-06,7223.55,13.0,6.0
+Pharmacy - Kurunegala,Wellness,2022-07,18601.66,23.0,7.0
+Pharmacy - Kurunegala,Wellness,2022-08,10911.78,21.0,9.0
+Pharmacy - Kurunegala,Wellness,2022-09,12615.45,16.0,6.0
+Pharmacy - Kurunegala,Wellness,2022-10,10092.86,14.0,5.0
+Pharmacy - Kurunegala,Wellness,2022-11,23998.97,26.0,10.0
+Pharmacy - Kurunegala,Wellness,2022-12,20944.92,24.0,9.0
+Pharmacy - Kurunegala,Wellness,2023-01,5418.51,7.0,3.0
+Pharmacy - Kurunegala,Wellness,2023-02,12280.130000000001,16.0,5.0
+Pharmacy - Kurunegala,Wellness,2023-03,7308.67,9.0,3.0
+Pharmacy - Kurunegala,Wellness,2023-04,4520.610000000001,6.0,3.0
+Pharmacy - Kurunegala,Wellness,2023-05,3083.2299999999996,8.0,3.0
+Pharmacy - Kurunegala,Wellness,2023-06,10431.43,11.0,4.0
+Pharmacy - Negombo,Allergy,2022-01,56408.08,42.0,11.0
+Pharmacy - Negombo,Allergy,2022-02,44606.81,29.0,14.0
+Pharmacy - Negombo,Allergy,2022-03,98059.09,70.0,21.0
+Pharmacy - Negombo,Allergy,2022-04,46672.21,35.0,14.0
+Pharmacy - Negombo,Allergy,2022-05,117496.32,77.0,23.0
+Pharmacy - Negombo,Allergy,2022-06,96728.5,57.0,16.0
+Pharmacy - Negombo,Allergy,2022-07,95712.40000000001,62.0,21.0
+Pharmacy - Negombo,Allergy,2022-08,55832.33,47.0,17.0
+Pharmacy - Negombo,Allergy,2022-09,56241.52,41.0,17.0
+Pharmacy - Negombo,Allergy,2022-10,52181.29,48.0,18.0
+Pharmacy - Negombo,Allergy,2022-11,46138.73,34.0,13.0
+Pharmacy - Negombo,Allergy,2022-12,117332.8,67.0,19.0
+Pharmacy - Negombo,Allergy,2023-01,77598.5,59.0,19.0
+Pharmacy - Negombo,Allergy,2023-02,83688.24,68.0,18.0
+Pharmacy - Negombo,Allergy,2023-03,85534.81999999999,51.0,17.0
+Pharmacy - Negombo,Allergy,2023-04,86322.7,50.0,14.0
+Pharmacy - Negombo,Allergy,2023-05,85266.63,44.0,12.0
+Pharmacy - Negombo,Allergy,2023-06,63656.46,50.0,16.0
+Pharmacy - Negombo,Antibiotic,2022-01,432725.79,273.0,86.0
+Pharmacy - Negombo,Antibiotic,2022-02,228289.17,162.0,48.0
+Pharmacy - Negombo,Antibiotic,2022-03,209109.0,169.0,59.0
+Pharmacy - Negombo,Antibiotic,2022-04,228585.57,194.0,61.0
+Pharmacy - Negombo,Antibiotic,2022-05,281995.5,199.0,59.0
+Pharmacy - Negombo,Antibiotic,2022-06,239421.56,182.0,58.0
+Pharmacy - Negombo,Antibiotic,2022-07,264676.32,177.0,59.0
+Pharmacy - Negombo,Antibiotic,2022-08,309748.58999999997,175.0,59.0
+Pharmacy - Negombo,Antibiotic,2022-09,246330.78,182.0,58.0
+Pharmacy - Negombo,Antibiotic,2022-10,294002.58,194.0,65.0
+Pharmacy - Negombo,Antibiotic,2022-11,198068.44,160.0,55.0
+Pharmacy - Negombo,Antibiotic,2022-12,185324.53,140.0,48.0
+Pharmacy - Negombo,Antibiotic,2023-01,324264.47,198.0,64.0
+Pharmacy - Negombo,Antibiotic,2023-02,275531.53,185.0,57.0
+Pharmacy - Negombo,Antibiotic,2023-03,317208.99,215.0,69.0
+Pharmacy - Negombo,Antibiotic,2023-04,252833.98,153.0,53.0
+Pharmacy - Negombo,Antibiotic,2023-05,285129.82,179.0,61.0
+Pharmacy - Negombo,Antibiotic,2023-06,345671.43,190.0,63.0
+Pharmacy - Negombo,Antifungal,2022-01,52055.38,31.0,11.0
+Pharmacy - Negombo,Antifungal,2022-02,33972.36,15.0,6.0
+Pharmacy - Negombo,Antifungal,2022-03,19643.41,8.0,3.0
+Pharmacy - Negombo,Antifungal,2022-04,56219.83,35.0,10.0
+Pharmacy - Negombo,Antifungal,2022-05,33180.53,19.0,8.0
+Pharmacy - Negombo,Antifungal,2022-06,62784.16,28.0,8.0
+Pharmacy - Negombo,Antifungal,2022-07,78989.0,36.0,11.0
+Pharmacy - Negombo,Antifungal,2022-08,46445.93,20.0,7.0
+Pharmacy - Negombo,Antifungal,2022-09,21581.29,19.0,5.0
+Pharmacy - Negombo,Antifungal,2022-10,50609.18,25.0,10.0
+Pharmacy - Negombo,Antifungal,2022-11,84844.64,46.0,17.0
+Pharmacy - Negombo,Antifungal,2022-12,82451.41,35.0,10.0
+Pharmacy - Negombo,Antifungal,2023-01,23095.809999999998,10.0,4.0
+Pharmacy - Negombo,Antifungal,2023-02,55339.32,33.0,10.0
+Pharmacy - Negombo,Antifungal,2023-03,9567.23,4.0,2.0
+Pharmacy - Negombo,Antifungal,2023-04,48992.28,22.0,6.0
+Pharmacy - Negombo,Antifungal,2023-05,34176.85,21.0,6.0
+Pharmacy - Negombo,Antifungal,2023-06,42462.39,28.0,9.0
+Pharmacy - Negombo,Antiviral,2022-01,57634.75,31.0,11.0
+Pharmacy - Negombo,Antiviral,2022-02,85915.42,47.0,14.0
+Pharmacy - Negombo,Antiviral,2022-03,136393.07,66.0,24.0
+Pharmacy - Negombo,Antiviral,2022-04,47586.869999999995,21.0,5.0
+Pharmacy - Negombo,Antiviral,2022-05,65196.33,29.0,12.0
+Pharmacy - Negombo,Antiviral,2022-06,104708.35,48.0,17.0
+Pharmacy - Negombo,Antiviral,2022-07,118364.57,45.0,18.0
+Pharmacy - Negombo,Antiviral,2022-08,63636.5,27.0,9.0
+Pharmacy - Negombo,Antiviral,2022-09,43802.44,21.0,9.0
+Pharmacy - Negombo,Antiviral,2022-10,43421.92,20.0,8.0
+Pharmacy - Negombo,Antiviral,2022-11,32199.35,22.0,6.0
+Pharmacy - Negombo,Antiviral,2022-12,90833.42,47.0,13.0
+Pharmacy - Negombo,Antiviral,2023-01,95763.68000000001,39.0,13.0
+Pharmacy - Negombo,Antiviral,2023-02,108990.29000000001,44.0,14.0
+Pharmacy - Negombo,Antiviral,2023-03,116139.89,50.0,14.0
+Pharmacy - Negombo,Antiviral,2023-04,84522.66,35.0,10.0
+Pharmacy - Negombo,Antiviral,2023-05,46966.03,26.0,9.0
+Pharmacy - Negombo,Antiviral,2023-06,35198.41,18.0,7.0
+Pharmacy - Negombo,Cardiac,2022-01,272155.86,151.0,48.0
+Pharmacy - Negombo,Cardiac,2022-02,218701.28,107.0,37.0
+Pharmacy - Negombo,Cardiac,2022-03,256121.56,155.0,52.0
+Pharmacy - Negombo,Cardiac,2022-04,258153.11,125.0,40.0
+Pharmacy - Negombo,Cardiac,2022-05,260756.35,151.0,52.0
+Pharmacy - Negombo,Cardiac,2022-06,313861.77,165.0,55.0
+Pharmacy - Negombo,Cardiac,2022-07,238010.69,131.0,44.0
+Pharmacy - Negombo,Cardiac,2022-08,298821.85,157.0,55.0
+Pharmacy - Negombo,Cardiac,2022-09,296208.67,176.0,59.0
+Pharmacy - Negombo,Cardiac,2022-10,364329.72000000003,178.0,63.0
+Pharmacy - Negombo,Cardiac,2022-11,306677.02,177.0,61.0
+Pharmacy - Negombo,Cardiac,2022-12,260972.33000000002,166.0,57.0
+Pharmacy - Negombo,Cardiac,2023-01,244512.57,117.0,43.0
+Pharmacy - Negombo,Cardiac,2023-02,243873.87,113.0,35.0
+Pharmacy - Negombo,Cardiac,2023-03,420488.68,183.0,64.0
+Pharmacy - Negombo,Cardiac,2023-04,295807.1,159.0,49.0
+Pharmacy - Negombo,Cardiac,2023-05,242583.48,119.0,39.0
+Pharmacy - Negombo,Cardiac,2023-06,315997.42,155.0,55.0
+Pharmacy - Negombo,Cough & Cold,2022-01,204612.21,106.0,39.0
+Pharmacy - Negombo,Cough & Cold,2022-02,179044.34,85.0,25.0
+Pharmacy - Negombo,Cough & Cold,2022-03,184570.92,98.0,32.0
+Pharmacy - Negombo,Cough & Cold,2022-04,141667.93,69.0,27.0
+Pharmacy - Negombo,Cough & Cold,2022-05,202886.44,114.0,37.0
+Pharmacy - Negombo,Cough & Cold,2022-06,109725.44,60.0,22.0
+Pharmacy - Negombo,Cough & Cold,2022-07,76828.68000000001,52.0,20.0
+Pharmacy - Negombo,Cough & Cold,2022-08,174632.35,100.0,34.0
+Pharmacy - Negombo,Cough & Cold,2022-09,169759.42,86.0,28.0
+Pharmacy - Negombo,Cough & Cold,2022-10,193389.57,83.0,29.0
+Pharmacy - Negombo,Cough & Cold,2022-11,138185.18,77.0,28.0
+Pharmacy - Negombo,Cough & Cold,2022-12,272647.45,120.0,38.0
+Pharmacy - Negombo,Cough & Cold,2023-01,249142.48,120.0,41.0
+Pharmacy - Negombo,Cough & Cold,2023-02,149100.07,81.0,30.0
+Pharmacy - Negombo,Cough & Cold,2023-03,177833.01,89.0,29.0
+Pharmacy - Negombo,Cough & Cold,2023-04,143520.5,89.0,28.0
+Pharmacy - Negombo,Cough & Cold,2023-05,210756.29,97.0,35.0
+Pharmacy - Negombo,Cough & Cold,2023-06,160470.41,90.0,35.0
+Pharmacy - Negombo,Dermatology,2022-01,264725.37,129.0,38.0
+Pharmacy - Negombo,Dermatology,2022-02,154923.7,69.0,23.0
+Pharmacy - Negombo,Dermatology,2022-03,70401.0,52.0,19.0
+Pharmacy - Negombo,Dermatology,2022-04,149862.49,64.0,26.0
+Pharmacy - Negombo,Dermatology,2022-05,117461.51,69.0,25.0
+Pharmacy - Negombo,Dermatology,2022-06,155537.88,72.0,25.0
+Pharmacy - Negombo,Dermatology,2022-07,108917.44,67.0,22.0
+Pharmacy - Negombo,Dermatology,2022-08,202838.92,106.0,34.0
+Pharmacy - Negombo,Dermatology,2022-09,136729.07,62.0,21.0
+Pharmacy - Negombo,Dermatology,2022-10,161043.52,70.0,28.0
+Pharmacy - Negombo,Dermatology,2022-11,105227.02,53.0,21.0
+Pharmacy - Negombo,Dermatology,2022-12,144657.27,64.0,27.0
+Pharmacy - Negombo,Dermatology,2023-01,168301.62,68.0,26.0
+Pharmacy - Negombo,Dermatology,2023-02,109077.7,55.0,20.0
+Pharmacy - Negombo,Dermatology,2023-03,129786.55,65.0,21.0
+Pharmacy - Negombo,Dermatology,2023-04,145709.59,69.0,25.0
+Pharmacy - Negombo,Dermatology,2023-05,157448.48,84.0,28.0
+Pharmacy - Negombo,Dermatology,2023-06,136631.69,65.0,22.0
+Pharmacy - Negombo,Diabetes,2022-01,110808.74,83.0,25.0
+Pharmacy - Negombo,Diabetes,2022-02,123058.6,81.0,25.0
+Pharmacy - Negombo,Diabetes,2022-03,133154.43,114.0,34.0
+Pharmacy - Negombo,Diabetes,2022-04,116543.59,91.0,29.0
+Pharmacy - Negombo,Diabetes,2022-05,102588.35,58.0,20.0
+Pharmacy - Negombo,Diabetes,2022-06,101067.43,66.0,24.0
+Pharmacy - Negombo,Diabetes,2022-07,123728.36,77.0,29.0
+Pharmacy - Negombo,Diabetes,2022-08,98163.87,62.0,21.0
+Pharmacy - Negombo,Diabetes,2022-09,86073.86,62.0,22.0
+Pharmacy - Negombo,Diabetes,2022-10,61305.05,38.0,15.0
+Pharmacy - Negombo,Diabetes,2022-11,132528.66,76.0,25.0
+Pharmacy - Negombo,Diabetes,2022-12,135344.3,82.0,27.0
+Pharmacy - Negombo,Diabetes,2023-01,114936.65,70.0,19.0
+Pharmacy - Negombo,Diabetes,2023-02,98357.76,57.0,19.0
+Pharmacy - Negombo,Diabetes,2023-03,98406.14,75.0,25.0
+Pharmacy - Negombo,Diabetes,2023-04,174955.1,109.0,31.0
+Pharmacy - Negombo,Diabetes,2023-05,124225.84,72.0,25.0
+Pharmacy - Negombo,Diabetes,2023-06,128279.79000000001,71.0,26.0
+Pharmacy - Negombo,First Aid,2022-01,168430.24,86.0,25.0
+Pharmacy - Negombo,First Aid,2022-02,88953.31,50.0,19.0
+Pharmacy - Negombo,First Aid,2022-03,114227.9,60.0,20.0
+Pharmacy - Negombo,First Aid,2022-04,173767.91,85.0,25.0
+Pharmacy - Negombo,First Aid,2022-05,114390.47,60.0,21.0
+Pharmacy - Negombo,First Aid,2022-06,160097.57,80.0,23.0
+Pharmacy - Negombo,First Aid,2022-07,149865.69,70.0,23.0
+Pharmacy - Negombo,First Aid,2022-08,165470.85,82.0,26.0
+Pharmacy - Negombo,First Aid,2022-09,129967.05,67.0,27.0
+Pharmacy - Negombo,First Aid,2022-10,148926.4,78.0,25.0
+Pharmacy - Negombo,First Aid,2022-11,123503.09,63.0,18.0
+Pharmacy - Negombo,First Aid,2022-12,98933.86,48.0,16.0
+Pharmacy - Negombo,First Aid,2023-01,174220.91999999998,76.0,22.0
+Pharmacy - Negombo,First Aid,2023-02,148075.52,66.0,22.0
+Pharmacy - Negombo,First Aid,2023-03,105133.63,52.0,16.0
+Pharmacy - Negombo,First Aid,2023-04,89369.44,36.0,13.0
+Pharmacy - Negombo,First Aid,2023-05,204671.6,96.0,26.0
+Pharmacy - Negombo,First Aid,2023-06,203623.54,93.0,30.0
+Pharmacy - Negombo,Gastro,2022-01,111554.18,72.0,23.0
+Pharmacy - Negombo,Gastro,2022-02,126030.53,92.0,28.0
+Pharmacy - Negombo,Gastro,2022-03,135275.69,102.0,33.0
+Pharmacy - Negombo,Gastro,2022-04,116582.86,80.0,30.0
+Pharmacy - Negombo,Gastro,2022-05,82992.15,84.0,29.0
+Pharmacy - Negombo,Gastro,2022-06,119446.25,66.0,24.0
+Pharmacy - Negombo,Gastro,2022-07,163409.06,113.0,37.0
+Pharmacy - Negombo,Gastro,2022-08,124065.27,84.0,30.0
+Pharmacy - Negombo,Gastro,2022-09,96559.92,84.0,32.0
+Pharmacy - Negombo,Gastro,2022-10,64259.18,49.0,16.0
+Pharmacy - Negombo,Gastro,2022-11,131185.54,68.0,22.0
+Pharmacy - Negombo,Gastro,2022-12,127319.41,84.0,27.0
+Pharmacy - Negombo,Gastro,2023-01,137495.52,85.0,28.0
+Pharmacy - Negombo,Gastro,2023-02,103142.44,66.0,18.0
+Pharmacy - Negombo,Gastro,2023-03,95667.74,82.0,28.0
+Pharmacy - Negombo,Gastro,2023-04,111875.51,95.0,33.0
+Pharmacy - Negombo,Gastro,2023-05,167715.53,108.0,32.0
+Pharmacy - Negombo,Gastro,2023-06,163201.24,85.0,29.0
+Pharmacy - Negombo,Hormonal,2022-01,93586.23,60.0,19.0
+Pharmacy - Negombo,Hormonal,2022-02,95283.26000000001,71.0,21.0
+Pharmacy - Negombo,Hormonal,2022-03,100526.0,65.0,21.0
+Pharmacy - Negombo,Hormonal,2022-04,76050.27,47.0,15.0
+Pharmacy - Negombo,Hormonal,2022-05,14237.279999999999,16.0,9.0
+Pharmacy - Negombo,Hormonal,2022-06,130196.55,69.0,24.0
+Pharmacy - Negombo,Hormonal,2022-07,115867.84,84.0,25.0
+Pharmacy - Negombo,Hormonal,2022-08,42924.71,35.0,13.0
+Pharmacy - Negombo,Hormonal,2022-09,110764.31,62.0,20.0
+Pharmacy - Negombo,Hormonal,2022-10,106867.63,61.0,21.0
+Pharmacy - Negombo,Hormonal,2022-11,48657.29,34.0,12.0
+Pharmacy - Negombo,Hormonal,2022-12,38390.77,37.0,16.0
+Pharmacy - Negombo,Hormonal,2023-01,76645.79000000001,46.0,16.0
+Pharmacy - Negombo,Hormonal,2023-02,60635.89,36.0,12.0
+Pharmacy - Negombo,Hormonal,2023-03,119476.9,67.0,20.0
+Pharmacy - Negombo,Hormonal,2023-04,58689.32,43.0,13.0
+Pharmacy - Negombo,Hormonal,2023-05,66581.91,53.0,16.0
+Pharmacy - Negombo,Hormonal,2023-06,59975.8,49.0,15.0
+Pharmacy - Negombo,Painkiller,2022-01,232693.76,159.0,51.0
+Pharmacy - Negombo,Painkiller,2022-02,178415.91999999998,106.0,38.0
+Pharmacy - Negombo,Painkiller,2022-03,180093.13999999998,124.0,40.0
+Pharmacy - Negombo,Painkiller,2022-04,145241.06,105.0,37.0
+Pharmacy - Negombo,Painkiller,2022-05,198600.22,113.0,40.0
+Pharmacy - Negombo,Painkiller,2022-06,239634.03,147.0,43.0
+Pharmacy - Negombo,Painkiller,2022-07,206409.62,110.0,35.0
+Pharmacy - Negombo,Painkiller,2022-08,184098.36,108.0,33.0
+Pharmacy - Negombo,Painkiller,2022-09,230667.07,134.0,45.0
+Pharmacy - Negombo,Painkiller,2022-10,189460.19,122.0,41.0
+Pharmacy - Negombo,Painkiller,2022-11,138063.94,85.0,28.0
+Pharmacy - Negombo,Painkiller,2022-12,310976.1,182.0,53.0
+Pharmacy - Negombo,Painkiller,2023-01,223079.6,128.0,41.0
+Pharmacy - Negombo,Painkiller,2023-02,165761.45,105.0,36.0
+Pharmacy - Negombo,Painkiller,2023-03,215402.13,134.0,41.0
+Pharmacy - Negombo,Painkiller,2023-04,181778.3,124.0,42.0
+Pharmacy - Negombo,Painkiller,2023-05,274780.96,140.0,50.0
+Pharmacy - Negombo,Painkiller,2023-06,240089.48,138.0,43.0
+Pharmacy - Negombo,Respiratory,2022-01,50787.6,34.0,12.0
+Pharmacy - Negombo,Respiratory,2022-02,69416.54000000001,28.0,9.0
+Pharmacy - Negombo,Respiratory,2022-03,65833.11,31.0,9.0
+Pharmacy - Negombo,Respiratory,2022-04,54880.11,26.0,11.0
+Pharmacy - Negombo,Respiratory,2022-05,49480.6,34.0,12.0
+Pharmacy - Negombo,Respiratory,2022-06,68646.98,38.0,13.0
+Pharmacy - Negombo,Respiratory,2022-07,83760.41,42.0,14.0
+Pharmacy - Negombo,Respiratory,2022-08,71137.12,35.0,10.0
+Pharmacy - Negombo,Respiratory,2022-09,17732.4,8.0,3.0
+Pharmacy - Negombo,Respiratory,2022-10,39338.57,20.0,7.0
+Pharmacy - Negombo,Respiratory,2022-11,102088.58,52.0,16.0
+Pharmacy - Negombo,Respiratory,2022-12,68051.49,39.0,14.0
+Pharmacy - Negombo,Respiratory,2023-01,88811.77,41.0,14.0
+Pharmacy - Negombo,Respiratory,2023-02,51868.24,26.0,9.0
+Pharmacy - Negombo,Respiratory,2023-03,73849.41,34.0,11.0
+Pharmacy - Negombo,Respiratory,2023-04,61407.72,48.0,15.0
+Pharmacy - Negombo,Respiratory,2023-05,33957.34,15.0,5.0
+Pharmacy - Negombo,Respiratory,2023-06,39832.9,21.0,8.0
+Pharmacy - Negombo,Vitamin,2022-01,186740.91,95.0,32.0
+Pharmacy - Negombo,Vitamin,2022-02,164104.07,88.0,30.0
+Pharmacy - Negombo,Vitamin,2022-03,315216.82,159.0,46.0
+Pharmacy - Negombo,Vitamin,2022-04,218880.7,106.0,33.0
+Pharmacy - Negombo,Vitamin,2022-05,243310.5,119.0,41.0
+Pharmacy - Negombo,Vitamin,2022-06,236445.56,114.0,41.0
+Pharmacy - Negombo,Vitamin,2022-07,281578.52999999997,140.0,47.0
+Pharmacy - Negombo,Vitamin,2022-08,232889.66,108.0,35.0
+Pharmacy - Negombo,Vitamin,2022-09,269784.28,133.0,49.0
+Pharmacy - Negombo,Vitamin,2022-10,221128.44,119.0,41.0
+Pharmacy - Negombo,Vitamin,2022-11,180127.61,83.0,28.0
+Pharmacy - Negombo,Vitamin,2022-12,247722.96,129.0,40.0
+Pharmacy - Negombo,Vitamin,2023-01,248942.88999999998,131.0,41.0
+Pharmacy - Negombo,Vitamin,2023-02,249560.96,139.0,44.0
+Pharmacy - Negombo,Vitamin,2023-03,204242.4,90.0,33.0
+Pharmacy - Negombo,Vitamin,2023-04,278145.37,128.0,43.0
+Pharmacy - Negombo,Vitamin,2023-05,304958.63,135.0,42.0
+Pharmacy - Negombo,Vitamin,2023-06,302391.36,143.0,48.0
+Pharmacy - Negombo,Wellness,2022-01,6471.78,8.0,5.0
+Pharmacy - Negombo,Wellness,2022-02,25256.75,36.0,10.0
+Pharmacy - Negombo,Wellness,2022-03,14096.17,15.0,5.0
+Pharmacy - Negombo,Wellness,2022-04,13451.44,22.0,6.0
+Pharmacy - Negombo,Wellness,2022-05,9509.06,10.0,4.0
+Pharmacy - Negombo,Wellness,2022-06,5941.17,9.0,4.0
+Pharmacy - Negombo,Wellness,2022-07,11679.25,15.0,5.0
+Pharmacy - Negombo,Wellness,2022-08,19412.78,28.0,7.0
+Pharmacy - Negombo,Wellness,2022-09,13163.14,15.0,6.0
+Pharmacy - Negombo,Wellness,2022-10,15277.650000000001,16.0,5.0
+Pharmacy - Negombo,Wellness,2022-11,9206.89,14.0,4.0
+Pharmacy - Negombo,Wellness,2022-12,11768.89,14.0,5.0
+Pharmacy - Negombo,Wellness,2023-01,15580.52,18.0,6.0
+Pharmacy - Negombo,Wellness,2023-02,19356.95,19.0,5.0
+Pharmacy - Negombo,Wellness,2023-03,11723.01,21.0,6.0
+Pharmacy - Negombo,Wellness,2023-04,11496.400000000001,10.0,3.0
+Pharmacy - Negombo,Wellness,2023-05,15899.67,16.0,5.0
+Pharmacy - Negombo,Wellness,2023-06,18893.47,27.0,8.0
+Pharmacy - Ratnapura,Allergy,2022-01,45608.32,33.0,14.0
+Pharmacy - Ratnapura,Allergy,2022-02,78461.8,51.0,17.0
+Pharmacy - Ratnapura,Allergy,2022-03,95196.75,67.0,23.0
+Pharmacy - Ratnapura,Allergy,2022-04,50316.48,34.0,12.0
+Pharmacy - Ratnapura,Allergy,2022-05,84104.87,59.0,22.0
+Pharmacy - Ratnapura,Allergy,2022-06,28888.62,22.0,8.0
+Pharmacy - Ratnapura,Allergy,2022-07,72582.74,54.0,16.0
+Pharmacy - Ratnapura,Allergy,2022-08,77989.49,54.0,18.0
+Pharmacy - Ratnapura,Allergy,2022-09,73416.72,43.0,12.0
+Pharmacy - Ratnapura,Allergy,2022-10,61970.45,46.0,18.0
+Pharmacy - Ratnapura,Allergy,2022-11,63020.0,45.0,14.0
+Pharmacy - Ratnapura,Allergy,2022-12,124483.34,86.0,27.0
+Pharmacy - Ratnapura,Allergy,2023-01,67190.93,48.0,16.0
+Pharmacy - Ratnapura,Allergy,2023-02,69618.58,46.0,15.0
+Pharmacy - Ratnapura,Allergy,2023-03,91580.67,52.0,19.0
+Pharmacy - Ratnapura,Allergy,2023-04,30087.47,20.0,8.0
+Pharmacy - Ratnapura,Allergy,2023-05,66109.46,41.0,15.0
+Pharmacy - Ratnapura,Allergy,2023-06,112584.19,67.0,21.0
+Pharmacy - Ratnapura,Antibiotic,2022-01,239385.59,201.0,62.0
+Pharmacy - Ratnapura,Antibiotic,2022-02,243925.63999999998,168.0,53.0
+Pharmacy - Ratnapura,Antibiotic,2022-03,272313.73,188.0,61.0
+Pharmacy - Ratnapura,Antibiotic,2022-04,252296.99,177.0,62.0
+Pharmacy - Ratnapura,Antibiotic,2022-05,347843.77,237.0,77.0
+Pharmacy - Ratnapura,Antibiotic,2022-06,342588.54,240.0,76.0
+Pharmacy - Ratnapura,Antibiotic,2022-07,217794.76,155.0,49.0
+Pharmacy - Ratnapura,Antibiotic,2022-08,259056.75,171.0,60.0
+Pharmacy - Ratnapura,Antibiotic,2022-09,265058.64,185.0,60.0
+Pharmacy - Ratnapura,Antibiotic,2022-10,290609.84,225.0,72.0
+Pharmacy - Ratnapura,Antibiotic,2022-11,301758.2,186.0,59.0
+Pharmacy - Ratnapura,Antibiotic,2022-12,274701.98,171.0,54.0
+Pharmacy - Ratnapura,Antibiotic,2023-01,229378.08,125.0,49.0
+Pharmacy - Ratnapura,Antibiotic,2023-02,220882.44,153.0,53.0
+Pharmacy - Ratnapura,Antibiotic,2023-03,300221.48,208.0,68.0
+Pharmacy - Ratnapura,Antibiotic,2023-04,212976.37,166.0,51.0
+Pharmacy - Ratnapura,Antibiotic,2023-05,264844.41,149.0,49.0
+Pharmacy - Ratnapura,Antibiotic,2023-06,217233.91999999998,152.0,52.0
+Pharmacy - Ratnapura,Antifungal,2022-01,29867.49,17.0,6.0
+Pharmacy - Ratnapura,Antifungal,2022-02,24555.7,17.0,6.0
+Pharmacy - Ratnapura,Antifungal,2022-03,56501.85,28.0,11.0
+Pharmacy - Ratnapura,Antifungal,2022-04,61630.229999999996,31.0,9.0
+Pharmacy - Ratnapura,Antifungal,2022-05,49124.72,24.0,9.0
+Pharmacy - Ratnapura,Antifungal,2022-06,57633.58,31.0,9.0
+Pharmacy - Ratnapura,Antifungal,2022-07,58098.369999999995,26.0,10.0
+Pharmacy - Ratnapura,Antifungal,2022-08,89521.57,42.0,11.0
+Pharmacy - Ratnapura,Antifungal,2022-09,62396.909999999996,30.0,10.0
+Pharmacy - Ratnapura,Antifungal,2022-10,51583.979999999996,28.0,10.0
+Pharmacy - Ratnapura,Antifungal,2022-11,31607.5,17.0,5.0
+Pharmacy - Ratnapura,Antifungal,2022-12,27214.68,15.0,6.0
+Pharmacy - Ratnapura,Antifungal,2023-01,59766.3,33.0,11.0
+Pharmacy - Ratnapura,Antifungal,2023-02,26569.44,11.0,4.0
+Pharmacy - Ratnapura,Antifungal,2023-03,115199.05,53.0,16.0
+Pharmacy - Ratnapura,Antifungal,2023-04,64784.64,29.0,11.0
+Pharmacy - Ratnapura,Antifungal,2023-05,37474.65,21.0,8.0
+Pharmacy - Ratnapura,Antifungal,2023-06,69362.53,34.0,11.0
+Pharmacy - Ratnapura,Antiviral,2022-01,82195.58,46.0,14.0
+Pharmacy - Ratnapura,Antiviral,2022-02,62897.39,33.0,11.0
+Pharmacy - Ratnapura,Antiviral,2022-03,104458.17,45.0,12.0
+Pharmacy - Ratnapura,Antiviral,2022-04,76426.02,36.0,13.0
+Pharmacy - Ratnapura,Antiviral,2022-05,98807.70999999999,46.0,15.0
+Pharmacy - Ratnapura,Antiviral,2022-06,112664.29,59.0,20.0
+Pharmacy - Ratnapura,Antiviral,2022-07,105373.32,46.0,17.0
+Pharmacy - Ratnapura,Antiviral,2022-08,87010.91,38.0,14.0
+Pharmacy - Ratnapura,Antiviral,2022-09,98620.98,43.0,14.0
+Pharmacy - Ratnapura,Antiviral,2022-10,58227.8,32.0,13.0
+Pharmacy - Ratnapura,Antiviral,2022-11,73594.61,27.0,9.0
+Pharmacy - Ratnapura,Antiviral,2022-12,120668.22,48.0,16.0
+Pharmacy - Ratnapura,Antiviral,2023-01,119890.41,49.0,14.0
+Pharmacy - Ratnapura,Antiviral,2023-02,42186.5,23.0,7.0
+Pharmacy - Ratnapura,Antiviral,2023-03,68313.38,29.0,10.0
+Pharmacy - Ratnapura,Antiviral,2023-04,87339.32,36.0,12.0
+Pharmacy - Ratnapura,Antiviral,2023-05,160070.96,73.0,24.0
+Pharmacy - Ratnapura,Antiviral,2023-06,68771.6,38.0,14.0
+Pharmacy - Ratnapura,Cardiac,2022-01,263788.14,151.0,55.0
+Pharmacy - Ratnapura,Cardiac,2022-02,250317.6,147.0,54.0
+Pharmacy - Ratnapura,Cardiac,2022-03,257496.68,164.0,53.0
+Pharmacy - Ratnapura,Cardiac,2022-04,281241.04,178.0,68.0
+Pharmacy - Ratnapura,Cardiac,2022-05,294119.79,151.0,53.0
+Pharmacy - Ratnapura,Cardiac,2022-06,296488.2,167.0,54.0
+Pharmacy - Ratnapura,Cardiac,2022-07,228738.81,126.0,43.0
+Pharmacy - Ratnapura,Cardiac,2022-08,293552.55,163.0,52.0
+Pharmacy - Ratnapura,Cardiac,2022-09,240556.83,151.0,52.0
+Pharmacy - Ratnapura,Cardiac,2022-10,342637.83,172.0,60.0
+Pharmacy - Ratnapura,Cardiac,2022-11,278882.66,156.0,51.0
+Pharmacy - Ratnapura,Cardiac,2022-12,393124.51,185.0,59.0
+Pharmacy - Ratnapura,Cardiac,2023-01,278094.4,144.0,52.0
+Pharmacy - Ratnapura,Cardiac,2023-02,293882.88,152.0,53.0
+Pharmacy - Ratnapura,Cardiac,2023-03,350123.15,168.0,59.0
+Pharmacy - Ratnapura,Cardiac,2023-04,317033.73,169.0,55.0
+Pharmacy - Ratnapura,Cardiac,2023-05,417605.05,207.0,62.0
+Pharmacy - Ratnapura,Cardiac,2023-06,366155.4,167.0,52.0
+Pharmacy - Ratnapura,Cough & Cold,2022-01,208253.11,106.0,37.0
+Pharmacy - Ratnapura,Cough & Cold,2022-02,143758.35,84.0,28.0
+Pharmacy - Ratnapura,Cough & Cold,2022-03,224723.88,111.0,39.0
+Pharmacy - Ratnapura,Cough & Cold,2022-04,218178.59,100.0,31.0
+Pharmacy - Ratnapura,Cough & Cold,2022-05,210326.81,105.0,34.0
+Pharmacy - Ratnapura,Cough & Cold,2022-06,180556.21,85.0,29.0
+Pharmacy - Ratnapura,Cough & Cold,2022-07,237804.09,127.0,46.0
+Pharmacy - Ratnapura,Cough & Cold,2022-08,167061.52,79.0,25.0
+Pharmacy - Ratnapura,Cough & Cold,2022-09,162942.15,76.0,25.0
+Pharmacy - Ratnapura,Cough & Cold,2022-10,220989.3,112.0,34.0
+Pharmacy - Ratnapura,Cough & Cold,2022-11,172270.22,89.0,33.0
+Pharmacy - Ratnapura,Cough & Cold,2022-12,217944.61,92.0,29.0
+Pharmacy - Ratnapura,Cough & Cold,2023-01,198868.72999999998,99.0,33.0
+Pharmacy - Ratnapura,Cough & Cold,2023-02,195248.27,96.0,32.0
+Pharmacy - Ratnapura,Cough & Cold,2023-03,118719.98999999999,62.0,27.0
+Pharmacy - Ratnapura,Cough & Cold,2023-04,191479.54,101.0,32.0
+Pharmacy - Ratnapura,Cough & Cold,2023-05,246014.88,120.0,38.0
+Pharmacy - Ratnapura,Cough & Cold,2023-06,112597.46,71.0,21.0
+Pharmacy - Ratnapura,Dermatology,2022-01,156326.52,77.0,24.0
+Pharmacy - Ratnapura,Dermatology,2022-02,202830.1,90.0,33.0
+Pharmacy - Ratnapura,Dermatology,2022-03,204855.18,99.0,34.0
+Pharmacy - Ratnapura,Dermatology,2022-04,153513.37,80.0,24.0
+Pharmacy - Ratnapura,Dermatology,2022-05,234054.76,94.0,31.0
+Pharmacy - Ratnapura,Dermatology,2022-06,192194.2,89.0,28.0
+Pharmacy - Ratnapura,Dermatology,2022-07,191493.5,102.0,32.0
+Pharmacy - Ratnapura,Dermatology,2022-08,142757.04,79.0,27.0
+Pharmacy - Ratnapura,Dermatology,2022-09,176523.07,83.0,28.0
+Pharmacy - Ratnapura,Dermatology,2022-10,166201.79,88.0,23.0
+Pharmacy - Ratnapura,Dermatology,2022-11,150857.07,76.0,23.0
+Pharmacy - Ratnapura,Dermatology,2022-12,197856.38,78.0,29.0
+Pharmacy - Ratnapura,Dermatology,2023-01,199133.34,93.0,28.0
+Pharmacy - Ratnapura,Dermatology,2023-02,144805.91999999998,62.0,19.0
+Pharmacy - Ratnapura,Dermatology,2023-03,132628.68,61.0,23.0
+Pharmacy - Ratnapura,Dermatology,2023-04,173828.69,82.0,31.0
+Pharmacy - Ratnapura,Dermatology,2023-05,122457.42,56.0,21.0
+Pharmacy - Ratnapura,Dermatology,2023-06,183552.61000000002,79.0,25.0
+Pharmacy - Ratnapura,Diabetes,2022-01,113063.57,102.0,32.0
+Pharmacy - Ratnapura,Diabetes,2022-02,118886.86,76.0,25.0
+Pharmacy - Ratnapura,Diabetes,2022-03,212285.55000000002,130.0,38.0
+Pharmacy - Ratnapura,Diabetes,2022-04,151851.03,85.0,27.0
+Pharmacy - Ratnapura,Diabetes,2022-05,156087.87,107.0,30.0
+Pharmacy - Ratnapura,Diabetes,2022-06,61932.35,50.0,17.0
+Pharmacy - Ratnapura,Diabetes,2022-07,109141.08,70.0,25.0
+Pharmacy - Ratnapura,Diabetes,2022-08,119535.97,80.0,25.0
+Pharmacy - Ratnapura,Diabetes,2022-09,136916.4,92.0,29.0
+Pharmacy - Ratnapura,Diabetes,2022-10,88560.43,66.0,22.0
+Pharmacy - Ratnapura,Diabetes,2022-11,132718.14,86.0,25.0
+Pharmacy - Ratnapura,Diabetes,2022-12,101873.42,83.0,27.0
+Pharmacy - Ratnapura,Diabetes,2023-01,113958.43,68.0,22.0
+Pharmacy - Ratnapura,Diabetes,2023-02,121158.75,71.0,24.0
+Pharmacy - Ratnapura,Diabetes,2023-03,138326.29,92.0,30.0
+Pharmacy - Ratnapura,Diabetes,2023-04,123878.88,85.0,31.0
+Pharmacy - Ratnapura,Diabetes,2023-05,142004.32,100.0,31.0
+Pharmacy - Ratnapura,Diabetes,2023-06,170374.52,97.0,33.0
+Pharmacy - Ratnapura,First Aid,2022-01,112007.11,55.0,17.0
+Pharmacy - Ratnapura,First Aid,2022-02,103746.12,62.0,24.0
+Pharmacy - Ratnapura,First Aid,2022-03,172093.85,84.0,27.0
+Pharmacy - Ratnapura,First Aid,2022-04,109839.25,66.0,20.0
+Pharmacy - Ratnapura,First Aid,2022-05,117004.69,65.0,23.0
+Pharmacy - Ratnapura,First Aid,2022-06,163295.73,74.0,25.0
+Pharmacy - Ratnapura,First Aid,2022-07,82558.49,49.0,20.0
+Pharmacy - Ratnapura,First Aid,2022-08,187979.55,87.0,25.0
+Pharmacy - Ratnapura,First Aid,2022-09,173749.37,83.0,26.0
+Pharmacy - Ratnapura,First Aid,2022-10,122331.53,64.0,18.0
+Pharmacy - Ratnapura,First Aid,2022-11,134566.44,61.0,23.0
+Pharmacy - Ratnapura,First Aid,2022-12,115706.18000000001,59.0,20.0
+Pharmacy - Ratnapura,First Aid,2023-01,114552.24,57.0,20.0
+Pharmacy - Ratnapura,First Aid,2023-02,118007.91,59.0,18.0
+Pharmacy - Ratnapura,First Aid,2023-03,157105.82,76.0,22.0
+Pharmacy - Ratnapura,First Aid,2023-04,169326.14,68.0,22.0
+Pharmacy - Ratnapura,First Aid,2023-05,117371.04,58.0,18.0
+Pharmacy - Ratnapura,First Aid,2023-06,146772.33,73.0,24.0
+Pharmacy - Ratnapura,Gastro,2022-01,73661.67,67.0,25.0
+Pharmacy - Ratnapura,Gastro,2022-02,96602.62,75.0,27.0
+Pharmacy - Ratnapura,Gastro,2022-03,107307.89,73.0,24.0
+Pharmacy - Ratnapura,Gastro,2022-04,147523.61,99.0,33.0
+Pharmacy - Ratnapura,Gastro,2022-05,106613.81,68.0,25.0
+Pharmacy - Ratnapura,Gastro,2022-06,83433.32,75.0,22.0
+Pharmacy - Ratnapura,Gastro,2022-07,107719.68,77.0,28.0
+Pharmacy - Ratnapura,Gastro,2022-08,87875.62,90.0,26.0
+Pharmacy - Ratnapura,Gastro,2022-09,118512.98,89.0,29.0
+Pharmacy - Ratnapura,Gastro,2022-10,84263.47,81.0,26.0
+Pharmacy - Ratnapura,Gastro,2022-11,98432.11,62.0,22.0
+Pharmacy - Ratnapura,Gastro,2022-12,134152.99,72.0,24.0
+Pharmacy - Ratnapura,Gastro,2023-01,74025.95,67.0,20.0
+Pharmacy - Ratnapura,Gastro,2023-02,160501.54,88.0,28.0
+Pharmacy - Ratnapura,Gastro,2023-03,109247.89,64.0,24.0
+Pharmacy - Ratnapura,Gastro,2023-04,111587.5,91.0,31.0
+Pharmacy - Ratnapura,Gastro,2023-05,58789.92999999999,39.0,16.0
+Pharmacy - Ratnapura,Gastro,2023-06,126027.77,88.0,30.0
+Pharmacy - Ratnapura,Hormonal,2022-01,70796.94,52.0,16.0
+Pharmacy - Ratnapura,Hormonal,2022-02,90375.9,67.0,20.0
+Pharmacy - Ratnapura,Hormonal,2022-03,57546.43,34.0,13.0
+Pharmacy - Ratnapura,Hormonal,2022-04,60497.13,53.0,16.0
+Pharmacy - Ratnapura,Hormonal,2022-05,50698.35,33.0,12.0
+Pharmacy - Ratnapura,Hormonal,2022-06,85717.75,57.0,22.0
+Pharmacy - Ratnapura,Hormonal,2022-07,104124.74,70.0,22.0
+Pharmacy - Ratnapura,Hormonal,2022-08,91156.66,70.0,21.0
+Pharmacy - Ratnapura,Hormonal,2022-09,42879.93,39.0,15.0
+Pharmacy - Ratnapura,Hormonal,2022-10,52284.979999999996,30.0,13.0
+Pharmacy - Ratnapura,Hormonal,2022-11,77912.34,58.0,19.0
+Pharmacy - Ratnapura,Hormonal,2022-12,40854.59,40.0,14.0
+Pharmacy - Ratnapura,Hormonal,2023-01,98508.7,70.0,22.0
+Pharmacy - Ratnapura,Hormonal,2023-02,68863.20999999999,44.0,15.0
+Pharmacy - Ratnapura,Hormonal,2023-03,113896.26000000001,64.0,20.0
+Pharmacy - Ratnapura,Hormonal,2023-04,102978.77,89.0,31.0
+Pharmacy - Ratnapura,Hormonal,2023-05,90807.47,61.0,20.0
+Pharmacy - Ratnapura,Hormonal,2023-06,58134.08,48.0,17.0
+Pharmacy - Ratnapura,Painkiller,2022-01,243516.47,148.0,48.0
+Pharmacy - Ratnapura,Painkiller,2022-02,191596.94,127.0,41.0
+Pharmacy - Ratnapura,Painkiller,2022-03,170518.97,113.0,37.0
+Pharmacy - Ratnapura,Painkiller,2022-04,213134.88,130.0,42.0
+Pharmacy - Ratnapura,Painkiller,2022-05,269113.25,146.0,44.0
+Pharmacy - Ratnapura,Painkiller,2022-06,184567.9,128.0,39.0
+Pharmacy - Ratnapura,Painkiller,2022-07,208686.6,133.0,38.0
+Pharmacy - Ratnapura,Painkiller,2022-08,147480.15,92.0,37.0
+Pharmacy - Ratnapura,Painkiller,2022-09,161014.11,108.0,34.0
+Pharmacy - Ratnapura,Painkiller,2022-10,181619.83,114.0,42.0
+Pharmacy - Ratnapura,Painkiller,2022-11,187224.07,115.0,37.0
+Pharmacy - Ratnapura,Painkiller,2022-12,230962.41,126.0,38.0
+Pharmacy - Ratnapura,Painkiller,2023-01,297468.15,162.0,54.0
+Pharmacy - Ratnapura,Painkiller,2023-02,245289.27,151.0,54.0
+Pharmacy - Ratnapura,Painkiller,2023-03,189552.56,104.0,36.0
+Pharmacy - Ratnapura,Painkiller,2023-04,217297.87,128.0,42.0
+Pharmacy - Ratnapura,Painkiller,2023-05,209289.9,120.0,40.0
+Pharmacy - Ratnapura,Painkiller,2023-06,114527.07,89.0,31.0
+Pharmacy - Ratnapura,Respiratory,2022-01,62779.270000000004,37.0,10.0
+Pharmacy - Ratnapura,Respiratory,2022-02,93473.24,48.0,12.0
+Pharmacy - Ratnapura,Respiratory,2022-03,74988.56,38.0,12.0
+Pharmacy - Ratnapura,Respiratory,2022-04,64116.04,35.0,14.0
+Pharmacy - Ratnapura,Respiratory,2022-05,37506.05,23.0,8.0
+Pharmacy - Ratnapura,Respiratory,2022-06,92212.81,45.0,13.0
+Pharmacy - Ratnapura,Respiratory,2022-07,30822.17,26.0,7.0
+Pharmacy - Ratnapura,Respiratory,2022-08,47632.729999999996,25.0,10.0
+Pharmacy - Ratnapura,Respiratory,2022-09,71566.38,30.0,10.0
+Pharmacy - Ratnapura,Respiratory,2022-10,50721.11,23.0,7.0
+Pharmacy - Ratnapura,Respiratory,2022-11,65573.15,41.0,14.0
+Pharmacy - Ratnapura,Respiratory,2022-12,95690.14,44.0,13.0
+Pharmacy - Ratnapura,Respiratory,2023-01,71122.3,34.0,12.0
+Pharmacy - Ratnapura,Respiratory,2023-02,55886.07,20.0,6.0
+Pharmacy - Ratnapura,Respiratory,2023-03,78509.64,38.0,14.0
+Pharmacy - Ratnapura,Respiratory,2023-04,76903.73,42.0,13.0
+Pharmacy - Ratnapura,Respiratory,2023-05,51908.51,25.0,11.0
+Pharmacy - Ratnapura,Respiratory,2023-06,81276.01000000001,44.0,13.0
+Pharmacy - Ratnapura,Vitamin,2022-01,230295.45,112.0,35.0
+Pharmacy - Ratnapura,Vitamin,2022-02,245823.63999999998,139.0,45.0
+Pharmacy - Ratnapura,Vitamin,2022-03,234230.62,118.0,42.0
+Pharmacy - Ratnapura,Vitamin,2022-04,267606.22000000003,121.0,35.0
+Pharmacy - Ratnapura,Vitamin,2022-05,303350.93,154.0,52.0
+Pharmacy - Ratnapura,Vitamin,2022-06,236982.66,122.0,37.0
+Pharmacy - Ratnapura,Vitamin,2022-07,206244.71,97.0,35.0
+Pharmacy - Ratnapura,Vitamin,2022-08,228533.21,113.0,40.0
+Pharmacy - Ratnapura,Vitamin,2022-09,190368.3,91.0,36.0
+Pharmacy - Ratnapura,Vitamin,2022-10,253826.13,128.0,38.0
+Pharmacy - Ratnapura,Vitamin,2022-11,188239.06,100.0,31.0
+Pharmacy - Ratnapura,Vitamin,2022-12,205643.6,121.0,40.0
+Pharmacy - Ratnapura,Vitamin,2023-01,252645.23,119.0,43.0
+Pharmacy - Ratnapura,Vitamin,2023-02,181420.86,90.0,30.0
+Pharmacy - Ratnapura,Vitamin,2023-03,223520.21,116.0,43.0
+Pharmacy - Ratnapura,Vitamin,2023-04,289790.84,137.0,44.0
+Pharmacy - Ratnapura,Vitamin,2023-05,309006.98,136.0,44.0
+Pharmacy - Ratnapura,Vitamin,2023-06,117584.01,65.0,26.0
+Pharmacy - Ratnapura,Wellness,2022-01,10564.77,19.0,9.0
+Pharmacy - Ratnapura,Wellness,2022-02,13758.43,19.0,6.0
+Pharmacy - Ratnapura,Wellness,2022-03,18133.95,24.0,6.0
+Pharmacy - Ratnapura,Wellness,2022-04,6954.6,8.0,3.0
+Pharmacy - Ratnapura,Wellness,2022-05,6511.08,13.0,4.0
+Pharmacy - Ratnapura,Wellness,2022-06,4445.22,4.0,2.0
+Pharmacy - Ratnapura,Wellness,2022-07,26288.05,33.0,9.0
+Pharmacy - Ratnapura,Wellness,2022-08,4715.75,4.0,2.0
+Pharmacy - Ratnapura,Wellness,2022-09,10350.61,14.0,5.0
+Pharmacy - Ratnapura,Wellness,2022-10,1075.45,1.0,1.0
+Pharmacy - Ratnapura,Wellness,2022-11,13303.25,12.0,4.0
+Pharmacy - Ratnapura,Wellness,2022-12,20008.96,19.0,5.0
+Pharmacy - Ratnapura,Wellness,2023-01,16004.0,19.0,6.0
+Pharmacy - Ratnapura,Wellness,2023-02,13253.75,14.0,4.0
+Pharmacy - Ratnapura,Wellness,2023-03,11580.9,16.0,4.0
+Pharmacy - Ratnapura,Wellness,2023-04,8587.12,12.0,3.0
+Pharmacy - Ratnapura,Wellness,2023-05,16015.16,15.0,6.0
+Pharmacy - Ratnapura,Wellness,2023-06,9931.44,8.0,3.0

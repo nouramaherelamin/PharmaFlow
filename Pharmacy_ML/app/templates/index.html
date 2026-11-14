@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PharmaFlow – Pharmacy Sales Prediction</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{--bg:#06121a;--side:#08171f;--card:#0c1f29;--card2:#0f2833;--line:rgba(46,230,184,.16);--text:#e8f4f1;--muted:#8aa5a3;--a:#2ee6b8;--a2:#19c79b;--blue:#38bdf8;--amber:#f59e0b;--rose:#fb7185;--violet:#a78bfa;--grid:rgba(138,165,163,.16)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;display:flex;min-height:100vh}
+aside{width:228px;flex:none;background:var(--side);border-right:1px solid var(--line);padding:22px 14px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column}
+.brand{text-align:center;margin-bottom:26px}
+.brand svg{width:46px;height:46px}
+.brand b{display:block;font-size:1.45rem;letter-spacing:.2px}
+.brand span{color:var(--muted);font-size:.9rem}
+.nav button{display:flex;gap:12px;align-items:center;width:100%;background:none;border:1px solid transparent;color:var(--text);padding:11px 14px;border-radius:10px;font:inherit;cursor:pointer;margin-bottom:6px;text-align:left}
+.nav button svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.nav button:hover{background:rgba(46,230,184,.06)}
+.nav button.active{background:rgba(46,230,184,.14);border-color:var(--a2);color:var(--a)}
+.side-foot{margin-top:auto;color:var(--muted);font-size:.78rem;text-align:center}
+.content{flex:1;min-width:0;position:relative;overflow:hidden}
+.glow{position:absolute;inset:0 0 auto 0;height:340px;background:radial-gradient(600px 240px at 85% 0,rgba(46,230,184,.16),transparent 70%),radial-gradient(500px 220px at 30% 0,rgba(56,189,248,.08),transparent 70%);pointer-events:none}
+main{position:relative;max-width:1180px;margin:0 auto;padding:26px 26px 50px}
+h1{margin:0;font-size:2.05rem;line-height:1.15}
+.lead{color:var(--muted);max-width:620px;margin:8px 0 6px}
+.bar{width:84px;height:4px;border-radius:4px;background:var(--a);margin:12px 0 22px}
+.page{display:none}.page.active{display:block}
+.grid{display:grid;gap:16px}
+.two{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}
+.auto{grid-template-columns:repeat(auto-fit,minmax(310px,1fr))}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin-bottom:16px}
+.card{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:14px;padding:18px}
+.card h2{display:flex;align-items:center;gap:10px;margin:0 0 4px;font-size:1.15rem}
+.card h2 svg{width:22px;height:22px;stroke:var(--a);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.card h3{margin:0 0 10px;font-size:.92rem;color:var(--muted);font-weight:600}
+.sub{color:var(--muted);font-size:.86rem;margin:0 0 14px}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px}
+.fields .full{grid-column:1/-1}
+label{display:block;font-size:.82rem;color:var(--muted);margin-bottom:5px}
+input,select{width:100%;background:#071720;color:var(--text);border:1px solid var(--line);border-radius:9px;padding:10px 12px;font:inherit}
+input:focus,select:focus{outline:2px solid rgba(46,230,184,.45);outline-offset:0}
+input[readonly]{opacity:.75}
+select option{background:#0c1f29}
+.btn{width:100%;margin-top:16px;padding:13px;border:0;border-radius:10px;font:inherit;font-weight:700;color:#04231b;background:linear-gradient(90deg,#6ff2cf,#20d6a4);cursor:pointer;display:flex;gap:8px;justify-content:center;align-items:center}
+.btn:hover{filter:brightness(1.07)}
+.btn:disabled{opacity:.6;cursor:wait}
+.hint{font-size:.78rem;color:var(--muted);margin-top:4px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{background:rgba(46,230,184,.1);border:1px solid var(--line);border-radius:99px;padding:2px 10px;font-size:.76rem;color:var(--a)}
+.result{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--a2);border-radius:12px;background:rgba(46,230,184,.07);overflow:hidden}
+.result>div{padding:14px 16px}
+.result>div+div{border-left:1px solid var(--line)}
+.result .l{color:var(--muted);font-size:.82rem}
+.result .v{font-size:2rem;font-weight:800;color:var(--a);line-height:1.15}
+.result .v small{font-size:1rem;font-weight:600;margin-left:4px}
+.result .r{color:var(--muted);font-size:.8rem;margin-top:2px}
+.ins{list-style:none;padding:0;margin:0}
+.ins li{display:flex;gap:10px;margin:0 0 10px;align-items:flex-start}
+.ins .ic{flex:none;width:20px;height:20px;border-radius:50%;display:grid;place-items:center;font-size:.72rem;font-weight:800;margin-top:2px;color:#04231b;background:var(--a)}
+.ins .warn .ic{background:var(--amber)}.ins .bad .ic{background:var(--rose)}.ins .info .ic{background:var(--blue)}
+.chart{position:relative;height:280px}.chart.tall{height:340px}
+.kpi .l{color:var(--muted);font-size:.82rem}.kpi .v{font-size:1.55rem;font-weight:700;color:var(--a)}.kpi .d{font-size:.82rem;color:var(--muted)}
+.up{color:var(--a)}.down{color:var(--rose)}
+.controls{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}.controls select,.controls input{width:auto;min-width:200px}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th,td{padding:8px 10px;text-align:right;border-bottom:1px solid var(--line)}
+th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
+th{color:var(--muted);font-weight:600;position:sticky;top:0;background:var(--card);cursor:pointer;user-select:none}
+.kv td{text-align:left;padding:10px 6px}.kv td:last-child{text-align:right;color:var(--text)}.kv td:first-child{color:var(--muted)}
+.scroll{max-height:540px;overflow:auto}
+.heat td{text-align:center;padding:7px 6px;font-size:.78rem;border:1px solid var(--card)}.heat th{cursor:default;font-size:.74rem}.heat td:first-child{text-align:left}
+.best{background:rgba(46,230,184,.1)}
+.callout{border:1px solid rgba(245,158,11,.5);background:rgba(245,158,11,.08);border-radius:12px;padding:14px 16px;margin-bottom:16px}
+.callout b{color:var(--amber)}
+.note{color:var(--muted);font-size:.84rem;margin-top:10px}
+.pill{display:inline-block;background:rgba(46,230,184,.15);color:var(--a);border:1px solid var(--line);border-radius:99px;padding:1px 10px;font-size:.78rem;margin-left:8px;vertical-align:middle}
+p{margin:0 0 10px}
+.about li{margin-bottom:6px}
+@media (max-width:900px){
+ body{flex-direction:column}
+ aside{width:100%;height:auto;position:static;flex-direction:row;align-items:center;padding:10px;overflow-x:auto;border-right:0;border-bottom:1px solid var(--line)}
+ .brand{margin:0 10px 0 0;text-align:left;display:flex;gap:8px;align-items:center}.brand svg{width:32px;height:32px}.brand span,.side-foot{display:none}.brand b{font-size:1.1rem}
+ .nav{display:flex;gap:4px}.nav button{white-space:nowrap;margin:0;padding:8px 12px}
+ main{padding:18px 14px 40px}h1{font-size:1.6rem}
+ .two{grid-template-columns:1fr}
+}
+@media (max-width:520px){.fields{grid-template-columns:1fr}.result{grid-template-columns:1fr}.result>div+div{border-left:0;border-top:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<aside>
+  <div class="brand">
+    <svg viewBox="0 0 48 48" fill="none" stroke="#2ee6b8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="14" width="36" height="16" rx="8" transform="rotate(-35 24 24)"/><path d="M24 24l-9 -12.5" opacity=".0"/><path d="M19.5 18.5l9 9"/><path d="M30 14v8M26 18h8" /></svg>
+    <div><b>PharmaFlow</b><span>Prediction App</span></div>
+  </div>
+  <nav class="nav" id="nav">
+    <button data-page="predict" class="active"><svg viewBox="0 0 24 24"><rect x="3" y="12" width="4" height="8" rx="1"/><rect x="10" y="7" width="4" height="13" rx="1"/><rect x="17" y="3" width="4" height="17" rx="1"/></svg>Predict Sales</button>
+    <button data-page="forecast"><svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>Forecast</button>
+    <button data-page="analytics"><svg viewBox="0 0 24 24"><path d="M21 12A9 9 0 1 1 12 3v9z"/><path d="M15 3.5A9 9 0 0 1 20.5 9H15z"/></svg>Analytics</button>
+    <button data-page="model"><svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/><path d="M3 17.5l9 5 9-5" opacity=".5"/></svg>Model Info</button>
+    <button data-page="about"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></svg>About</button>
+  </nav>
+  <div class="side-foot" id="sideFoot"></div>
+</aside>
+
+<div class="content"><div class="glow"></div>
+<main>
+
+<!-- ================= PREDICT ================= -->
+<section class="page active" id="predict">
+  <h1>Pharmacy Sales Prediction</h1>
+  <p class="lead">Predict the expected units sold for a medicine at a branch next month, with a realistic range and a stock check.</p>
+  <div class="bar"></div>
+
+  <div class="grid two">
+    <div>
+      <div class="card">
+        <h2><svg viewBox="0 0 24 24"><rect x="2" y="9" width="20" height="7" rx="3.5" transform="rotate(-35 12 12.5)"/><path d="M9 8l6 8"/></svg>Prediction Input</h2>
+        <p class="sub">Choose the medicine and branch. Price and stock are optional.</p>
+        <div class="fields">
+          <div class="full"><label for="medInput">Medicine name</label>
+            <input id="medInput" list="medList" autocomplete="off" placeholder="Type to search 148 medicines…" onfocus="this.select()">
+            <datalist id="medList"></datalist>
+            <div class="chips" id="medChips"></div></div>
+          <div><label for="branch">Branch</label><select id="branch"></select></div>
+          <div><label for="supplier">Supplier</label><input id="supplier" readonly></div>
+          <div><label for="month">Forecast month</label><input id="month" readonly></div>
+          <div><label for="price">Price per unit (LKR)</label><input id="price" type="number" min="0" step="0.01"></div>
+          <div class="full"><label for="stock">Stock on hand (optional)</label><input id="stock" type="number" min="0" step="1" placeholder="e.g. 10">
+            <div class="hint">Add your current stock to get a shortage check and a reorder suggestion.</div></div>
+        </div>
+        <button class="btn" id="goBtn"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4l14 8-14 8z"/></svg>Predict Sales</button>
+        <div class="hint" id="errBox" style="color:var(--rose);margin-top:8px"></div>
+      </div>
+    </div>
+
+    <div class="grid" style="align-content:start">
+      <div class="card">
+        <h2><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></svg>Prediction Result</h2>
+        <p class="sub" id="resSub">Forecast for the month after the last data month.</p>
+        <div class="result">
+          <div><div class="l">Predicted sales quantity</div><div class="v" id="rUnits">–<small>Units</small></div><div class="r" id="rUnitsR"></div></div>
+          <div><div class="l">Expected revenue</div><div class="v" id="rRev">–<small>LKR</small></div><div class="r" id="rRevR"></div></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg>Key Insights</h2>
+        <ul class="ins" id="insights" style="margin-top:12px"><li class="info"><span class="ic">i</span><span>Pick a medicine and press Predict Sales.</span></li></ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid auto" style="margin-top:16px">
+    <div class="card"><h2><svg viewBox="0 0 24 24"><rect x="3" y="12" width="4" height="8" rx="1"/><rect x="10" y="7" width="4" height="13" rx="1"/><rect x="17" y="3" width="4" height="17" rx="1"/></svg>Sales Forecast</h2>
+      <p class="sub">Monthly units at the selected branch – history and next-month forecast (80% range)</p>
+      <div class="chart"><canvas id="cHist"></canvas></div></div>
+    <div class="card"><h2><svg viewBox="0 0 24 24"><path d="M4 21V10M10 21V4M16 21v-8M22 21H2"/></svg>Branch Comparison</h2>
+      <p class="sub">Predicted units for this medicine at every branch</p>
+      <div class="chart"><canvas id="cBranchCmp"></canvas></div></div>
+    <div class="card"><h2><svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></svg>Model Info</h2>
+      <p class="sub">Demand model behind this prediction (held-out test months)</p>
+      <table class="kv" id="miniModel"></table>
+      <p class="note">See the Model Info page for the full, honest evaluation.</p></div>
+  </div>
+</section>
+
+<!-- ================= FORECAST ================= -->
+<section class="page" id="forecast">
+  <h1>Revenue Forecast</h1>
+  <p class="lead">Next-month revenue for any branch and medicine category, with a backtest on held-out months.</p><div class="bar"></div>
+  <div class="controls"><select id="selBranch"></select><select id="selCategory"></select></div>
+  <div class="grid kpis" id="fKpis"></div>
+  <div class="card"><h3>History and next-month forecast (80% range)</h3><div class="chart tall"><canvas id="cForecast"></canvas></div>
+    <p class="note">The range is the 10th–90th percentile of the model's errors on held-out test months – a rough guide, not a guarantee.</p></div>
+  <div class="card" style="margin-top:16px"><h3>Backtest on held-out months</h3><table id="backtest"></table></div>
+  <div class="card" style="margin-top:16px"><h3>All branches × categories</h3>
+    <div class="controls"><select id="fBranch"></select><select id="fCategory"></select><input id="fSearch" placeholder="Search…" style="min-width:140px"></div>
+    <div class="scroll"><table id="allTable"></table></div><p class="note" id="allNote"></p></div>
+</section>
+
+<!-- ================= ANALYTICS ================= -->
+<section class="page" id="analytics">
+  <h1>Sales Analytics</h1>
+  <p class="lead">What the 50,000 transactions say about revenue, branches, categories and payments.</p><div class="bar"></div>
+  <div class="grid kpis" id="kpis"></div>
+  <div class="grid auto">
+    <div class="card"><h3>Monthly revenue (LKR) – dashed = next-month forecast</h3><div class="chart"><canvas id="cMonthly"></canvas></div></div>
+    <div class="card"><h3>Revenue by category</h3><div class="chart"><canvas id="cCategory"></canvas></div></div>
+    <div class="card"><h3>Revenue by branch</h3><div class="chart"><canvas id="cBranch"></canvas></div></div>
+    <div class="card"><h3>Payment method</h3><div class="chart"><canvas id="cPay"></canvas></div></div>
+  </div>
+  <div class="card" style="margin-top:16px"><h3>Revenue heatmap – category × branch (million LKR)</h3><div class="scroll"><table class="heat" id="heat"></table></div></div>
+</section>
+
+<!-- ================= MODEL ================= -->
+<section class="page" id="model">
+  <h1>Model Info</h1>
+  <p class="lead">How the two models were built and how well they really perform.</p><div class="bar"></div>
+  <div class="callout"><b>Honest result.</b> In this dataset each medicine sells almost the same amount every month, and nothing in the data (supplier, price, month, branch) explains the differences. So the medicine-level model can do no better than predicting the average (R² ≈ 0) and gives a wide range instead of a falsely precise number. The category-level revenue model scores much higher because categories differ in size (e.g. 22 antibiotics vs 2 wellness products).</div>
+
+  <h2 style="margin:6px 0 12px;font-size:1.2rem">1 · Medicine demand model (Predict Sales)</h2>
+  <div class="grid kpis" id="mdKpis"></div>
+  <div class="grid auto">
+    <div class="card"><h3>Test MAE in units per medicine-branch-month (lower is better)</h3><div class="chart"><canvas id="cMdMae"></canvas></div></div>
+    <div class="card"><h3>Model comparison</h3><table id="mdCmp"></table><p class="note" id="mdNote"></p></div>
+  </div>
+
+  <h2 style="margin:26px 0 12px;font-size:1.2rem">2 · Category revenue model (Forecast)</h2>
+  <div class="grid kpis" id="mKpis"></div>
+  <div class="grid auto">
+    <div class="card"><h3>Test MAE by model (LKR)</h3><div class="chart"><canvas id="cMae"></canvas></div></div>
+    <div class="card"><h3>Actual vs predicted – test months</h3><div class="chart"><canvas id="cScatter"></canvas></div></div>
+    <div class="card"><h3>Feature importance (permutation, increase in MAE)</h3><div class="chart"><canvas id="cImp"></canvas></div></div>
+    <div class="card"><h3>Model comparison</h3><table id="cmp"></table><p class="note">Importance is computed on the test window with the final model (refit on all data), so treat it as indicative.</p></div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="page about" id="about">
+  <h1>About</h1>
+  <p class="lead">PharmaFlow is an end-to-end machine-learning project on pharmacy sales data.</p><div class="bar"></div>
+  <div class="grid auto">
+    <div class="card"><h2>What it does</h2><ul><li><b>Predict Sales:</b> expected units and revenue for a medicine at a branch next month, with a range and a stock check.</li><li><b>Forecast:</b> next-month revenue per branch and category.</li><li><b>Analytics:</b> KPIs, trends and heatmaps.</li></ul></div>
+    <div class="card"><h2>The data</h2><p>50,000 transactions from 7 branches, 148 medicines in 15 categories, January 2022 to June 2023. Forecasts are for the month after the last data month.</p></div>
+    <div class="card"><h2>Method</h2><ul><li>Cleaning and feature engineering (lags, rolling means, calendar, medicine attributes).</li><li>Time-based train/test split, no shuffling.</li><li>Ridge, Random Forest and Gradient Boosting compared against simple baselines.</li><li>Flask API + Chart.js interface.</li></ul></div>
+    <div class="card"><h2>Limits</h2><ul><li>Predictions are statistical expectations, not guarantees.</li><li>Price changes the revenue estimate but not the unit forecast (no price effect is visible in this data).</li><li>Only one month ahead is forecast.</li></ul></div>
+  </div>
+</section>
+
+</main></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const fmt = v => Math.round(v).toLocaleString('en-US');
+const mil = v => (v/1e6).toFixed(1) + 'M';
+const get = u => fetch(u).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+const pct = p => p == null ? '–' : (p >= 0 ? '+' : '') + p.toFixed(1) + '%';
+const A = '#2ee6b8', BLUE = '#38bdf8', AMB = '#f59e0b', ROSE = '#fb7185', VIO = '#a78bfa', GREY = '#5f7a80';
+const PALETTE = [A, BLUE, AMB, VIO, ROSE, '#84cc16', '#06b6d4'];
+const charts = {}, loaded = {};
+let META = null, MEDS = [], ALL = null, sortKey = 'forecast', sortDir = -1, MDPERF = null;
+
+function draw(id, cfg){
+  if (charts[id]) charts[id].destroy();
+  Chart.defaults.color = '#8aa5a3'; Chart.defaults.borderColor = 'rgba(138,165,163,.16)';
+  charts[id] = new Chart($('#'+id), cfg);
+}
+const opts = (x={}) => ({responsive:true, maintainAspectRatio:false, ...x});
+const kpi = (l, v, d='', cls='') => `<div class="card kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="d ${cls}">${d}</div></div>`;
+const fill = (el, items, all) => el.innerHTML = (all ? `<option value="">${all}</option>` : '') + items.map(i => `<option>${i}</option>`).join('');
+
+// ---------- navigation
+$('#nav').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  document.querySelectorAll('.nav button').forEach(x => x.classList.toggle('active', x === b));
+  document.querySelectorAll('.page').forEach(s => s.classList.toggle('active', s.id === b.dataset.page));
+  const p = b.dataset.page;
+  if (p === 'forecast') loadForecast(); if (p === 'analytics') loadAnalytics(); if (p === 'model') loadModel();
+  window.scrollTo({top:0}); window.dispatchEvent(new Event('resize'));
+});
+
+// ---------- PREDICT SALES
+const medByLabel = () => Object.fromEntries(MEDS.map(m => [m.label.toLowerCase(), m]));
+function currentMed(){ return medByLabel()[$('#medInput').value.trim().toLowerCase()] || null; }
+
+function showMed(m){
+  $('#supplier').value = m.supplier;
+  $('#price').value = m.price;
+  $('#medChips').innerHTML = [m.category, m.form, (m.strength ? m.strength + ' mg' : 'no strength'), 'Pack of ' + m.pack, m.rx === 'Yes' ? 'Prescription' : 'No prescription']
+    .map(t => `<span class="chip">${t}</span>`).join('');
+}
+
+async function predict(){
+  const m = currentMed(), err = $('#errBox'); err.textContent = '';
+  if (!m){ err.textContent = 'Please choose a medicine from the list.'; return; }
+  const price = parseFloat($('#price').value);
+  const q = new URLSearchParams({medicine_id:m.id, branch:$('#branch').value});
+  if (price > 0) q.set('price', price);
+  if ($('#stock').value !== '') q.set('stock', $('#stock').value);
+  const btn = $('#goBtn'); btn.disabled = true;
+  try { render(await get('/api/predict_medicine?' + q)); }
+  catch(e){ err.textContent = 'Could not get a prediction. Please try again.'; }
+  btn.disabled = false;
+}
+
+function render(d){
+  const br = d.branch.replace('Pharmacy - ', '');
+  $('#resSub').textContent = `${d.medicine} · ${br} · ${d.month}`;
+  $('#rUnits').innerHTML = `${Math.round(d.units)}<small>Units</small>`;
+  $('#rUnitsR').textContent = `80% range: ${Math.round(d.units_low)} – ${Math.round(d.units_high)} units`;
+  $('#rRev').innerHTML = `${fmt(d.revenue)}<small>LKR</small>`;
+  $('#rRevR').textContent = `range ${fmt(d.revenue_low)} – ${fmt(d.revenue_high)} LKR`;
+
+  const ins = [];
+  ins.push(['ok', `The model expects around <b>${Math.round(d.units)} units</b> of ${d.medicine} to be sold at ${br} in ${d.month} (likely between ${Math.round(d.units_low)} and ${Math.round(d.units_high)}).`]);
+  ins.push(['ok', `At ${fmt(d.price)} LKR per unit and an average discount of ${(d.discount*100).toFixed(1)}%, this could bring in about <b>${fmt(d.revenue)} LKR</b>.`]);
+  const ratio = d.avg_units_branch ? d.units / d.avg_units_branch : 1;
+  ins.push(['info', Math.abs(ratio - 1) < 0.15
+    ? `This is in line with the average medicine at ${br} (about ${d.avg_units_branch} units a month).`
+    : `This is ${ratio > 1 ? 'above' : 'below'} the average medicine at ${br} (about ${d.avg_units_branch} units a month).`]);
+  if (d.stock != null){
+    if (d.stock_status === 'comfortable') ins.push(['ok', `Your stock of <b>${fmt(d.stock)}</b> covers even the high-demand case (${Math.round(d.units_high)} units).`]);
+    else if (d.stock_status === 'adequate') ins.push(['warn', `Your stock of <b>${fmt(d.stock)}</b> covers the expected demand (${d.stock_coverage_pct}%), but could run short in a high-demand month. Consider ordering about <b>${d.suggested_reorder}</b> more.`]);
+    else ins.push(['bad', `Your stock of <b>${fmt(d.stock)}</b> covers only ${d.stock_coverage_pct}% of the expected demand. Order at least <b>${d.suggested_reorder}</b> units to be safe.`]);
+  } else ins.push(['info', 'Add your stock on hand to get a shortage check and a reorder suggestion.']);
+  ins.push(['info', 'Demand for a single medicine varies a lot month to month, so plan around the range, not the single number.']);
+  const icon = {ok:'✓', warn:'!', bad:'!', info:'i'};
+  $('#insights').innerHTML = ins.map(([t, h]) => `<li class="${t}"><span class="ic">${icon[t]}</span><span>${h}</span></li>`).join('');
+
+  // history + forecast chart
+  const n = d.history.labels.length, labels = [...d.history.labels, d.month], pad = Array(n - 1).fill(null), lastV = d.history.units[n-1];
+  draw('cHist', {type:'line', data:{labels, datasets:[
+    {label:'Actual units', data:[...d.history.units, null], borderColor:A, backgroundColor:A, tension:.25, pointRadius:3},
+    {label:'Forecast', data:[...pad, lastV, d.units], borderColor:AMB, borderDash:[6,5], pointRadius:[...pad.map(() => 0), 0, 6], pointBackgroundColor:AMB},
+    {label:'Upper (80%)', data:[...pad, lastV, d.units_high], borderColor:'transparent', backgroundColor:'rgba(245,158,11,.16)', pointRadius:0, fill:'+1'},
+    {label:'Lower (80%)', data:[...pad, lastV, d.units_low], borderColor:'transparent', pointRadius:0}
+  ]}, options:opts({interaction:{mode:'index', intersect:false}, scales:{y:{beginAtZero:true, title:{display:true, text:'Units'}}},
+      plugins:{legend:{labels:{filter:i => !i.text.includes('Lower')}}}})});
+
+  // branch comparison
+  const names = d.by_branch.map(b => b.branch.replace('Pharmacy - ', ''));
+  draw('cBranchCmp', {type:'bar', data:{labels:names, datasets:[{data:d.by_branch.map(b => b.units),
+      backgroundColor:names.map(x => x === br ? A : 'rgba(46,230,184,.28)'), borderRadius:5}]},
+    options:opts({plugins:{legend:{display:false}}, scales:{y:{beginAtZero:true, title:{display:true, text:'Units'}}}})});
+}
+
+async function loadMiniModel(){
+  MDPERF = await get('/api/medicine_performance');
+  const best = MDPERF.test[MDPERF.best], base = MDPERF.test[MDPERF.best_baseline];
+  const gain = (base.MAE - best.MAE) / base.MAE * 100;
+  $('#miniModel').innerHTML = [
+    ['Model', MDPERF.best + ' Regressor'], ['Target', 'Monthly units sold'],
+    ['Training data', `Pharmacy sales (${fmt(MDPERF.rows_total)} rows)`],
+    ['R² (test)', best.R2.toFixed(3)], ['MAE (test)', best.MAE.toFixed(2) + ' units'],
+    ['vs. simple average', (gain >= 0 ? '+' : '') + gain.toFixed(1) + '% MAE']
+  ].map(([k, v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join('');
+}
+
+// ---------- FORECAST (category x branch)
+const pctCls = p => p >= 0 ? 'up' : 'down';
+async function loadForecast(){
+  const b = $('#selBranch').value, c = $('#selCategory').value;
+  if (!b || !c) return;
+  const d = await get(`/api/forecast?branch=${encodeURIComponent(b)}&category=${encodeURIComponent(c)}`);
+  $('#fKpis').innerHTML =
+    kpi('Forecast ' + d.next_month, fmt(d.forecast) + ' LKR', '80% range ' + fmt(d.low) + ' – ' + fmt(d.high)) +
+    kpi('Last month', fmt(d.last_month) + ' LKR', pct(d.change_pct) + ' expected change', pctCls(d.change_pct)) +
+    kpi('3-month average', fmt(d.avg_3m) + ' LKR', 'Forecast vs average ' + pct((d.forecast / d.avg_3m - 1) * 100));
+  const n = d.history.labels.length, labels = [...d.history.labels, d.next_month], pad = Array(n - 1).fill(null);
+  draw('cForecast', {type:'line', data:{labels, datasets:[
+    {label:'Actual', data:[...d.history.revenue, null], borderColor:A, backgroundColor:A, tension:.2, pointRadius:3},
+    {label:'Forecast', data:[...pad, d.history.revenue.at(-1), d.forecast], borderColor:AMB, borderDash:[6,5], pointRadius:[...pad.map(() => 0), 0, 6], pointBackgroundColor:AMB},
+    {label:'Upper (80%)', data:[...pad, d.history.revenue.at(-1), d.high], borderColor:'transparent', backgroundColor:'rgba(245,158,11,.16)', pointRadius:0, fill:'+1'},
+    {label:'Lower (80%)', data:[...pad, d.history.revenue.at(-1), d.low], borderColor:'transparent', pointRadius:0}
+  ]}, options:opts({scales:{y:{ticks:{callback:fmt}}}, interaction:{mode:'index', intersect:false}, plugins:{legend:{labels:{filter:i => !i.text.includes('Lower')}}}})});
+  let t = '<tr><th>Month</th><th></th><th>Actual</th><th>Predicted</th><th>Error</th></tr>';
+  if (!d.backtest.length) t = '<tr><td>No backtest rows.</td></tr>';
+  else d.backtest.forEach(r => { const e = (r.pred / r.actual - 1) * 100;
+    t += `<tr><td>${r.period}</td><td></td><td>${fmt(r.actual)}</td><td>${fmt(r.pred)}</td><td class="${Math.abs(e) < 15 ? 'up' : 'down'}">${pct(e)}</td></tr>`; });
+  $('#backtest').innerHTML = t;
+  if (!ALL){ ALL = (await get('/api/forecast_all')).rows; } renderAll();
+}
+function renderAll(){
+  if (!ALL) return;
+  const b = $('#fBranch').value, c = $('#fCategory').value, q = $('#fSearch').value.toLowerCase();
+  const rows = ALL.filter(r => (!b || r.branch === b) && (!c || r.category === c) && (r.branch + r.category).toLowerCase().includes(q));
+  rows.sort((x, y) => (typeof x[sortKey] === 'string' ? x[sortKey].localeCompare(y[sortKey]) : (x[sortKey] ?? 0) - (y[sortKey] ?? 0)) * sortDir);
+  const cols = [['branch','Branch'],['category','Category'],['forecast','Forecast'],['low','Low 80%'],['high','High 80%'],['last_month','Last month'],['change_pct','Change']];
+  let t = '<tr>' + cols.map(([k, l]) => `<th data-k="${k}">${l}${k === sortKey ? (sortDir > 0 ? ' ▲' : ' ▼') : ''}</th>`).join('') + '</tr>';
+  rows.forEach(r => t += `<tr><td>${r.branch.replace('Pharmacy - ','')}</td><td>${r.category}</td><td><b>${fmt(r.forecast)}</b></td><td>${fmt(r.low)}</td><td>${fmt(r.high)}</td><td>${fmt(r.last_month)}</td><td class="${pctCls(r.change_pct)}">${pct(r.change_pct)}</td></tr>`);
+  $('#allTable').innerHTML = t;
+  $('#allNote').textContent = `${rows.length} series · total forecast ${fmt(rows.reduce((s, r) => s + r.forecast, 0))} LKR (click a header to sort)`;
+}
+
+// ---------- ANALYTICS
+async function loadAnalytics(){
+  if (loaded.an) return; loaded.an = true;
+  const d = await get('/api/overview'), k = d.kpis, chg = (d.next_total / d.last_total - 1) * 100;
+  $('#kpis').innerHTML =
+    kpi('Total revenue', mil(k.revenue) + ' LKR', k.date_from + ' → ' + k.date_to) +
+    kpi('Transactions', fmt(k.transactions), k.branches + ' branches · ' + k.medicines + ' medicines') +
+    kpi('Average basket', fmt(k.avg_basket) + ' LKR', 'Rx share of revenue ' + (k.rx_share * 100).toFixed(0) + '%') +
+    kpi('Forecast ' + d.next_month, mil(d.next_total) + ' LKR', pct(chg) + ' vs last month', pctCls(chg));
+  const labels = [...d.monthly.labels, d.next_month];
+  draw('cMonthly', {type:'line', data:{labels, datasets:[
+    {label:'Actual', data:[...d.monthly.revenue, null], borderColor:A, backgroundColor:A, tension:.25, pointRadius:3},
+    {label:'Forecast', data:[...Array(d.monthly.revenue.length - 1).fill(null), d.monthly.revenue.at(-1), d.next_total], borderColor:AMB, borderDash:[6,5], pointRadius:4}
+  ]}, options:opts({scales:{y:{ticks:{callback:mil}}}})});
+  draw('cCategory', {type:'bar', data:{labels:d.by_category.labels, datasets:[{data:d.by_category.values, backgroundColor:A, borderRadius:4}]},
+    options:opts({indexAxis:'y', plugins:{legend:{display:false}}, scales:{x:{ticks:{callback:mil}}}})});
+  draw('cBranch', {type:'bar', data:{labels:d.by_branch.labels.map(x => x.replace('Pharmacy - ', '')), datasets:[{data:d.by_branch.values, backgroundColor:BLUE, borderRadius:4}]},
+    options:opts({plugins:{legend:{display:false}}, scales:{y:{ticks:{callback:mil}}}})});
+  draw('cPay', {type:'doughnut', data:{labels:d.payment.labels, datasets:[{data:d.payment.values, backgroundColor:PALETTE, borderColor:'#0c1f29'}]},
+    options:opts({plugins:{legend:{position:'bottom'}}})});
+  const flat = d.heatmap.values.flat(), mx = Math.max(...flat), mn = Math.min(...flat);
+  let h = '<tr><th></th>' + d.heatmap.cols.map(c => `<th>${c.replace('Pharmacy - ', '')}</th>`).join('') + '</tr>';
+  d.heatmap.rows.forEach((r, i) => { h += `<tr><td>${r}</td>` + d.heatmap.values[i].map(v => {
+    const a = 0.08 + 0.7 * (v - mn) / (mx - mn || 1);
+    return `<td style="background:rgba(46,230,184,${a.toFixed(2)});color:${a > .5 ? '#04231b' : 'inherit'}">${(v / 1e6).toFixed(2)}</td>`; }).join('') + '</tr>'; });
+  $('#heat').innerHTML = h;
+}
+
+// ---------- MODEL INFO
+async function loadModel(){
+  if (loaded.md) return; loaded.md = true;
+  // medicine model
+  const md = MDPERF || await get('/api/medicine_performance'), mt = md.test, mb = mt[md.best], base = mt[md.best_baseline];
+  $('#mdKpis').innerHTML =
+    kpi('Selected model', md.best, 'lowest test MAE') +
+    kpi('Test MAE', mb.MAE.toFixed(2) + ' units', 'simple average: ' + base.MAE.toFixed(2)) +
+    kpi('R²', mb.R2.toFixed(3), 'close to 0 = no better than the average') +
+    kpi('Test rows', fmt(md.n_test), 'medicine × branch × month');
+  const names = Object.keys(mt).sort((a, b) => mt[a].MAE - mt[b].MAE);
+  draw('cMdMae', {type:'bar', data:{labels:names, datasets:[{data:names.map(n => mt[n].MAE),
+      backgroundColor:names.map(n => n === md.best ? A : n.startsWith('Baseline') ? GREY : BLUE), borderRadius:4}]},
+    options:opts({indexAxis:'y', plugins:{legend:{display:false}}, scales:{x:{beginAtZero:true}}})});
+  $('#mdCmp').innerHTML = '<tr><th>Model</th><th></th><th>MAE</th><th>RMSE</th><th>R²</th></tr>' + names.map(n =>
+    `<tr class="${n === md.best ? 'best' : ''}"><td>${n}</td><td></td><td>${mt[n].MAE.toFixed(2)}</td><td>${mt[n].RMSE.toFixed(2)}</td><td>${mt[n].R2.toFixed(3)}</td></tr>`).join('');
+  $('#mdNote').textContent = 'Models and baselines land within a hair of each other: there is no medicine-level signal beyond the average. The prediction range is what you should rely on.';
+
+  // category revenue model
+  const p = await get('/api/performance'), cmp = p.comparison, best = cmp[p.best], b3 = cmp['Baseline: 3-month mean'];
+  $('#mKpis').innerHTML =
+    kpi('Selected model', p.best, 'lowest test MAE') +
+    kpi('Test MAE', fmt(best.MAE) + ' LKR', (((b3.MAE - best.MAE) / b3.MAE) * 100).toFixed(1) + '% better than 3-month average', 'up') +
+    kpi('R²', best.R2.toFixed(3), 'RMSE ' + fmt(best.RMSE) + ' LKR') +
+    kpi('WAPE', best['WAPE_%'].toFixed(1) + '%', p.n_test + ' test predictions');
+  const nm = Object.keys(cmp).sort((a, b) => cmp[a].MAE - cmp[b].MAE);
+  draw('cMae', {type:'bar', data:{labels:nm, datasets:[{data:nm.map(n => cmp[n].MAE),
+      backgroundColor:nm.map(n => n === p.best ? A : n.startsWith('Baseline') ? GREY : BLUE), borderRadius:4}]},
+    options:opts({indexAxis:'y', plugins:{legend:{display:false}}, scales:{x:{ticks:{callback:fmt}, min:Math.floor(cmp[nm[0]].MAE * 0.8 / 1000) * 1000}}})});
+  const mx = Math.max(...p.scatter.flat());
+  draw('cScatter', {type:'scatter', data:{datasets:[
+    {label:'Predictions', data:p.scatter.map(([x, y]) => ({x, y})), backgroundColor:'rgba(46,230,184,.45)', pointRadius:3},
+    {label:'Perfect fit', type:'line', data:[{x:0, y:0}, {x:mx, y:mx}], borderColor:AMB, borderDash:[5,5], pointRadius:0}]},
+    options:opts({scales:{x:{title:{display:true, text:'Actual (LKR)'}, ticks:{callback:mil}}, y:{title:{display:true, text:'Predicted (LKR)'}, ticks:{callback:mil}}}})});
+  draw('cImp', {type:'bar', data:{labels:p.importance.labels, datasets:[{data:p.importance.values, backgroundColor:A, borderRadius:4}]},
+    options:opts({indexAxis:'y', plugins:{legend:{display:false}}, scales:{x:{ticks:{callback:fmt}}}})});
+  $('#cmp').innerHTML = '<tr><th>Model</th><th></th><th>MAE</th><th>RMSE</th><th>R²</th><th>WAPE %</th></tr>' + nm.map(n =>
+    `<tr class="${n === p.best ? 'best' : ''}"><td>${n}</td><td></td><td>${fmt(cmp[n].MAE)}</td><td>${fmt(cmp[n].RMSE)}</td><td>${cmp[n].R2.toFixed(3)}</td><td>${cmp[n]['WAPE_%'].toFixed(1)}</td></tr>`).join('');
+}
+
+// ---------- init
+(async function(){
+  try {
+    META = await get('/api/meta');
+    const md = await get('/api/medicines'); MEDS = md.medicines;
+    $('#medList').innerHTML = MEDS.map(m => `<option value="${m.label.replace(/"/g, '&quot;')}">${m.category}</option>`).join('');
+    fill($('#branch'), META.branches); $('#month').value = md.next_month;
+    fill($('#selBranch'), META.branches); fill($('#selCategory'), META.categories);
+    fill($('#fBranch'), META.branches, 'All branches'); fill($('#fCategory'), META.categories, 'All categories');
+    $('#sideFoot').textContent = `Data through ${META.last_month}`;
+    $('#medInput').value = MEDS[0].label; showMed(MEDS[0]);
+    $('#medInput').addEventListener('change', () => { const m = currentMed(); if (m){ showMed(m); predict(); } });
+    ['branch', 'price', 'stock'].forEach(id => $('#' + id).addEventListener('change', predict));
+    $('#goBtn').onclick = predict;
+    document.querySelectorAll('#predict input').forEach(i => i.addEventListener('keydown', e => { if (e.key === 'Enter'){ e.preventDefault(); i.blur(); predict(); } }));
+    $('#selBranch').onchange = $('#selCategory').onchange = loadForecast;
+    $('#fBranch').onchange = $('#fCategory').onchange = $('#fSearch').oninput = renderAll;
+    $('#allTable').addEventListener('click', e => { const th = e.target.closest('th'); if (!th || !th.dataset.k) return;
+      const k = th.dataset.k; sortDir = (k === sortKey) ? -sortDir : -1; sortKey = k; renderAll(); });
+    loadMiniModel(); predict();
+  } catch(e){ $('#errBox').textContent = 'Failed to load the app data. Is the server running?'; }
+})();
+</script>
+</body>
+</html>
