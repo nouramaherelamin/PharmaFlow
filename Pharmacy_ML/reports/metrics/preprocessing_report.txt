@@ -1,0 +1,8 @@
+Raw shape: (50000, 27)
+Duplicate rows: 0 | duplicate Transaction_ID: 0
+Missing values:
+Strength_mg    31236
+Line_Total mismatches: 0
+Rows sold after expiry: 0
+High-value rows flagged: 630
+Clean shape: (50000, 34) -> /home/claude/pharmacy_ml/data/processed/pharmacy_clean.csv
